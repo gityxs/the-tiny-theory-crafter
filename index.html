@@ -1,2 +1,1256 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>The Tiny Theorycrafter - Pre-Launch</title><link href="https://fonts.googleapis.com/css?family=Cousine:400,700,1000&display=swap" rel="stylesheet"><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-162661188-1"></script><style>a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}strong{font-weight:1000}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}ol,ul{list-style:none}ol.list,ul.list{list-style:square;padding:10px;margin:0 5px}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:"";content:none}table{border-collapse:collapse;border-spacing:0}a{color:#20b2aa}body.ttt h1{font-size:32px}body.ttt h1,body.ttt h2{margin-top:8px;margin-bottom:5px;font-weight:1000}body.ttt h2{font-size:28px}body.ttt h3{font-size:24px}body.ttt h3,body.ttt h4{margin-top:6px;margin-bottom:4px;font-weight:1000}body.ttt h4{font-size:20px}body,html{width:100%;height:100%;margin:0;padding:0;overflow:hidden;overflow-x:hidden;overflow-y:hidden;background-color:#000;color:#fff;font-family:Cousine,Lucida Sans Unicode,Lucida Grande,Lucida Sans,Arial,sans-serif}.not-ready-modal{position:fixed;left:50%;top:70%;width:700px;height:200px;background-color:hsla(0,0%,39.2%,.9);font-size:40px;font-family:Lucida Grande,Lucida Sans,Arial,sans-serif;text-align:center;transform:translate(-50%,-50%);padding:30px;border:10px solid green;border-radius:20px;pointer-events:none}.not-ready-modal div{margin:auto;width:80%;padding:10px}.not-ready-modal a{color:#7289da;text-decoration:dotted;pointer-events:all}.not-ready-modal img{transform:translateY(25%)}.game-render-canvas{width:768px;height:192px;margin:10px auto 20px;padding:0;display:block;left:calc(50% - 384px)}.game-render-wrapper{width:786px;height:210px;margin:0 auto 20px;padding:0;display:block;position:fixed;top:21px;left:calc(50% - 403px);border:10px solid transparent;border-image:url(/ui-border.24ffb715.png);border-image-slice:21;border-image-width:21px;box-sizing:content-box}.skill-render-wrapper{height:100%;width:100%}.action-bar-wrapper{margin-top:-18px;pointer-events:none}.action-bar{width:200px;margin:auto;pointer-events:none}.orb-slot{margin:-2px}.ctxmenu{color:#000}.bottom-banner-ad{position:fixed;bottom:20px;left:calc(50% - 150px);z-index:99}.bottom-banner-ad,.metrics-banner-ad{width:300px;height:250px;background-color:#1d1d5f}.metrics-banner-ad{margin-top:20px}.modal-side-banner-ad{width:300px;height:250px;position:absolute;background-color:#1d1d5f;z-index:100}.modal-side-banner-ad.left{top:50px;left:-320px}.modal-side-banner-ad.right{top:50px;right:-320px}.left-banner-ad{width:160px;height:600px;position:fixed;left:20px;top:100px;background-color:#1d1d5f;z-index:100}.screen-dimmer{width:100vw;height:100vh;position:fixed;left:0;top:0;background-color:rgba(0,0,0,.6);z-index:50;pointer-events:none}.modal{display:block;border:10px solid transparent;border-image:url(/ui-border.24ffb715.png);border-image-slice:21;border-image-width:21px;padding:8px;position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);z-index:100}.modal,.modal .inner{box-sizing:content-box}.modal .inner{width:calc(100% - 20px);height:calc(100% - 20px);background-color:#1d1d5f;padding:10px}.modal .close-button{position:absolute;right:9px;top:-9px;font-weight:1000}.modal.motd{width:550px;max-height:80vh;font-family:Helvetica,Open Sans,Arial,sans-serif}.modal.motd .inner{max-height:calc(80vh - 20px);overflow-y:scroll}.modal li{padding:4px 1px}.modal.motd .patch-notes-enhancements{color:#48d1cc}.modal.motd .patch-notes-skill-board-balance{color:grey}.modal.motd .patch-notes-ability-balance{color:gold}.modal.motd .patch-notes-other-balance{color:#20b2aa}.modal.motd .patch-notes-bugfixes{color:#f08080}.import-export-modal{display:none;width:440px;height:440px}.import-export-modal textarea{width:400px;height:300px}.save-modal{width:380px;height:400px}.save-modal-inner{overflow-y:scroll}.save-item{background-color:#2f4f4f;border-radius:3px;padding:10px 5px;margin:30px 0 0}.save-item .delete-button{float:right}.save-item .play-button{width:100px;font-weight:1000}.save-item .export-save-button{float:right}.save-item .name{font-size:16px;font-weight:1000}.save-item .details{font-size:12px;font-weight:500}.game-panel{transition:top 1s ease-in-out}.stat-panel{width:380px;transition:right 1s ease-in-out}.metric-panel,.stat-panel{position:fixed;bottom:20px;text-align:right;font-size:14px;background-color:rgba(60,60,60,.5);padding:10px}.metric-panel{width:300px;transition:left 1s ease-in-out}.label{font-weight:1000;width:100px;--balloon-color:#007146;--balloon-font-size:18px}.label,.p-value{text-align:right}.p-value{margin-left:10px}.stat-highlight{color:#00fa9a}button{background-color:#8b4a36;border:1px solid #647593;border-radius:2px;color:#dcdcdc}.stat-panel .toggle-stat-panel{position:absolute;left:-40px;bottom:10px}.stat-panel.slide-out{right:20px}.stat-panel.slide-in{right:-220px}.stat-panel.slide-closed{right:-400px}.metric-panel .toggle-metric-panel{position:absolute;right:-40px;bottom:10px}.metric-panel.slide-out{left:20px}.metric-panel.slide-in{left:-320px}.game-panel .toggle-game-panel{position:absolute;bottom:-27px}.game-panel.slide-out{top:21px}.game-panel.slide-in{top:-100px}.game-panel.slide-closed{top:-180px}.ambient-glow{animation:glowing 1.3s infinite}@keyframes glowing{0%{box-shadow:0 0 3px #ffdf78}50%{box-shadow:0 0 10px #ffdf78}to{box-shadow:0 0 3px #ffdf78}}[aria-label][data-balloon-pos][data-balloon-length=xxlarge]:after{white-space:pre;width:480px}@media screen and (max-device-width:480px){.game-render-wrapper{transform:scale(.5) translateY(-50%);margin:0}.modal.motd{transform:scale(.6) translateX(-83%) translateY(-100%)}.close-button{transform:scale(2)}.game-render-canvas{top:10px}.stat-panel{transform:scale(.8) translateX(20%) translateY(20%);bottom:160px}.stat-panel.slide-out{right:20px}.stat-panel.slide-in{right:-164px}.stat-panel.slide-closed{right:-304px}}</style><script>function a(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],a("js",new Date),a("config","UA-162661188-1");</script><script async="" src="//api.adinplay.com/libs/aiptag/pub/TTF/thetinytheorycrafter.com/tag.min.js"></script><link rel="stylesheet" href="/orb-spritesheet.6d9c02ae.css"><link rel="stylesheet" href="/vex.0da6019e.css"><link rel="stylesheet" href="/vex-theme-plain.a5a0c2de.css"><link rel="stylesheet" href="/main.39e71d9e.css"></head><body class="ttt"> <div class="screen-dimmer"></div> <div id="game-render-wrapper" class="game-render-wrapper game-panel"> <button class="toggle-game-panel toggle-panel">🡅</button> <canvas id="game-render-canvas" class="game-render-canvas"></canvas> <div class="action-bar-wrapper"> <div class="action-bar"> <div class="orb-slot orb-slot-1 sprite orb-0"></div> <div class="orb-slot orb-slot-2 sprite orb-0"></div> <div class="orb-slot orb-slot-3 sprite orb-0"></div> <div class="orb-slot orb-slot-4 sprite orb-0"></div> <div class="orb-slot orb-slot-5 sprite orb-0"></div> <div class="orb-slot orb-slot-6 sprite orb-0"></div> <div class="orb-slot orb-slot-7 sprite orb-0"></div> </div> </div> </div> <canvas id="skill-render-canvas" class="skill-render-canvas"></canvas> <div class="skill-render-wrapper"> </div> <div class="metric-panel slide-out" style="display:block;"> <button class="toggle-metric-panel toggle-panel">🡄</button> <ul> <li class="stat-line"> <span class="label" aria-label="Total time your character has played." data-balloon-pos="right" data-balloon-length="xlarge">Total time</span><span class="p-value timeInGame">{{ timeInGame }}</span> </li> <li class="stat-line"> <span class="label" aria-label="The furthest place in the world you have been ever." data-balloon-pos="right" data-balloon-length="xlarge">Furthest screen</span><span class="p-value furthestScreen">{{ furthestScreen }}</span> </li> <li class="stat-line"> <span class="label" aria-label="The furthest place in the world you have been this session." data-balloon-pos="right" data-balloon-length="xlarge">Furthest screen/now</span><span class="p-value furthestScreenThisSession">{{ furthestScreenThisSession }}</span> </li> <li class="stat-line"> <span class="label" aria-label="Time spent walking this run, in seconds." data-balloon-pos="right" data-balloon-length="xlarge">Time spent walking</span><span class="p-value timeSpentWalking">{{ timeSpentWalking }}</span> </li> <li class="stat-line"> <span class="label" aria-label="Time spent fighting this run, in seconds." data-balloon-pos="right" data-balloon-length="xlarge">Time spent fighting</span><span class="p-value timeSpentFighting">{{ timeSpentFighting }}</span> </li> <li class="stat-line"> <span class="label" aria-label="Number of abilities used this run." data-balloon-pos="right" data-balloon-length="xlarge">Abilities used</span><span class="p-value abilitiesUsed">{{ abilitiesUsed }}</span> </li> <hr> <li class="stat-line"> <span class="label" aria-label="Total damage dealt this run." data-balloon-pos="right" data-balloon-length="xlarge">Damage dealt</span><span class="p-value damageDealt">{{ damageDealt }}</span> </li> <li class="stat-line"> <span class="label" aria-label="Attack damage dealt this run." data-balloon-pos="right" data-balloon-length="xlarge">Attack dmg dealt</span><span class="p-value attackDamageDealt">{{ attackDamageDealt }}</span> </li> <li class="stat-line"> <span class="label" aria-label="Spell damage dealt this run." data-balloon-pos="right" data-balloon-length="xlarge">Spell dmg dealt</span><span class="p-value spellDamageDealt">{{ spellDamageDealt }}</span> </li> <li class="stat-line"> <span class="label" aria-label="Total damage received this run." data-balloon-pos="right" data-balloon-length="xlarge">Damage received</span><span class="p-value damageReceived">{{ damageReceived }}</span> </li> <li class="stat-line"> <span class="label" aria-label="Attack damage received this run." data-balloon-pos="right" data-balloon-length="xlarge">Attack dmg received</span><span class="p-value attackDamageReceived">{{ attackDamageReceived }}</span> </li> <li class="stat-line"> <span class="label" aria-label="Spell damage received this run." data-balloon-pos="right" data-balloon-length="xlarge">Spell dmg received</span><span class="p-value spellDamageReceived">{{ spellDamageReceived }}</span> </li> <hr> <li class="stat-line"> <span class="label" aria-label="Quiddity earned per minute, averaged over all the runs you've had this session." data-balloon-pos="right" data-balloon-length="xlarge">Quiddity/min</span><span class="p-value quiddityPerMinute">{{ quiddityPerMinute }}</span> </li> <li class="stat-line"> <span class="label" aria-label="Quiddity earned per second, averaged over all the runs you've had this session." data-balloon-pos="right" data-balloon-length="xlarge">Quiddity/sec</span><span class="p-value quiddityPerSecond">{{ quiddityPerSecond }}</span> </li> <li class="stat-line"> <span class="label" aria-label="Experience earned per second, averaged over the last minute." data-balloon-pos="right" data-balloon-length="xlarge">EXP/sec</span><span class="p-value expPerMinute">{{ expPerMinute }}</span> </li> <li class="stat-line"> <span class="label" aria-label="Damage dealt per second, averaged over the last minute." data-balloon-pos="right" data-balloon-length="xlarge">Damage/sec</span><span class="p-value dpsPerMinute">{{ dpsPerMinute }}</span> </li> <li class="stat-line"> <span class="label" aria-label="Damage taken per second, averaged over the last minute." data-balloon-pos="right" data-balloon-length="xlarge">Damage taken/sec</span><span class="p-value damageTakenPerMinute">{{ damageTakenPerMinute }}</span> </li> </ul> <div class="metrics-banner-ad left" id="thetinytheorycrafter-com_300x250"></div> </div> <div class="stat-panel slide-out" style="display:block;"> <button class="toggle-stat-panel toggle-panel">🡆</button> <ul> <li class="stat-line"> <span class="label" aria-label="That's you!" data-balloon-pos="left" data-balloon-length="xlarge">Name</span><span class="p-value name">{{ name }}</span> </li> <li class="stat-line"> <span class="label" aria-label="Your character's level. You start with 3 health potions each run (by default), and gain another health potion after each boss or mini-boss kill." data-balloon-pos="left" data-balloon-length="xlarge">Level</span><span class="p-value level">{{ level }}</span> </li> <li class="stat-line"> <span class="label" aria-label="Your level cap. Prestige your character to increase the level cap!" data-balloon-pos="left" data-balloon-length="xlarge">Level Cap</span><span class="p-value levelCap">{{ levelCap }}</span> </li> <li class="stat-line" style="text-align:left;"> <span class="label" aria-label="The number of times you have prestiged. Prestiging will reset your level,\n\n\n<br> but increase your level cap and give you bonus skill points." data-balloon-pos="left" data-balloon-length="xlarge">Prestige Rank</span><span class="p-value prestigeCount">{{ prestigeCount }}</span><span id="prestige-wrapper"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button id="prestige-button" class="button ambient-glow">Prestige</button></span> </li> <li class="stat-line"> </li> <li class="stat-line"> <span class="label" aria-label="Amount of experience earned and needed for the next level up." data-balloon-pos="left" data-balloon-length="xlarge">Experience</span><span class="p-value exp">{{ exp }}</span> </li> <li class="stat-line"> <span class="label" aria-label="Experience bonuses you've earned. You receive bonus exp for skill points unlocked and quiddity (based on your quiddity energize rate)." data-balloon-pos="left" data-balloon-length="xlarge">Exp Bonuses</span><span class="p-value expBonuses">{{ expBonuses }}</span> </li> <li class="stat-line"> <span class="label" aria-label="The number of skill points you have earned from all sources. You primarily earn skill points by reaching further distances in the world, or by purchasing them with quiddity." data-balloon-pos="left" data-balloon-length="xlarge">Skill Points</span><span class="p-value skillPoints">{{ skillPoints }}</span> </li> <li class="stat-line"> <span class="label" aria-label="The primary resource/currency of the game. Quiddity can be used in the shops to purchase new upgrades. Quiddity Transfer: At the end of each run, a portion of your experience is converted to quiddity. Quiddity Energize: While killing enemies on a run, a small amount of quiddity is granted as bonus experience." data-balloon-pos="left" data-balloon-length="xlarge">Quiddity</span><span class="p-value quiddity">{{ quiddity }}</span> </li> <hr> <li class="stat-line"> <span class="label" aria-label="This shows each stat, and the added/increased/more bonuses for that stat. Added/subtracted bonuses are additive. Increased/decreased bonuses are summed (across all relevant categories), then multiplied (e.g. multipliers stacking additively). More/less bonuses are multiplied (e.g. multipliers stacking multiplicatively). Buffed/debuffed stats are highlighted in green." data-balloon-pos="left" data-balloon-length="xlarge">Name - Stat - Added - Increased - More</span> </li> <li class="stat-line"> <span class="label" aria-label="Your health, when this reaches 0, you die and your run ends. Health potions are used automatically at 25% health, and heal you for 50% of your base health, and 25% of your bonus health from all sources." data-balloon-pos="left" data-balloon-length="xlarge">Health</span><span class="p-value maxhp">{{ maxhp }}</span> </li> <li class="stat-line"> <span class="label" aria-label="Damage mitigation against attack damage. damage received % = 100 / (100 + defense), with 10 defense, a 50 damage hit will deal 45 damage, or 90% damage received." data-balloon-pos="left" data-balloon-length="xlarge">Defense</span><span class="p-value defense">{{ defense }}</span> </li> <li class="stat-line"> <span class="label" aria-label="Damage mitigation against spell damage. damage received % = 100 / (100 + resist), with 25 defense, a 50 damage hit will deal 40 damage, or 80% damage received." data-balloon-pos="left" data-balloon-length="xlarge">Resist</span><span class="p-value resist">{{ resist }}</span> </li> <li class="stat-line"> <span class="label" aria-label="Chance to dodge enemy's abilities. 50 = 1% chance to dodge." data-balloon-pos="left" data-balloon-length="xlarge">Evasion</span><span class="p-value evasion">{{ evasion }}</span> </li> <hr> <li class="stat-line"> <span class="label" aria-label="Base damage dealt with abilities. Most other damage multipliers affect this." data-balloon-pos="left" data-balloon-length="xlarge">Base Damage</span><span class="p-value baseDamage">{{ baseDamage }}</span> </li> <li class="stat-line"> <span class="label" aria-label="Rate of attacks. Attack speed = attacks per second. 100 = 1, 250 = 2, 500 = 3, 1000 = 4." data-balloon-pos="left" data-balloon-length="xlarge">Attack Speed</span><span class="p-value attackSpeed">{{ attackSpeed }}</span> </li> <li class="stat-line"> <span class="label" aria-label="A 'more' multiplier to all attack damage. Every point provides 2% more damage, stacking *additively* with itself." data-balloon-pos="left" data-balloon-length="xlarge">Strength</span><span class="p-value strength">{{ strength }}</span> </li> <li class="stat-line"> <span class="label" aria-label="A 'more' multiplier to movement speed and evasion. Every point provides 2% more of each stat, stacking *additively* with itself." data-balloon-pos="left" data-balloon-length="xlarge">Agility</span><span class="p-value agility">{{ agility }}</span> </li> <li class="stat-line"> <span class="label" aria-label="A 'more' multiplier to all spell damage. Every point provides 2% more damage, stacking *additively* with itself." data-balloon-pos="left" data-balloon-length="xlarge">Intelligence</span><span class="p-value intelligence">{{ intelligence }}</span> </li> <hr> <li class="stat-line"> <span class="label" aria-label="Chance to land a critical hit when using abilities. 100 = 1% chance to critically strike." data-balloon-pos="left" data-balloon-length="xlarge">Crit Chance</span><span class="p-value critChance">{{ critChance }}</span> </li> <li class="stat-line"> <span class="label" aria-label="Amount of bonus damage dealt with critical hits. 150 = 150% total damage (50% bonus damage)" data-balloon-pos="left" data-balloon-length="xlarge">Crit Damage</span><span class="p-value critDamage">{{ critDamage }}</span> </li> <li class="stat-line"> <span class="label" aria-label="Amount of defensive mitigation that is penetrated with your abilities. Attacks penetrate defense, spells penetrate resist." data-balloon-pos="left" data-balloon-length="xlarge">Defense Pen</span><span class="p-value defensePenetration">{{ defensePenetration }}</span> </li>  <hr> <li class="stat-line"> <span class="label" aria-label="Bonus damage dealt by abilities with the 'physical' tag." data-balloon-pos="left" data-balloon-length="xlarge">Physical Dmg</span><span class="p-value physicalDamage">{{ physicalDamage }}</span> </li> <li class="stat-line"> <span class="label" aria-label="Bonus damage dealt by abilities with the 'magical' tag." data-balloon-pos="left" data-balloon-length="xlarge">Magical Dmg</span><span class="p-value magicalDamage">{{ magicalDamage }}</span> </li> <li class="stat-line"> <span class="label" aria-label="Bonus damage dealt by abilities with the 'spiritual' tag." data-balloon-pos="left" data-balloon-length="xlarge">Spiritual Dmg</span><span class="p-value spiritualDamage">{{ spiritualDamage }}</span> </li> <hr> <li class="stat-line"> <span class="label" aria-label="Bonus damage dealt by abilities with the 'create' tag, which includes all abilities that create an orb." data-balloon-pos="left" data-balloon-length="xlarge">Create Dmg</span><span class="p-value createDamage">{{ createDamage }}</span> </li> <li class="stat-line"> <span class="label" aria-label="Bonus damage dealt by abilities with the 'expend' tag, which includes all abilities that expend an orb." data-balloon-pos="left" data-balloon-length="xlarge">Expend Dmg</span><span class="p-value expendDamage">{{ expendDamage }}</span> </li> <li class="stat-line"> <span class="label" aria-label="Bonus damage dealt by abilities with the 'attack' tag." data-balloon-pos="left" data-balloon-length="xlarge">Attack Dmg</span><span class="p-value attackDamage">{{ attackDamage }}</span> </li> <li class="stat-line"> <span class="label" aria-label="Bonus damage dealt by abilities with the 'spell' tag." data-balloon-pos="left" data-balloon-length="xlarge">Spell Dmg</span><span class="p-value spellDamage">{{ spellDamage }}</span> </li> <hr> <li class="stat-line"> <span class="label" aria-label="Movement speed when walking through the world. 100 = default." data-balloon-pos="left" data-balloon-length="xlarge">Move Speed</span><span class="p-value moveSpeed">{{ moveSpeed }}</span> </li> <hr> <li class="stat-line"> <span class="label" aria-label="When your run ends, the rate at which your experience is converted to quiddity." data-balloon-pos="left" data-balloon-length="xlarge">Quid Transfer</span><span class="p-value quiddityTransferRate">{{ quiddityTransferRate }}</span> </li> <li class="stat-line"> <span class="label" aria-label="When you kill an enemy, the rate at which your quiddity provides bonus experience for the kill." data-balloon-pos="left" data-balloon-length="xlarge">Quid Energize</span><span class="p-value quiddityEnergizeRate">{{ quiddityEnergizeRate }}</span> </li> </ul> </div> <div class="color-picker" style="position:fixed;left:50%;top:50%;"></div> <div class="modal save-modal"> <div class="inner save-modal-inner"> <button class="close-button">X</button> What is your name? <input id="save-name" type="text"> <button id="new-character-button" class="new-character-button">New Character</button> <div class="save-list"> <ul id="save-list-ul"> <template id="save-item-template"> <li class="save-item save-template"> <div> <span class="name">Polatrite</span><br> <span class="details"> [World #<span class="world-screen"></span> - <span class="skill-points"></span> SP - <span class="quiddity"></span> Quiddity] </span> </div> <div> <button class="play-button">Play</button> <button class="delete-button">Delete</button> <button class="export-save-button">Export Character</button> </div> </li> </template> </ul> </div> <br> <button id="import-save-button" class="import-save-button">Import Character</button> </div> </div> <div class="modal import-export-modal"> <div class="inner import-export-inner"> <button class="close-button">X</button> <span id="import-export-header" class="export" style="display:none;">Export</span> <span class="export"> Copy this string and save it to a text file, or share it with a friend. </span> <span class="import"> Paste your existing savefile and click submit to load. </span> <textarea class="import export" id="import-export-data" type="text"></textarea> <a class="export" target="_blank" id="import-export-download" download="savedata.txt">Download the data as a text file</a> <button class="import" id="import-export-submit">Submit</button> </div> </div> <div class="modal motd"> <div class="inner"> <button class="close-button">X</button> <div class="modal-side-banner-ad left" id="thetinytheorycrafter-com_300x250_2"></div> <div class="modal-side-banner-ad right" id="thetinytheorycrafter-com_300x250_3"></div> <h1 style="font-size:48px;font-weight:1000;">PRE-LAUNCH!</h1> <div class="motd-content"> <a target="_blank" href="https://discord.gg/jVuYK7C" style="color:#7289da;text-decoration:none;font-size:24px;">Join our <img async="" decoding="async" src="https://discordapp.com/assets/fc0b01fe10a0b8c602fb0106d8189d9b.png" style="width:160px;transform:translateY(40%);"> for updates!</a> <br> <br> Welcome to <b>The Tiny Theorycrafter</b> Pre-Launch!<br> <br> Get ready to theorycraft your way to victory as you explore the world of Solus. This is an idle/incremental game of min/maxing and ensuring your character has the strongest possible build as you explore the world. Unlock points on the skill tree, then use them to earn Quiddity and purchase new abilities.<br> <br> Be sure to right-click and PAN the skill tree around. Mouse over (or tap on mobile) everything you see - there are often tooltips waiting to help you out!<br> <hr>  <h3>Pre-Launch Patch Notes - v0.9.1</h3> <span class="patch-notes-enhancements">Enhancements:</span> <ul class="list"> <li><strong>Quick skill point spending/refunding!</strong> It's finally here! Quickly spend and refund points on the skill board using click and right-click. This allows you to spend/refund any number of points instantly. Thanks to <strong>Renbletz</strong> on our Discord for this amazing code change!</li> </ul> <span class="patch-notes-ability-balance">Ability Balance:</span> <ul class="list"> <li>New ability: Deference</li> <li>New ability: Inflame</li> <li>Rework: Fire and Ice</li> <li>Blue Fire: Ignite stacks increased from 50 -> 100%</li> <li>Flame Burst: Damage decreased from 135 -> 115%</li> </ul> <span class="patch-notes-other-balance">Other Balance:</span> <ul class="list"> <li>Prestige level cap thresholds have been changed to allow a prestige every 10 levels.</li> <li>The experience multiplier for quiddity and skill points has been reduced.</li> </ul> <span class="patch-notes-bugfixes">Bugfixes:</span> <ul class="list"> <li>Fixed a bug where Chaining Energy from Chain Lightning wasn't stacking properly</li> </ul> <hr> <h3>Pre-Launch Patch Notes - v0.9.0</h3> <span class="patch-notes-enhancements">Enhancements:</span> <ul class="list"> <li><strong>Permanent progression!</strong> Instead of losing your experience & level each run, you now retain that progression. Experience curves have been adjusted accordingly</li> <li><strong>Prestige!</strong> Introducing the new prestige system, which allows you to reset your level in exchange for more skill points, an experience multiplier, and an increase to the new level cap</li> <li>The stats panel has been improved to be faster when updating, and have some useful new stats</li> <li>Quiddity energize now provides a "more" multiplier to experience earned</li> </ul> <span class="patch-notes-ability-balance">Ability Balance:</span> <ul class="list"> <li>A brand new orb: <strong>Light!</strong> Purchase the new Light abilities with quiddity from the shop.</li> <li>New ability: Jumble</li> <li>New ability: Ring of Fire</li> <li>New ability: Zap</li> <li>New ability: Thunderbolt</li> <li>New ability: Nerve Damage</li> <li>New ability: Lightning Strike</li> <li>New ability: Stagger</li> <li>New ability: Channel</li> <li>New ability: Chain Lightning</li> <li>New ability: Transforming Light</li> <li>New ability: Solarburn</li> <li>New ability: Energy Cage</li> <li>New ability: Essence Transfer</li> </ul> <span class="patch-notes-skill-board-balance">Skill Board Balance:</span> <ul class="list"> <li>All quiddity nodes have been rebalanced</li> <li>Most health, base damage, create, and expend nodes have been buffed</li> </ul> <span class="patch-notes-bugfixes">Bugfixes:</span> <ul class="list"> <li>Fixed a bug where certain poison monsters wouldn't deal damage some of the time</li> <li>Fixed a bug where parallax was going the wrong way</li> </ul> <hr> <h3>Beta Patch Notes - v0.8.5</h3> <span class="patch-notes-enhancements">Enhancements:</span> <ul class="list"> <li>Healing now uses a health potion system! Instead of healing on level-up, which can happen at inconvenient times, you instead gain a health potion when you level-up. You can hold up to 3 health potions (by default).</li> <li>Health potions are used automatically when you are below 25% health, healing you for 50% of your base health, and 25% of your bonus health from all sources.</li> </ul> <span class="patch-notes-skill-board-balance">Skill Board Balance:</span> <ul class="list"> <li>New Keystone: The Alchemist - +1 Maximum Health Potions</li> </ul> <hr> <h3>Beta Patch Notes - v0.8.4b</h3> <span class="patch-notes-ability-balance">Ability Balance:</span> <ul class="list"> <li>Vitriolic Burn: Fixed a bug where some Poison stacks weren't wearing off</li> </ul> <span class="patch-notes-bugfixes">Bugfixes:</span> <ul class="list"> <li>Fixed a bug where movement speed was stacking in an unpredictable, exponential way, resulting in hard-locking the game</li> <li>Fixed a bug where leveling up many times at once would cause lag</li> <li>Fixed a bug where experience could be greater than the amount needed to level (visual bug only)</li> <li>Fixed a bug where agility wasn't affecting movement speed gained by skill points</li> </ul> <hr> <h3>Beta Patch Notes - v0.8.4</h3> <span class="patch-notes-enhancements">Enhancements:</span> <ul class="list"> <li>Added skill points to earn through screen 105! (+10 skill points)</li> <li>The General Shop has been split in two: Attack Shop and Spell Shop!</li> <li>Overall movement speed has been increased by 10%</li> <li>Some abilities now use Logic™ to determine when they can be used, noted in the relevant ability description</li> <li>Bosses (and minibosses) now award all the quiddity you earned on that run so far!</li> <li>MANY new things to buy have been added to the Quiddity Shop!</li> <li>Added a button to remove the last point you added</li> <li>Added metrics for quiddity earned per second, minute, as well as the furthest screen you've reached this session</li> <li>Dying now has a little animation and fade in/out to make it more obvious</li> </ul> <span class="patch-notes-skill-board-balance">Skill Board Balance:</span> <ul class="list"> <li>From the start of the tree, the 2nd node in every cardinal direction has been reworked and buffed</li> <li>Duelist's Fury now grants 25% more Attack Speed, 16% less Create and Expend damage</li> <li>Huge Thwomp: Base damage increased from 4 -> 5</li> <li>Changed the Improved Health near the start to a Speedy Delivery node</li> <li>Buffed the Pious Ascendant, Defensive Spellcasting, Sleek & Weak, Expedited Thrashing, Quick Casting, and Extremespeed wheels</li> <li>Buffed all Quickness nodes to have 5-7% Quiddity Transfer Rate</li> <li>Swapped the location of the Quiddity Energize and Quiddity Transfer wheels on the far left and far bottom of the tree, this moves the Energize wheel to a location with health nodes to allow access for all builds</li> <li>Changed the Magical Damage wheel near the start to be a Spell Damage wheel</li> </ul> <span class="patch-notes-ability-balance">Ability Balance:</span> <ul class="list"> <li>New ability: Annihilation</li> <li>New ability: Bark Skin</li> <li>New ability: Beast Cleave</li> <li>New ability: Berserker</li> <li>New ability: Blaze Kick</li> <li>New ability: Burgeoning Stature</li> <li>New ability: Burn From Within</li> <li>New ability: Cold Counter</li> <li>New ability: Frozen Earth</li> <li>New ability: Frozen Execution</li> <li>New ability: Kaleidoscope Beam</li> <li>New ability: Mental Fatigue</li> <li>New ability: Rime Dagger</li> <li>New ability: Spiritfire</li> <li>New ability: Sword Dance</li> <li>New ability: Vital Destruction</li> <li>New ability: Winter Wisp</li> <li>Rework: Mark of Justice</li> <li>New ability tag: Hybrid, will use the HIGHEST stat between your physical/magical/spiritual damage</li> <li>Abilities with the Hybrid tag: Kaleidoscope Beam, Cougar Strike(!), Spirit Blade, Ethereal Fist, Calm Focus, Ethereal Chase, Meditation</li> <li>Calm Focus: Buff duration increased from 30s -> 45s</li> <li>Chilling Gust: Now grants a stack of the "Create Cold Orb" buff</li> <li>Enrage: Damage increased from 80% -> 85%</li> <li>Ethereal Chase: Damage increased from 70% -> 75%, now grants 2 stacks of Dashing</li> <li>Faster Attacks duration increased from 10s -> 12s, but capped at 20 stacks</li> <li>Forest Fire: Damage increased from 120% -> 160%, now consumes 1 more nature orb</li> <li>Ignite and Poison now deal Hybrid damage</li> <li>Inner Resonance: Now grants 2 stacks of the "Create Supernatural Orb" buff, damage decreased from 150% -> 130%</li> <li>Meditation: Now grants 2 stacks of Armor</li> <li>Power Slash and Thrust had their costs lowered</li> <li>Rancor Charge: Cooldown decreased from 10s -> 8s, damage increased from 130% -> 135%</li> <li>Regrowth: Now grants a stack of Resistance</li> <li>Soulflame: Damage increased from 150% -> 170%, now grants 3 stacks of Invoker, orb costs adjusted</li> <li>Stranglethorns: Now Saps the enemy for 5% hybrid damage each second, stacks, lasts 60s.</li> <li>Terra Coola: Damage increased from 220% -> 310%, now consumes 1 nature orb</li> <li>Umbral Fortify: Damage increased from 80% -> 85%</li> </ul> <span class="patch-notes-ability-balance">Ability Logic:</span> <ul class="list"> <li>Some abilities now use Logic™ to determine when they can be used, noted in the relevant ability description</li> <li>Bile Outbreak will only be used when the enemy has Poison stacks</li> <li>Equalizer will only be used when the enemy is affected by Mark of Justice</li> <li>Ice Pillar will only be used when the enemy is not affected by Ice Pillar</li> <li>Pyroblast will only be used on targets with >80% health</li> <li>Terra Coola will only be used when you are not affected by Terra Coola</li> <li>Venom Burst will only be used when the enemy has >60% Poison damage stacks</li> </ul> <span class="patch-notes-other-balance">Other Balance:</span> <ul class="list"> <li>Boss stats have been completely rebalanced</li> <li>Enemy defense has been mildly increased at very high levels</li> <li>Enemy offense has been mildly decreased at very high levels</li> <li>Many enemies' ability loadouts have been revised and improved. Beware!</li> </ul> <span class="patch-notes-bugfixes">Bugfixes:</span> <ul class="list"> <li>Massive performance improvements, especially when first loading the game</li> <li>Fixed a bug where the player could occasionally get more experience than intended from enemies with certain builds</li> <li>Shop discounts should now apply correctly</li> <li>Ignite tooltips now say the correct duration of 4s, not 2s</li> <li>Fixed a bug where buffs and debuffs were not removed when players or enemies died</li> <li>Fixed the Debug Respec button to look less hideous</li> </ul> <span class="patch-notes-bugfixes">Monetization Changes:</span> <ul class="list"> <li>Added a couple ads. Thanks for your support!</li> </ul> <hr> <h3>Beta Patch Notes - v0.8.3</h3> <span class="patch-notes-enhancements">Enhancements:</span> <ul class="list"> <li>You can now purchase ZOOMIES in the Quiddity Shop!</li> <li>New movement animation once you've got the ZOOMIES (or when your movement speed is above 250)</li> <li>Added many new hotkeys to control the user interface and warp you around the skill tree. Try them out: A, S, B, V, up, left, right, esc (don't hit this yet, it closes the patch notes!)</li> <li>The UI now tells you when you're fighting a Boss or Miniboss</li> </ul> <span class="patch-notes-skill-board-balance">Skill Board Balance:</span> <ul class="list"> <li>Added 10 new nodes around the tree, most of them are singular nodes that are easy to access and help fill out the last couple points for a build</li> <li>Brute Headhunting's Critical Chance bonus increased from 50% per stack -> 80% per stack</li> <li>The Creator's Create Damage increased from 20% -> 27%</li> <li>Creation nodes' Create Damage increased from 10% -> 12%</li> <li>Careless Formation nodes (near Prescience) Create Damage increased from 16% -> 18%</li> <li>The Huge Thwomp Base Damage cluster has been broken up into two separate clusters - the new cluster is in the top right of the tree</li> <li>Sleek & Weak nodes' Movement Speed increased from +7 -> +8</li> <li>Minor pathing adjustments around Attribute Paragon and Fast & Flurrious to improve access for most builds</li> </ul> <span class="patch-notes-bugfixes">Bugfixes:</span> <ul class="list"> <li>Massive overhaul of graphics code to improve memory use and fix a black screen bug!</li> <li>All bosses now use the correct abilities</li> </ul> <hr> <h3>Beta Patch Notes - v0.8.2 and v0.8.2b</h3> <span class="patch-notes-enhancements">Enhancements:</span> <ul class="list"> <li>Added skill points to earn through screen 84! (+10 skill points)</li> <li>Enemy spawning behavior changed to have a consistent number of enemies in each screen, every run</li> <li>You no longer lose Quiddity when Energizing, and you still receive the full Energize effect</li> <li>The Quiddity Shop now sells another cheap skill point for 500 (this reduces everyone's next point cost by one point's worth)</li> </ul> <span class="patch-notes-skill-board-balance">Skill Board Balance:</span> <ul class="list"> <li>Nodes near Strength of Mind/Body/Spirit have been generally improved</li> <li>Brawler strength bonus increased from 10% -> 14%</li> <li>The Minor Strength node adjacent to Brawler has been upgraded to Medium Strength (+3)</li> <li>Boosted intelligence bonus increased from 10% -> 14%</li> <li>The Major Intelligence node adjacent to has been downgraded to Medium Intelligence (+3)</li> <li>Attribute Paragon's attribute bonuses increased from 6% -> 8%</li> <li>Duelist's Fury now grants 15% more Attack Speed, 12% less Create and Expend damage</li> <li>Destroyer of Worlds' less Create Damage penalty lowered from -100% -> -85%</li> <li>Slow and Steady's less Evasion score penalty lowered from -100% -> -85%</li> <li>Agility of the Creator now grants: 10% more agility, 10% more Create Damage, 10% more Attack Speed, 35% less Expend Damage</li> <li>Huge Thwomp: Base damage decreased from 5 -> 4, and the Attack Speed penalty increased from -2% -> -6%</li> <li>All small Base Damage nodes now have a consistent -3% Attack Speed penalty</li> <li>All small Movement Speed nodes increased from +5 -> +6</li> <li>Quick Casting and Expedited Thrashing now grant +10 Movement Speed and 18% increased Attack/Spell Damage</li> <li>The starter nodes at the center of the tree have been reworked</li> </ul> <span class="patch-notes-ability-balance">Ability Balance:</span> <ul class="list"> <li>New ability: Phantom Blade</li> <li>New ability: Grep</li> <li>New ability: Ethereal Fist</li> <li>New ability: Plasma Ray</li> <li>Rework: Blue Fire</li> <li>Rework: Flamethrower</li> <li>Chilling Gust: Damage increased from 70% -> 85%</li> <li>Cougar Strike: Faster Attacks duration reduced (see below)</li> <li>Enrage: Damage decreased from 100% -> 80%, and the buff's damage bonus decreased from 20% -> 10%</li> <li>Ethereal Chase: Now deals 70% damage</li> <li>Fire and Ice: Changed from Magical to Spiritual damage</li> <li>Flame Burst: Now grants a stack of Arcane Surge, damage reduced from 140% -> 135%</li> <li>Flaming Rush: Now has 66% more attack speed, instead of having 50% less attack cooldown, damage decreased from 100% -> 80%</li> <li>Forest Fire: Now grants a stack of Faster Attacks (has tags: spell, magical), Ignite damage decreased from 100% -> 50%</li> <li>[v0.8.2b] Forest Fire: Now has a cooldown of 3s</li> <li>Frost Armor: Now deals 50% damage, cooldown increased from 4s -> 5s, cost reduced to 99k</li> <li>Meditation: Now has a 3s cooldown, cost increased to 170k</li> <li>Plague: Damage increased from 25% -> 90%, poison debuff damage increased from 66% -> 90%</li> <li>Poison Fang: Damage increased from 20% -> 45%, poison debuff damage increased from 48% -> 50%</li> <li>Pyroblast: Cooldown decreased from 25s -> 15s</li> <li>Rancor Charge: Faster Attacks duration reduced (see below), cost reduced to 9.9k</li> <li>Rising Flames, Forest Fire, Meteor: Ignite behavior changed (see below)</li> <li>Slice: Damage increased from 110% -> 115%</li> <li>Stranglethorns: Damage increased from 180% -> 190%</li> <li>Umbral Fortify: Cost increased to 950k</li> </ul> <span class="patch-notes-other-balance">Other Balance:</span> <ul class="list"> <li>[v0.8.2b] Attack speed is now affected by diminishing returns - check the tooltip for more info</li> <li>Enemy base and scaling health has been mildly increased on all screens</li> <li>Boss health increased from 800% -> 1000%</li> <li>Mini-boss health increased from 400% -> 600%</li> <li>Skill points are now awarded one screen later than before - after you BEAT the 'difficult' screen (usually the boss), not just for arriving at that screen</li> <li>Faster Attacks buff decreased from 20s -> 10s (affects Rancor Charge and Cougar Strike</li> <li>Ignite buff duration decreased from 5s (5 ticks) -> 2s (5 ticks), but still deals the same damage = faster damage</li> <li>[v0.8.2b] Ignite duration changed to the correct value of 4s (10 ticks)</li> <li>Poison buff ticks are slightly slower, increased from 1s -> 1.2s</li> </ul> <span class="patch-notes-bugfixes">Bugfixes:</span> <ul class="list"> <li>Fixed a major bug where level-up stats (max hp, str/int/agl, damage, movespeed) did not benefit from %increased/%more modifiers</li> <li>Fixed a major bug that prevented me from making significant changes to the Skill Board... oops!</li> <li>Psuedo-fixed a bug where Slow and Steady would permanently set your Evasion Score to 0, you can now reverse it, but it requires a respec + reload</li> <li>Decreased the overall download size of the game... speedier loads!</li> <li>Fixed the color and size of several out-of-sorts skill board nodes</li> <li>Fixed a bug with Flurry not properly applying the attack speed bonus to future uses of... Flurry</li> <li>Fixed a bug where stats could appear with so many decimals places -- super annoying!</li> <li>[v0.8.2b] Fixed a bug with Apostasy applying the debuff to the user</li> <li>[v0.8.2b] Fixed a bug where Vitriolic Burn wasn't converting Poison to Ignite</li> <li>[v0.8.2b] Fixed a bug where Ignite was doing 60% less damage than intended</li> </ul> <hr> <h3>Beta Patch Notes - v0.8.1</h3> <span class="patch-notes-enhancements">Enhancements:</span> <ul class="list"> <li>Added a "Furthest screen" for your character across all runs</li> </ul> <span class="patch-notes-skill-board-balance">Skill Board Balance:</span> <ul class="list"> <li>Glass Rain keystone has been reworked to be the Berserker keystone</li> <li>Destroyer of Worlds and Agility of the Creator are now marked as <b>BUGGED</b> and should not be used :(</li> <li>Added an extra skill point at screen 12</li> </ul> <span class="patch-notes-ability-balance">Ability Balance:</span> <ul class="list"> <li>New ability: Equalizer</li> <li>Mark of Justice has received an overhaul, and is now a spiritual spell with a 5s CD that costs 3 supernatural and deals 200% damage</li> <li>Poison damage greatly buffed due to damage rounding changes (see below)</li> <li>Ignite damage greatly buffed due to damage rounding changes (see below)</li> <li>Forest Fire: Now has the 'magical' tag</li> <li>Flaming Rush: Damage increased from 80 -> 100</li> <li>Ice Pillar: Now has a 4s CD</li> <li>Calm Focus, Enrage, and Meditation now properly have tags, and are spiritual spells</li> <li>Umbral Fortify is now a SPELL, not an ATTACK</li> <li>Cougar Strike: Cooldown increased from 3s -> 4s, damage reduced from 150 -> 120</li> <li>Flame Burst: Damage decreased from 150 -> 140</li> <li>Slice: Damage reduced from 120 -> 110</li> <li>Rising Flames: Damage reduced from 30 -> 20</li> <li>Forest Fire: Damage reduced from 140 -> 120</li> <li>Slice: Damage reduced from 120 -> 110</li> <li>Terra Coola: Now properly DECREASES movement speed instead of increasing it</li> </ul> <span class="patch-notes-other-balance">Other Balance:</span> <ul class="list"> <li>Damage is no longer floored (truncating the decimal off the number), but is now randomly rounded up or down, based on the decimal value (1.75 damage = 75% chance to be 2 damage, 25% chance to be 1 damage). This is a massive buff to duration builds and low % damage abilities.</li> <li>ALL ENEMY DAMAGE at higher levels has been scaled down slightly</li> <li>Fire Elemental in the Grasslands biome was nerfed, he was simply too spooky</li> <li>Crazed Butcher is mildly less crazed, but still does CHUNKY damage</li> </ul> <span class="patch-notes-bugfixes">Bugfixes:</span> <ul class="list"> <li>Fixed two memory leaks</li> <li>Greatly increased the FPS performance of high-attack-speed builds</li> <li>Greatly increased the FPS performance of most machines</li> <li>Psuedo-fixed a bug where Destroyer of Worlds would permanently set your Create Damage to 0, you can now reverse it, but it requires a respec + reload</li> <li>Added orb counts to ability cards, next to the icons</li> <li>The Quiddity Shop is easier to read. And teal!</li> <li>The MOTD pop-up (this) now displays in the correct spot on mobile, and can be closed</li> <li>Fixed a bug (hopefully) where the stat panel for exp/level would show incorrect/invalid values</li> <li>Fixed a bug where shop offers could appear over top of tooltips</li> </ul> <hr> <h3>Beta Patch Notes - v0.8.0b</h3> <span class="patch-notes-enhancements">Enhancements:</span> <ul class="list"> <li>Added a "Total time" for your character across all runs</li> <li>Added attack and spell damage dealt, and damage received, as separate counters. This should make it easier to build defense/resists in the appropriate biomes</li> </ul> <span class="patch-notes-ability-balance">Ability Balance:</span> <ul class="list"> <li>Flamethrower: Damage reduced from 240 -> 200</li> <li>Regrowth: Damage reduced from 150 -> 60</li> </ul> </div> </div> </div>  <script src="/main.019cfb63.js" type="text/javascript"></script>
-</body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>The Tiny Theorycrafter - Pre-Launch</title>
+    <link href="https://fonts.googleapis.com/css?family=Cousine:400,700,1000&display=swap" rel="stylesheet">
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-162661188-1"></script>
+    <style>
+        a,
+        abbr,
+        acronym,
+        address,
+        applet,
+        article,
+        aside,
+        audio,
+        b,
+        big,
+        blockquote,
+        body,
+        canvas,
+        caption,
+        center,
+        cite,
+        code,
+        dd,
+        del,
+        details,
+        dfn,
+        div,
+        dl,
+        dt,
+        em,
+        embed,
+        fieldset,
+        figcaption,
+        figure,
+        footer,
+        form,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        header,
+        hgroup,
+        html,
+        i,
+        iframe,
+        img,
+        ins,
+        kbd,
+        label,
+        legend,
+        li,
+        mark,
+        menu,
+        nav,
+        object,
+        ol,
+        output,
+        p,
+        pre,
+        q,
+        ruby,
+        s,
+        samp,
+        section,
+        small,
+        span,
+        strike,
+        strong,
+        sub,
+        summary,
+        sup,
+        table,
+        tbody,
+        td,
+        tfoot,
+        th,
+        thead,
+        time,
+        tr,
+        tt,
+        u,
+        ul,
+        var,
+        video {
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+            font: inherit;
+            vertical-align: baseline
+        }
+
+        strong {
+            font-weight: 1000
+        }
+
+        article,
+        aside,
+        details,
+        figcaption,
+        figure,
+        footer,
+        header,
+        hgroup,
+        menu,
+        nav,
+        section {
+            display: block
+        }
+
+        ol,
+        ul {
+            list-style: none
+        }
+
+        ol.list,
+        ul.list {
+            list-style: square;
+            padding: 10px;
+            margin: 0 5px
+        }
+
+        blockquote,
+        q {
+            quotes: none
+        }
+
+        blockquote:after,
+        blockquote:before,
+        q:after,
+        q:before {
+            content: "";
+            content: none
+        }
+
+        table {
+            border-collapse: collapse;
+            border-spacing: 0
+        }
+
+        a {
+            color: #20b2aa
+        }
+
+        body.ttt h1 {
+            font-size: 32px
+        }
+
+        body.ttt h1,
+        body.ttt h2 {
+            margin-top: 8px;
+            margin-bottom: 5px;
+            font-weight: 1000
+        }
+
+        body.ttt h2 {
+            font-size: 28px
+        }
+
+        body.ttt h3 {
+            font-size: 24px
+        }
+
+        body.ttt h3,
+        body.ttt h4 {
+            margin-top: 6px;
+            margin-bottom: 4px;
+            font-weight: 1000
+        }
+
+        body.ttt h4 {
+            font-size: 20px
+        }
+
+        body,
+        html {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            overflow-x: hidden;
+            overflow-y: hidden;
+            background-color: #000;
+            color: #fff;
+            font-family: Cousine, Lucida Sans Unicode, Lucida Grande, Lucida Sans, Arial, sans-serif
+        }
+
+        .not-ready-modal {
+            position: fixed;
+            left: 50%;
+            top: 70%;
+            width: 700px;
+            height: 200px;
+            background-color: hsla(0, 0%, 39.2%, .9);
+            font-size: 40px;
+            font-family: Lucida Grande, Lucida Sans, Arial, sans-serif;
+            text-align: center;
+            transform: translate(-50%, -50%);
+            padding: 30px;
+            border: 10px solid green;
+            border-radius: 20px;
+            pointer-events: none
+        }
+
+        .not-ready-modal div {
+            margin: auto;
+            width: 80%;
+            padding: 10px
+        }
+
+        .not-ready-modal a {
+            color: #7289da;
+            text-decoration: dotted;
+            pointer-events: all
+        }
+
+        .not-ready-modal img {
+            transform: translateY(25%)
+        }
+
+        .game-render-canvas {
+            width: 768px;
+            height: 192px;
+            margin: 10px auto 20px;
+            padding: 0;
+            display: block;
+            left: calc(50% - 384px)
+        }
+
+        .game-render-wrapper {
+            width: 786px;
+            height: 210px;
+            margin: 0 auto 20px;
+            padding: 0;
+            display: block;
+            position: fixed;
+            top: 21px;
+            left: calc(50% - 403px);
+            border: 10px solid transparent;
+            border-image: url(/ui-border.24ffb715.png);
+            border-image-slice: 21;
+            border-image-width: 21px;
+            box-sizing: content-box
+        }
+
+        .skill-render-wrapper {
+            height: 100%;
+            width: 100%
+        }
+
+        .action-bar-wrapper {
+            margin-top: -18px;
+            pointer-events: none
+        }
+
+        .action-bar {
+            width: 200px;
+            margin: auto;
+            pointer-events: none
+        }
+
+        .orb-slot {
+            margin: -2px
+        }
+
+        .ctxmenu {
+            color: #000
+        }
+
+        .bottom-banner-ad {
+            position: fixed;
+            bottom: 20px;
+            left: calc(50% - 150px);
+            z-index: 99
+        }
+
+        .bottom-banner-ad,
+        .metrics-banner-ad {
+            width: 300px;
+            height: 250px;
+            background-color: #1d1d5f
+        }
+
+        .metrics-banner-ad {
+            margin-top: 20px
+        }
+
+        .modal-side-banner-ad {
+            width: 300px;
+            height: 250px;
+            position: absolute;
+            background-color: #1d1d5f;
+            z-index: 100
+        }
+
+        .modal-side-banner-ad.left {
+            top: 50px;
+            left: -320px
+        }
+
+        .modal-side-banner-ad.right {
+            top: 50px;
+            right: -320px
+        }
+
+        .left-banner-ad {
+            width: 160px;
+            height: 600px;
+            position: fixed;
+            left: 20px;
+            top: 100px;
+            background-color: #1d1d5f;
+            z-index: 100
+        }
+
+        .screen-dimmer {
+            width: 100vw;
+            height: 100vh;
+            position: fixed;
+            left: 0;
+            top: 0;
+            background-color: rgba(0, 0, 0, .6);
+            z-index: 50;
+            pointer-events: none
+        }
+
+        .modal {
+            display: block;
+            border: 10px solid transparent;
+            border-image: url(/ui-border.24ffb715.png);
+            border-image-slice: 21;
+            border-image-width: 21px;
+            padding: 8px;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 100
+        }
+
+        .modal,
+        .modal .inner {
+            box-sizing: content-box
+        }
+
+        .modal .inner {
+            width: calc(100% - 20px);
+            height: calc(100% - 20px);
+            background-color: #1d1d5f;
+            padding: 10px
+        }
+
+        .modal .close-button {
+            position: absolute;
+            right: 9px;
+            top: -9px;
+            font-weight: 1000
+        }
+
+        .modal.motd {
+            width: 550px;
+            max-height: 80vh;
+            font-family: Helvetica, Open Sans, Arial, sans-serif
+        }
+
+        .modal.motd .inner {
+            max-height: calc(80vh - 20px);
+            overflow-y: scroll
+        }
+
+        .modal li {
+            padding: 4px 1px
+        }
+
+        .modal.motd .patch-notes-enhancements {
+            color: #48d1cc
+        }
+
+        .modal.motd .patch-notes-skill-board-balance {
+            color: grey
+        }
+
+        .modal.motd .patch-notes-ability-balance {
+            color: gold
+        }
+
+        .modal.motd .patch-notes-other-balance {
+            color: #20b2aa
+        }
+
+        .modal.motd .patch-notes-bugfixes {
+            color: #f08080
+        }
+
+        .import-export-modal {
+            display: none;
+            width: 440px;
+            height: 440px
+        }
+
+        .import-export-modal textarea {
+            width: 400px;
+            height: 300px
+        }
+
+        .save-modal {
+            width: 380px;
+            height: 400px
+        }
+
+        .save-modal-inner {
+            overflow-y: scroll
+        }
+
+        .save-item {
+            background-color: #2f4f4f;
+            border-radius: 3px;
+            padding: 10px 5px;
+            margin: 30px 0 0
+        }
+
+        .save-item .delete-button {
+            float: right
+        }
+
+        .save-item .play-button {
+            width: 100px;
+            font-weight: 1000
+        }
+
+        .save-item .export-save-button {
+            float: right
+        }
+
+        .save-item .name {
+            font-size: 16px;
+            font-weight: 1000
+        }
+
+        .save-item .details {
+            font-size: 12px;
+            font-weight: 500
+        }
+
+        .game-panel {
+            transition: top 1s ease-in-out
+        }
+
+        .stat-panel {
+            width: 380px;
+            transition: right 1s ease-in-out
+        }
+
+        .metric-panel,
+        .stat-panel {
+            position: fixed;
+            bottom: 20px;
+            text-align: right;
+            font-size: 14px;
+            background-color: rgba(60, 60, 60, .5);
+            padding: 10px
+        }
+
+        .metric-panel {
+            width: 300px;
+            transition: left 1s ease-in-out
+        }
+
+        .label {
+            font-weight: 1000;
+            width: 100px;
+            --balloon-color: #007146;
+            --balloon-font-size: 18px
+        }
+
+        .label,
+        .p-value {
+            text-align: right
+        }
+
+        .p-value {
+            margin-left: 10px
+        }
+
+        .stat-highlight {
+            color: #00fa9a
+        }
+
+        button {
+            background-color: #8b4a36;
+            border: 1px solid #647593;
+            border-radius: 2px;
+            color: #dcdcdc
+        }
+
+        .stat-panel .toggle-stat-panel {
+            position: absolute;
+            left: -40px;
+            bottom: 10px
+        }
+
+        .stat-panel.slide-out {
+            right: 20px
+        }
+
+        .stat-panel.slide-in {
+            right: -220px
+        }
+
+        .stat-panel.slide-closed {
+            right: -400px
+        }
+
+        .metric-panel .toggle-metric-panel {
+            position: absolute;
+            right: -40px;
+            bottom: 10px
+        }
+
+        .metric-panel.slide-out {
+            left: 20px
+        }
+
+        .metric-panel.slide-in {
+            left: -320px
+        }
+
+        .game-panel .toggle-game-panel {
+            position: absolute;
+            bottom: -27px
+        }
+
+        .game-panel.slide-out {
+            top: 21px
+        }
+
+        .game-panel.slide-in {
+            top: -100px
+        }
+
+        .game-panel.slide-closed {
+            top: -180px
+        }
+
+        .ambient-glow {
+            animation: glowing 1.3s infinite
+        }
+
+        @keyframes glowing {
+            0% {
+                box-shadow: 0 0 3px #ffdf78
+            }
+
+            50% {
+                box-shadow: 0 0 10px #ffdf78
+            }
+
+            to {
+                box-shadow: 0 0 3px #ffdf78
+            }
+        }
+
+        [aria-label][data-balloon-pos][data-balloon-length=xxlarge]:after {
+            white-space: pre;
+            width: 480px
+        }
+
+        @media screen and (max-device-width:480px) {
+            .game-render-wrapper {
+                transform: scale(.5) translateY(-50%);
+                margin: 0
+            }
+
+            .modal.motd {
+                transform: scale(.6) translateX(-83%) translateY(-100%)
+            }
+
+            .close-button {
+                transform: scale(2)
+            }
+
+            .game-render-canvas {
+                top: 10px
+            }
+
+            .stat-panel {
+                transform: scale(.8) translateX(20%) translateY(20%);
+                bottom: 160px
+            }
+
+            .stat-panel.slide-out {
+                right: 20px
+            }
+
+            .stat-panel.slide-in {
+                right: -164px
+            }
+
+            .stat-panel.slide-closed {
+                right: -304px
+            }
+        }
+    </style>
+    <script>
+        function a() {
+            dataLayer.push(arguments)
+        }
+        window.dataLayer = window.dataLayer || [], a("js", new Date), a("config", "UA-162661188-1");
+    </script>
+    <script async="" src="//api.adinplay.com/libs/aiptag/pub/TTF/thetinytheorycrafter.com/tag.min.js"></script>
+    <link rel="stylesheet" href="/orb-spritesheet.6d9c02ae.css">
+    <link rel="stylesheet" href="/vex.0da6019e.css">
+    <link rel="stylesheet" href="/vex-theme-plain.a5a0c2de.css">
+    <link rel="stylesheet" href="/main.39e71d9e.css">
+</head>
+
+<body class="ttt">
+    <div class="screen-dimmer"></div>
+    <div id="game-render-wrapper" class="game-render-wrapper game-panel"> <button
+            class="toggle-game-panel toggle-panel">🡅</button> <canvas id="game-render-canvas"
+            class="game-render-canvas"></canvas>
+        <div class="action-bar-wrapper">
+            <div class="action-bar">
+                <div class="orb-slot orb-slot-1 sprite orb-0"></div>
+                <div class="orb-slot orb-slot-2 sprite orb-0"></div>
+                <div class="orb-slot orb-slot-3 sprite orb-0"></div>
+                <div class="orb-slot orb-slot-4 sprite orb-0"></div>
+                <div class="orb-slot orb-slot-5 sprite orb-0"></div>
+                <div class="orb-slot orb-slot-6 sprite orb-0"></div>
+                <div class="orb-slot orb-slot-7 sprite orb-0"></div>
+            </div>
+        </div>
+    </div> <canvas id="skill-render-canvas" class="skill-render-canvas"></canvas>
+    <div class="skill-render-wrapper"> </div>
+    <div class="metric-panel slide-out" style="display:block;"> <button
+            class="toggle-metric-panel toggle-panel">🡄</button>
+        <ul>
+            <li class="stat-line"> <span class="label" aria-label="Total time your character has played."
+                    data-balloon-pos="right" data-balloon-length="xlarge">Total time</span><span
+                    class="p-value timeInGame">{{ timeInGame }}</span> </li>
+            <li class="stat-line"> <span class="label" aria-label="The furthest place in the world you have been ever."
+                    data-balloon-pos="right" data-balloon-length="xlarge">Furthest screen</span><span
+                    class="p-value furthestScreen">{{ furthestScreen }}</span> </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="The furthest place in the world you have been this session." data-balloon-pos="right"
+                    data-balloon-length="xlarge">Furthest screen/now</span><span
+                    class="p-value furthestScreenThisSession">{{ furthestScreenThisSession }}</span> </li>
+            <li class="stat-line"> <span class="label" aria-label="Time spent walking this run, in seconds."
+                    data-balloon-pos="right" data-balloon-length="xlarge">Time spent walking</span><span
+                    class="p-value timeSpentWalking">{{ timeSpentWalking }}</span> </li>
+            <li class="stat-line"> <span class="label" aria-label="Time spent fighting this run, in seconds."
+                    data-balloon-pos="right" data-balloon-length="xlarge">Time spent fighting</span><span
+                    class="p-value timeSpentFighting">{{ timeSpentFighting }}</span> </li>
+            <li class="stat-line"> <span class="label" aria-label="Number of abilities used this run."
+                    data-balloon-pos="right" data-balloon-length="xlarge">Abilities used</span><span
+                    class="p-value abilitiesUsed">{{ abilitiesUsed }}</span> </li>
+            <hr>
+            <li class="stat-line"> <span class="label" aria-label="Total damage dealt this run."
+                    data-balloon-pos="right" data-balloon-length="xlarge">Damage dealt</span><span
+                    class="p-value damageDealt">{{ damageDealt }}</span> </li>
+            <li class="stat-line"> <span class="label" aria-label="Attack damage dealt this run."
+                    data-balloon-pos="right" data-balloon-length="xlarge">Attack dmg dealt</span><span
+                    class="p-value attackDamageDealt">{{ attackDamageDealt }}</span> </li>
+            <li class="stat-line"> <span class="label" aria-label="Spell damage dealt this run."
+                    data-balloon-pos="right" data-balloon-length="xlarge">Spell dmg dealt</span><span
+                    class="p-value spellDamageDealt">{{ spellDamageDealt }}</span> </li>
+            <li class="stat-line"> <span class="label" aria-label="Total damage received this run."
+                    data-balloon-pos="right" data-balloon-length="xlarge">Damage received</span><span
+                    class="p-value damageReceived">{{ damageReceived }}</span> </li>
+            <li class="stat-line"> <span class="label" aria-label="Attack damage received this run."
+                    data-balloon-pos="right" data-balloon-length="xlarge">Attack dmg received</span><span
+                    class="p-value attackDamageReceived">{{ attackDamageReceived }}</span> </li>
+            <li class="stat-line"> <span class="label" aria-label="Spell damage received this run."
+                    data-balloon-pos="right" data-balloon-length="xlarge">Spell dmg received</span><span
+                    class="p-value spellDamageReceived">{{ spellDamageReceived }}</span> </li>
+            <hr>
+            <li class="stat-line"> <span class="label"
+                    aria-label="Quiddity earned per minute, averaged over all the runs you've had this session."
+                    data-balloon-pos="right" data-balloon-length="xlarge">Quiddity/min</span><span
+                    class="p-value quiddityPerMinute">{{ quiddityPerMinute }}</span> </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="Quiddity earned per second, averaged over all the runs you've had this session."
+                    data-balloon-pos="right" data-balloon-length="xlarge">Quiddity/sec</span><span
+                    class="p-value quiddityPerSecond">{{ quiddityPerSecond }}</span> </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="Experience earned per second, averaged over the last minute." data-balloon-pos="right"
+                    data-balloon-length="xlarge">EXP/sec</span><span
+                    class="p-value expPerMinute">{{ expPerMinute }}</span> </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="Damage dealt per second, averaged over the last minute." data-balloon-pos="right"
+                    data-balloon-length="xlarge">Damage/sec</span><span
+                    class="p-value dpsPerMinute">{{ dpsPerMinute }}</span> </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="Damage taken per second, averaged over the last minute." data-balloon-pos="right"
+                    data-balloon-length="xlarge">Damage taken/sec</span><span
+                    class="p-value damageTakenPerMinute">{{ damageTakenPerMinute }}</span> </li>
+        </ul>
+        <div class="metrics-banner-ad left" id="thetinytheorycrafter-com_300x250"></div>
+    </div>
+    <div class="stat-panel slide-out" style="display:block;"> <button class="toggle-stat-panel toggle-panel">🡆</button>
+        <ul>
+            <li class="stat-line"> <span class="label" aria-label="That's you!" data-balloon-pos="left"
+                    data-balloon-length="xlarge">Name</span><span class="p-value name">{{ name }}</span> </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="Your character's level. You start with 3 health potions each run (by default), and gain another health potion after each boss or mini-boss kill."
+                    data-balloon-pos="left" data-balloon-length="xlarge">Level</span><span
+                    class="p-value level">{{ level }}</span> </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="Your level cap. Prestige your character to increase the level cap!"
+                    data-balloon-pos="left" data-balloon-length="xlarge">Level Cap</span><span
+                    class="p-value levelCap">{{ levelCap }}</span> </li>
+            <li class="stat-line" style="text-align:left;"> <span class="label"
+                    aria-label="The number of times you have prestiged. Prestiging will reset your level,\n\n\n<br> but increase your level cap and give you bonus skill points."
+                    data-balloon-pos="left" data-balloon-length="xlarge">Prestige Rank</span><span
+                    class="p-value prestigeCount">{{ prestigeCount }}</span><span
+                    id="prestige-wrapper"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button
+                        id="prestige-button" class="button ambient-glow">Prestige</button></span> </li>
+            <li class="stat-line"> </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="Amount of experience earned and needed for the next level up." data-balloon-pos="left"
+                    data-balloon-length="xlarge">Experience</span><span class="p-value exp">{{ exp }}</span> </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="Experience bonuses you've earned. You receive bonus exp for skill points unlocked and quiddity (based on your quiddity energize rate)."
+                    data-balloon-pos="left" data-balloon-length="xlarge">Exp Bonuses</span><span
+                    class="p-value expBonuses">{{ expBonuses }}</span> </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="The number of skill points you have earned from all sources. You primarily earn skill points by reaching further distances in the world, or by purchasing them with quiddity."
+                    data-balloon-pos="left" data-balloon-length="xlarge">Skill Points</span><span
+                    class="p-value skillPoints">{{ skillPoints }}</span> </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="The primary resource/currency of the game. Quiddity can be used in the shops to purchase new upgrades. Quiddity Transfer: At the end of each run, a portion of your experience is converted to quiddity. Quiddity Energize: While killing enemies on a run, a small amount of quiddity is granted as bonus experience."
+                    data-balloon-pos="left" data-balloon-length="xlarge">Quiddity</span><span
+                    class="p-value quiddity">{{ quiddity }}</span> </li>
+            <hr>
+            <li class="stat-line"> <span class="label"
+                    aria-label="This shows each stat, and the added/increased/more bonuses for that stat. Added/subtracted bonuses are additive. Increased/decreased bonuses are summed (across all relevant categories), then multiplied (e.g. multipliers stacking additively). More/less bonuses are multiplied (e.g. multipliers stacking multiplicatively). Buffed/debuffed stats are highlighted in green."
+                    data-balloon-pos="left" data-balloon-length="xlarge">Name - Stat - Added - Increased - More</span>
+            </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="Your health, when this reaches 0, you die and your run ends. Health potions are used automatically at 25% health, and heal you for 50% of your base health, and 25% of your bonus health from all sources."
+                    data-balloon-pos="left" data-balloon-length="xlarge">Health</span><span
+                    class="p-value maxhp">{{ maxhp }}</span> </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="Damage mitigation against attack damage. damage received % = 100 / (100 + defense), with 10 defense, a 50 damage hit will deal 45 damage, or 90% damage received."
+                    data-balloon-pos="left" data-balloon-length="xlarge">Defense</span><span
+                    class="p-value defense">{{ defense }}</span> </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="Damage mitigation against spell damage. damage received % = 100 / (100 + resist), with 25 defense, a 50 damage hit will deal 40 damage, or 80% damage received."
+                    data-balloon-pos="left" data-balloon-length="xlarge">Resist</span><span
+                    class="p-value resist">{{ resist }}</span> </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="Chance to dodge enemy's abilities. 50 = 1% chance to dodge." data-balloon-pos="left"
+                    data-balloon-length="xlarge">Evasion</span><span class="p-value evasion">{{ evasion }}</span> </li>
+            <hr>
+            <li class="stat-line"> <span class="label"
+                    aria-label="Base damage dealt with abilities. Most other damage multipliers affect this."
+                    data-balloon-pos="left" data-balloon-length="xlarge">Base Damage</span><span
+                    class="p-value baseDamage">{{ baseDamage }}</span> </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="Rate of attacks. Attack speed = attacks per second. 100 = 1, 250 = 2, 500 = 3, 1000 = 4."
+                    data-balloon-pos="left" data-balloon-length="xlarge">Attack Speed</span><span
+                    class="p-value attackSpeed">{{ attackSpeed }}</span> </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="A 'more' multiplier to all attack damage. Every point provides 2% more damage, stacking *additively* with itself."
+                    data-balloon-pos="left" data-balloon-length="xlarge">Strength</span><span
+                    class="p-value strength">{{ strength }}</span> </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="A 'more' multiplier to movement speed and evasion. Every point provides 2% more of each stat, stacking *additively* with itself."
+                    data-balloon-pos="left" data-balloon-length="xlarge">Agility</span><span
+                    class="p-value agility">{{ agility }}</span> </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="A 'more' multiplier to all spell damage. Every point provides 2% more damage, stacking *additively* with itself."
+                    data-balloon-pos="left" data-balloon-length="xlarge">Intelligence</span><span
+                    class="p-value intelligence">{{ intelligence }}</span> </li>
+            <hr>
+            <li class="stat-line"> <span class="label"
+                    aria-label="Chance to land a critical hit when using abilities. 100 = 1% chance to critically strike."
+                    data-balloon-pos="left" data-balloon-length="xlarge">Crit Chance</span><span
+                    class="p-value critChance">{{ critChance }}</span> </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="Amount of bonus damage dealt with critical hits. 150 = 150% total damage (50% bonus damage)"
+                    data-balloon-pos="left" data-balloon-length="xlarge">Crit Damage</span><span
+                    class="p-value critDamage">{{ critDamage }}</span> </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="Amount of defensive mitigation that is penetrated with your abilities. Attacks penetrate defense, spells penetrate resist."
+                    data-balloon-pos="left" data-balloon-length="xlarge">Defense Pen</span><span
+                    class="p-value defensePenetration">{{ defensePenetration }}</span> </li>
+            <hr>
+            <li class="stat-line"> <span class="label"
+                    aria-label="Bonus damage dealt by abilities with the 'physical' tag." data-balloon-pos="left"
+                    data-balloon-length="xlarge">Physical Dmg</span><span
+                    class="p-value physicalDamage">{{ physicalDamage }}</span> </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="Bonus damage dealt by abilities with the 'magical' tag." data-balloon-pos="left"
+                    data-balloon-length="xlarge">Magical Dmg</span><span
+                    class="p-value magicalDamage">{{ magicalDamage }}</span> </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="Bonus damage dealt by abilities with the 'spiritual' tag." data-balloon-pos="left"
+                    data-balloon-length="xlarge">Spiritual Dmg</span><span
+                    class="p-value spiritualDamage">{{ spiritualDamage }}</span> </li>
+            <hr>
+            <li class="stat-line"> <span class="label"
+                    aria-label="Bonus damage dealt by abilities with the 'create' tag, which includes all abilities that create an orb."
+                    data-balloon-pos="left" data-balloon-length="xlarge">Create Dmg</span><span
+                    class="p-value createDamage">{{ createDamage }}</span> </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="Bonus damage dealt by abilities with the 'expend' tag, which includes all abilities that expend an orb."
+                    data-balloon-pos="left" data-balloon-length="xlarge">Expend Dmg</span><span
+                    class="p-value expendDamage">{{ expendDamage }}</span> </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="Bonus damage dealt by abilities with the 'attack' tag." data-balloon-pos="left"
+                    data-balloon-length="xlarge">Attack Dmg</span><span
+                    class="p-value attackDamage">{{ attackDamage }}</span> </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="Bonus damage dealt by abilities with the 'spell' tag." data-balloon-pos="left"
+                    data-balloon-length="xlarge">Spell Dmg</span><span
+                    class="p-value spellDamage">{{ spellDamage }}</span> </li>
+            <hr>
+            <li class="stat-line"> <span class="label"
+                    aria-label="Movement speed when walking through the world. 100 = default." data-balloon-pos="left"
+                    data-balloon-length="xlarge">Move Speed</span><span class="p-value moveSpeed">{{ moveSpeed }}</span>
+            </li>
+            <hr>
+            <li class="stat-line"> <span class="label"
+                    aria-label="When your run ends, the rate at which your experience is converted to quiddity."
+                    data-balloon-pos="left" data-balloon-length="xlarge">Quid Transfer</span><span
+                    class="p-value quiddityTransferRate">{{ quiddityTransferRate }}</span> </li>
+            <li class="stat-line"> <span class="label"
+                    aria-label="When you kill an enemy, the rate at which your quiddity provides bonus experience for the kill."
+                    data-balloon-pos="left" data-balloon-length="xlarge">Quid Energize</span><span
+                    class="p-value quiddityEnergizeRate">{{ quiddityEnergizeRate }}</span> </li>
+        </ul>
+    </div>
+    <div class="color-picker" style="position:fixed;left:50%;top:50%;"></div>
+    <div class="modal save-modal">
+        <div class="inner save-modal-inner"> <button class="close-button">X</button> What is your name? <input
+                id="save-name" type="text"> <button id="new-character-button" class="new-character-button">New
+                Character</button>
+            <div class="save-list">
+                <ul id="save-list-ul"> <template id="save-item-template">
+                        <li class="save-item save-template">
+                            <div> <span class="name">Polatrite</span><br> <span class="details"> [World #<span
+                                        class="world-screen"></span> - <span class="skill-points"></span> SP - <span
+                                        class="quiddity"></span> Quiddity] </span> </div>
+                            <div> <button class="play-button">Play</button> <button
+                                    class="delete-button">Delete</button> <button class="export-save-button">Export
+                                    Character</button> </div>
+                        </li>
+                    </template> </ul>
+            </div> <br> <button id="import-save-button" class="import-save-button">Import Character</button>
+        </div>
+    </div>
+    <div class="modal import-export-modal">
+        <div class="inner import-export-inner"> <button class="close-button">X</button> <span id="import-export-header"
+                class="export" style="display:none;">Export</span> <span class="export"> Copy this string and save it to
+                a text file, or share it with a friend. </span> <span class="import"> Paste your existing savefile and
+                click submit to load. </span> <textarea class="import export" id="import-export-data"
+                type="text"></textarea> <a class="export" target="_blank" id="import-export-download"
+                download="savedata.txt">Download the data as a text file</a> <button class="import"
+                id="import-export-submit">Submit</button> </div>
+    </div>
+    <div class="modal motd">
+        <div class="inner"> <button class="close-button">X</button>
+            <div class="modal-side-banner-ad left" id="thetinytheorycrafter-com_300x250_2"></div>
+            <div class="modal-side-banner-ad right" id="thetinytheorycrafter-com_300x250_3"></div>
+            <h1 style="font-size:48px;font-weight:1000;">PRE-LAUNCH!</h1>
+            <div class="motd-content"> <a target="_blank" href="https://discord.gg/jVuYK7C"
+                    style="color:#7289da;text-decoration:none;font-size:24px;">Join our <img async="" decoding="async"
+                        src="https://discordapp.com/assets/fc0b01fe10a0b8c602fb0106d8189d9b.png"
+                        style="width:160px;transform:translateY(40%);"> for updates!</a> <br> <br> Welcome to <b>The
+                    Tiny Theorycrafter</b> Pre-Launch!<br> <br> Get ready to theorycraft your way to victory as you
+                explore the world of Solus. This is an idle/incremental game of min/maxing and ensuring your character
+                has the strongest possible build as you explore the world. Unlock points on the skill tree, then use
+                them to earn Quiddity and purchase new abilities.<br> <br> Be sure to right-click and PAN the skill tree
+                around. Mouse over (or tap on mobile) everything you see - there are often tooltips waiting to help you
+                out!<br>
+                <hr>
+                <h3>Pre-Launch Patch Notes - v0.9.1</h3> <span class="patch-notes-enhancements">Enhancements:</span>
+                <ul class="list">
+                    <li><strong>Quick skill point spending/refunding!</strong> It's finally here! Quickly spend and
+                        refund points on the skill board using click and right-click. This allows you to spend/refund
+                        any number of points instantly. Thanks to <strong>Renbletz</strong> on our Discord for this
+                        amazing code change!</li>
+                </ul> <span class="patch-notes-ability-balance">Ability Balance:</span>
+                <ul class="list">
+                    <li>New ability: Deference</li>
+                    <li>New ability: Inflame</li>
+                    <li>Rework: Fire and Ice</li>
+                    <li>Blue Fire: Ignite stacks increased from 50 -> 100%</li>
+                    <li>Flame Burst: Damage decreased from 135 -> 115%</li>
+                </ul> <span class="patch-notes-other-balance">Other Balance:</span>
+                <ul class="list">
+                    <li>Prestige level cap thresholds have been changed to allow a prestige every 10 levels.</li>
+                    <li>The experience multiplier for quiddity and skill points has been reduced.</li>
+                </ul> <span class="patch-notes-bugfixes">Bugfixes:</span>
+                <ul class="list">
+                    <li>Fixed a bug where Chaining Energy from Chain Lightning wasn't stacking properly</li>
+                </ul>
+                <hr>
+                <h3>Pre-Launch Patch Notes - v0.9.0</h3> <span class="patch-notes-enhancements">Enhancements:</span>
+                <ul class="list">
+                    <li><strong>Permanent progression!</strong> Instead of losing your experience & level each run, you
+                        now retain that progression. Experience curves have been adjusted accordingly</li>
+                    <li><strong>Prestige!</strong> Introducing the new prestige system, which allows you to reset your
+                        level in exchange for more skill points, an experience multiplier, and an increase to the new
+                        level cap</li>
+                    <li>The stats panel has been improved to be faster when updating, and have some useful new stats
+                    </li>
+                    <li>Quiddity energize now provides a "more" multiplier to experience earned</li>
+                </ul> <span class="patch-notes-ability-balance">Ability Balance:</span>
+                <ul class="list">
+                    <li>A brand new orb: <strong>Light!</strong> Purchase the new Light abilities with quiddity from the
+                        shop.</li>
+                    <li>New ability: Jumble</li>
+                    <li>New ability: Ring of Fire</li>
+                    <li>New ability: Zap</li>
+                    <li>New ability: Thunderbolt</li>
+                    <li>New ability: Nerve Damage</li>
+                    <li>New ability: Lightning Strike</li>
+                    <li>New ability: Stagger</li>
+                    <li>New ability: Channel</li>
+                    <li>New ability: Chain Lightning</li>
+                    <li>New ability: Transforming Light</li>
+                    <li>New ability: Solarburn</li>
+                    <li>New ability: Energy Cage</li>
+                    <li>New ability: Essence Transfer</li>
+                </ul> <span class="patch-notes-skill-board-balance">Skill Board Balance:</span>
+                <ul class="list">
+                    <li>All quiddity nodes have been rebalanced</li>
+                    <li>Most health, base damage, create, and expend nodes have been buffed</li>
+                </ul> <span class="patch-notes-bugfixes">Bugfixes:</span>
+                <ul class="list">
+                    <li>Fixed a bug where certain poison monsters wouldn't deal damage some of the time</li>
+                    <li>Fixed a bug where parallax was going the wrong way</li>
+                </ul>
+                <hr>
+                <h3>Beta Patch Notes - v0.8.5</h3> <span class="patch-notes-enhancements">Enhancements:</span>
+                <ul class="list">
+                    <li>Healing now uses a health potion system! Instead of healing on level-up, which can happen at
+                        inconvenient times, you instead gain a health potion when you level-up. You can hold up to 3
+                        health potions (by default).</li>
+                    <li>Health potions are used automatically when you are below 25% health, healing you for 50% of your
+                        base health, and 25% of your bonus health from all sources.</li>
+                </ul> <span class="patch-notes-skill-board-balance">Skill Board Balance:</span>
+                <ul class="list">
+                    <li>New Keystone: The Alchemist - +1 Maximum Health Potions</li>
+                </ul>
+                <hr>
+                <h3>Beta Patch Notes - v0.8.4b</h3> <span class="patch-notes-ability-balance">Ability Balance:</span>
+                <ul class="list">
+                    <li>Vitriolic Burn: Fixed a bug where some Poison stacks weren't wearing off</li>
+                </ul> <span class="patch-notes-bugfixes">Bugfixes:</span>
+                <ul class="list">
+                    <li>Fixed a bug where movement speed was stacking in an unpredictable, exponential way, resulting in
+                        hard-locking the game</li>
+                    <li>Fixed a bug where leveling up many times at once would cause lag</li>
+                    <li>Fixed a bug where experience could be greater than the amount needed to level (visual bug only)
+                    </li>
+                    <li>Fixed a bug where agility wasn't affecting movement speed gained by skill points</li>
+                </ul>
+                <hr>
+                <h3>Beta Patch Notes - v0.8.4</h3> <span class="patch-notes-enhancements">Enhancements:</span>
+                <ul class="list">
+                    <li>Added skill points to earn through screen 105! (+10 skill points)</li>
+                    <li>The General Shop has been split in two: Attack Shop and Spell Shop!</li>
+                    <li>Overall movement speed has been increased by 10%</li>
+                    <li>Some abilities now use Logic™ to determine when they can be used, noted in the relevant ability
+                        description</li>
+                    <li>Bosses (and minibosses) now award all the quiddity you earned on that run so far!</li>
+                    <li>MANY new things to buy have been added to the Quiddity Shop!</li>
+                    <li>Added a button to remove the last point you added</li>
+                    <li>Added metrics for quiddity earned per second, minute, as well as the furthest screen you've
+                        reached this session</li>
+                    <li>Dying now has a little animation and fade in/out to make it more obvious</li>
+                </ul> <span class="patch-notes-skill-board-balance">Skill Board Balance:</span>
+                <ul class="list">
+                    <li>From the start of the tree, the 2nd node in every cardinal direction has been reworked and
+                        buffed</li>
+                    <li>Duelist's Fury now grants 25% more Attack Speed, 16% less Create and Expend damage</li>
+                    <li>Huge Thwomp: Base damage increased from 4 -> 5</li>
+                    <li>Changed the Improved Health near the start to a Speedy Delivery node</li>
+                    <li>Buffed the Pious Ascendant, Defensive Spellcasting, Sleek & Weak, Expedited Thrashing, Quick
+                        Casting, and Extremespeed wheels</li>
+                    <li>Buffed all Quickness nodes to have 5-7% Quiddity Transfer Rate</li>
+                    <li>Swapped the location of the Quiddity Energize and Quiddity Transfer wheels on the far left and
+                        far bottom of the tree, this moves the Energize wheel to a location with health nodes to allow
+                        access for all builds</li>
+                    <li>Changed the Magical Damage wheel near the start to be a Spell Damage wheel</li>
+                </ul> <span class="patch-notes-ability-balance">Ability Balance:</span>
+                <ul class="list">
+                    <li>New ability: Annihilation</li>
+                    <li>New ability: Bark Skin</li>
+                    <li>New ability: Beast Cleave</li>
+                    <li>New ability: Berserker</li>
+                    <li>New ability: Blaze Kick</li>
+                    <li>New ability: Burgeoning Stature</li>
+                    <li>New ability: Burn From Within</li>
+                    <li>New ability: Cold Counter</li>
+                    <li>New ability: Frozen Earth</li>
+                    <li>New ability: Frozen Execution</li>
+                    <li>New ability: Kaleidoscope Beam</li>
+                    <li>New ability: Mental Fatigue</li>
+                    <li>New ability: Rime Dagger</li>
+                    <li>New ability: Spiritfire</li>
+                    <li>New ability: Sword Dance</li>
+                    <li>New ability: Vital Destruction</li>
+                    <li>New ability: Winter Wisp</li>
+                    <li>Rework: Mark of Justice</li>
+                    <li>New ability tag: Hybrid, will use the HIGHEST stat between your physical/magical/spiritual
+                        damage</li>
+                    <li>Abilities with the Hybrid tag: Kaleidoscope Beam, Cougar Strike(!), Spirit Blade, Ethereal Fist,
+                        Calm Focus, Ethereal Chase, Meditation</li>
+                    <li>Calm Focus: Buff duration increased from 30s -> 45s</li>
+                    <li>Chilling Gust: Now grants a stack of the "Create Cold Orb" buff</li>
+                    <li>Enrage: Damage increased from 80% -> 85%</li>
+                    <li>Ethereal Chase: Damage increased from 70% -> 75%, now grants 2 stacks of Dashing</li>
+                    <li>Faster Attacks duration increased from 10s -> 12s, but capped at 20 stacks</li>
+                    <li>Forest Fire: Damage increased from 120% -> 160%, now consumes 1 more nature orb</li>
+                    <li>Ignite and Poison now deal Hybrid damage</li>
+                    <li>Inner Resonance: Now grants 2 stacks of the "Create Supernatural Orb" buff, damage decreased
+                        from 150% -> 130%</li>
+                    <li>Meditation: Now grants 2 stacks of Armor</li>
+                    <li>Power Slash and Thrust had their costs lowered</li>
+                    <li>Rancor Charge: Cooldown decreased from 10s -> 8s, damage increased from 130% -> 135%</li>
+                    <li>Regrowth: Now grants a stack of Resistance</li>
+                    <li>Soulflame: Damage increased from 150% -> 170%, now grants 3 stacks of Invoker, orb costs
+                        adjusted</li>
+                    <li>Stranglethorns: Now Saps the enemy for 5% hybrid damage each second, stacks, lasts 60s.</li>
+                    <li>Terra Coola: Damage increased from 220% -> 310%, now consumes 1 nature orb</li>
+                    <li>Umbral Fortify: Damage increased from 80% -> 85%</li>
+                </ul> <span class="patch-notes-ability-balance">Ability Logic:</span>
+                <ul class="list">
+                    <li>Some abilities now use Logic™ to determine when they can be used, noted in the relevant ability
+                        description</li>
+                    <li>Bile Outbreak will only be used when the enemy has Poison stacks</li>
+                    <li>Equalizer will only be used when the enemy is affected by Mark of Justice</li>
+                    <li>Ice Pillar will only be used when the enemy is not affected by Ice Pillar</li>
+                    <li>Pyroblast will only be used on targets with >80% health</li>
+                    <li>Terra Coola will only be used when you are not affected by Terra Coola</li>
+                    <li>Venom Burst will only be used when the enemy has >60% Poison damage stacks</li>
+                </ul> <span class="patch-notes-other-balance">Other Balance:</span>
+                <ul class="list">
+                    <li>Boss stats have been completely rebalanced</li>
+                    <li>Enemy defense has been mildly increased at very high levels</li>
+                    <li>Enemy offense has been mildly decreased at very high levels</li>
+                    <li>Many enemies' ability loadouts have been revised and improved. Beware!</li>
+                </ul> <span class="patch-notes-bugfixes">Bugfixes:</span>
+                <ul class="list">
+                    <li>Massive performance improvements, especially when first loading the game</li>
+                    <li>Fixed a bug where the player could occasionally get more experience than intended from enemies
+                        with certain builds</li>
+                    <li>Shop discounts should now apply correctly</li>
+                    <li>Ignite tooltips now say the correct duration of 4s, not 2s</li>
+                    <li>Fixed a bug where buffs and debuffs were not removed when players or enemies died</li>
+                    <li>Fixed the Debug Respec button to look less hideous</li>
+                </ul> <span class="patch-notes-bugfixes">Monetization Changes:</span>
+                <ul class="list">
+                    <li>Added a couple ads. Thanks for your support!</li>
+                </ul>
+                <hr>
+                <h3>Beta Patch Notes - v0.8.3</h3> <span class="patch-notes-enhancements">Enhancements:</span>
+                <ul class="list">
+                    <li>You can now purchase ZOOMIES in the Quiddity Shop!</li>
+                    <li>New movement animation once you've got the ZOOMIES (or when your movement speed is above 250)
+                    </li>
+                    <li>Added many new hotkeys to control the user interface and warp you around the skill tree. Try
+                        them out: A, S, B, V, up, left, right, esc (don't hit this yet, it closes the patch notes!)</li>
+                    <li>The UI now tells you when you're fighting a Boss or Miniboss</li>
+                </ul> <span class="patch-notes-skill-board-balance">Skill Board Balance:</span>
+                <ul class="list">
+                    <li>Added 10 new nodes around the tree, most of them are singular nodes that are easy to access and
+                        help fill out the last couple points for a build</li>
+                    <li>Brute Headhunting's Critical Chance bonus increased from 50% per stack -> 80% per stack</li>
+                    <li>The Creator's Create Damage increased from 20% -> 27%</li>
+                    <li>Creation nodes' Create Damage increased from 10% -> 12%</li>
+                    <li>Careless Formation nodes (near Prescience) Create Damage increased from 16% -> 18%</li>
+                    <li>The Huge Thwomp Base Damage cluster has been broken up into two separate clusters - the new
+                        cluster is in the top right of the tree</li>
+                    <li>Sleek & Weak nodes' Movement Speed increased from +7 -> +8</li>
+                    <li>Minor pathing adjustments around Attribute Paragon and Fast & Flurrious to improve access for
+                        most builds</li>
+                </ul> <span class="patch-notes-bugfixes">Bugfixes:</span>
+                <ul class="list">
+                    <li>Massive overhaul of graphics code to improve memory use and fix a black screen bug!</li>
+                    <li>All bosses now use the correct abilities</li>
+                </ul>
+                <hr>
+                <h3>Beta Patch Notes - v0.8.2 and v0.8.2b</h3> <span
+                    class="patch-notes-enhancements">Enhancements:</span>
+                <ul class="list">
+                    <li>Added skill points to earn through screen 84! (+10 skill points)</li>
+                    <li>Enemy spawning behavior changed to have a consistent number of enemies in each screen, every run
+                    </li>
+                    <li>You no longer lose Quiddity when Energizing, and you still receive the full Energize effect</li>
+                    <li>The Quiddity Shop now sells another cheap skill point for 500 (this reduces everyone's next
+                        point cost by one point's worth)</li>
+                </ul> <span class="patch-notes-skill-board-balance">Skill Board Balance:</span>
+                <ul class="list">
+                    <li>Nodes near Strength of Mind/Body/Spirit have been generally improved</li>
+                    <li>Brawler strength bonus increased from 10% -> 14%</li>
+                    <li>The Minor Strength node adjacent to Brawler has been upgraded to Medium Strength (+3)</li>
+                    <li>Boosted intelligence bonus increased from 10% -> 14%</li>
+                    <li>The Major Intelligence node adjacent to has been downgraded to Medium Intelligence (+3)</li>
+                    <li>Attribute Paragon's attribute bonuses increased from 6% -> 8%</li>
+                    <li>Duelist's Fury now grants 15% more Attack Speed, 12% less Create and Expend damage</li>
+                    <li>Destroyer of Worlds' less Create Damage penalty lowered from -100% -> -85%</li>
+                    <li>Slow and Steady's less Evasion score penalty lowered from -100% -> -85%</li>
+                    <li>Agility of the Creator now grants: 10% more agility, 10% more Create Damage, 10% more Attack
+                        Speed, 35% less Expend Damage</li>
+                    <li>Huge Thwomp: Base damage decreased from 5 -> 4, and the Attack Speed penalty increased from -2%
+                        -> -6%</li>
+                    <li>All small Base Damage nodes now have a consistent -3% Attack Speed penalty</li>
+                    <li>All small Movement Speed nodes increased from +5 -> +6</li>
+                    <li>Quick Casting and Expedited Thrashing now grant +10 Movement Speed and 18% increased
+                        Attack/Spell Damage</li>
+                    <li>The starter nodes at the center of the tree have been reworked</li>
+                </ul> <span class="patch-notes-ability-balance">Ability Balance:</span>
+                <ul class="list">
+                    <li>New ability: Phantom Blade</li>
+                    <li>New ability: Grep</li>
+                    <li>New ability: Ethereal Fist</li>
+                    <li>New ability: Plasma Ray</li>
+                    <li>Rework: Blue Fire</li>
+                    <li>Rework: Flamethrower</li>
+                    <li>Chilling Gust: Damage increased from 70% -> 85%</li>
+                    <li>Cougar Strike: Faster Attacks duration reduced (see below)</li>
+                    <li>Enrage: Damage decreased from 100% -> 80%, and the buff's damage bonus decreased from 20% -> 10%
+                    </li>
+                    <li>Ethereal Chase: Now deals 70% damage</li>
+                    <li>Fire and Ice: Changed from Magical to Spiritual damage</li>
+                    <li>Flame Burst: Now grants a stack of Arcane Surge, damage reduced from 140% -> 135%</li>
+                    <li>Flaming Rush: Now has 66% more attack speed, instead of having 50% less attack cooldown, damage
+                        decreased from 100% -> 80%</li>
+                    <li>Forest Fire: Now grants a stack of Faster Attacks (has tags: spell, magical), Ignite damage
+                        decreased from 100% -> 50%</li>
+                    <li>[v0.8.2b] Forest Fire: Now has a cooldown of 3s</li>
+                    <li>Frost Armor: Now deals 50% damage, cooldown increased from 4s -> 5s, cost reduced to 99k</li>
+                    <li>Meditation: Now has a 3s cooldown, cost increased to 170k</li>
+                    <li>Plague: Damage increased from 25% -> 90%, poison debuff damage increased from 66% -> 90%</li>
+                    <li>Poison Fang: Damage increased from 20% -> 45%, poison debuff damage increased from 48% -> 50%
+                    </li>
+                    <li>Pyroblast: Cooldown decreased from 25s -> 15s</li>
+                    <li>Rancor Charge: Faster Attacks duration reduced (see below), cost reduced to 9.9k</li>
+                    <li>Rising Flames, Forest Fire, Meteor: Ignite behavior changed (see below)</li>
+                    <li>Slice: Damage increased from 110% -> 115%</li>
+                    <li>Stranglethorns: Damage increased from 180% -> 190%</li>
+                    <li>Umbral Fortify: Cost increased to 950k</li>
+                </ul> <span class="patch-notes-other-balance">Other Balance:</span>
+                <ul class="list">
+                    <li>[v0.8.2b] Attack speed is now affected by diminishing returns - check the tooltip for more info
+                    </li>
+                    <li>Enemy base and scaling health has been mildly increased on all screens</li>
+                    <li>Boss health increased from 800% -> 1000%</li>
+                    <li>Mini-boss health increased from 400% -> 600%</li>
+                    <li>Skill points are now awarded one screen later than before - after you BEAT the 'difficult'
+                        screen (usually the boss), not just for arriving at that screen</li>
+                    <li>Faster Attacks buff decreased from 20s -> 10s (affects Rancor Charge and Cougar Strike</li>
+                    <li>Ignite buff duration decreased from 5s (5 ticks) -> 2s (5 ticks), but still deals the same
+                        damage = faster damage</li>
+                    <li>[v0.8.2b] Ignite duration changed to the correct value of 4s (10 ticks)</li>
+                    <li>Poison buff ticks are slightly slower, increased from 1s -> 1.2s</li>
+                </ul> <span class="patch-notes-bugfixes">Bugfixes:</span>
+                <ul class="list">
+                    <li>Fixed a major bug where level-up stats (max hp, str/int/agl, damage, movespeed) did not benefit
+                        from %increased/%more modifiers</li>
+                    <li>Fixed a major bug that prevented me from making significant changes to the Skill Board... oops!
+                    </li>
+                    <li>Psuedo-fixed a bug where Slow and Steady would permanently set your Evasion Score to 0, you can
+                        now reverse it, but it requires a respec + reload</li>
+                    <li>Decreased the overall download size of the game... speedier loads!</li>
+                    <li>Fixed the color and size of several out-of-sorts skill board nodes</li>
+                    <li>Fixed a bug with Flurry not properly applying the attack speed bonus to future uses of... Flurry
+                    </li>
+                    <li>Fixed a bug where stats could appear with so many decimals places -- super annoying!</li>
+                    <li>[v0.8.2b] Fixed a bug with Apostasy applying the debuff to the user</li>
+                    <li>[v0.8.2b] Fixed a bug where Vitriolic Burn wasn't converting Poison to Ignite</li>
+                    <li>[v0.8.2b] Fixed a bug where Ignite was doing 60% less damage than intended</li>
+                </ul>
+                <hr>
+                <h3>Beta Patch Notes - v0.8.1</h3> <span class="patch-notes-enhancements">Enhancements:</span>
+                <ul class="list">
+                    <li>Added a "Furthest screen" for your character across all runs</li>
+                </ul> <span class="patch-notes-skill-board-balance">Skill Board Balance:</span>
+                <ul class="list">
+                    <li>Glass Rain keystone has been reworked to be the Berserker keystone</li>
+                    <li>Destroyer of Worlds and Agility of the Creator are now marked as <b>BUGGED</b> and should not be
+                        used :(</li>
+                    <li>Added an extra skill point at screen 12</li>
+                </ul> <span class="patch-notes-ability-balance">Ability Balance:</span>
+                <ul class="list">
+                    <li>New ability: Equalizer</li>
+                    <li>Mark of Justice has received an overhaul, and is now a spiritual spell with a 5s CD that costs 3
+                        supernatural and deals 200% damage</li>
+                    <li>Poison damage greatly buffed due to damage rounding changes (see below)</li>
+                    <li>Ignite damage greatly buffed due to damage rounding changes (see below)</li>
+                    <li>Forest Fire: Now has the 'magical' tag</li>
+                    <li>Flaming Rush: Damage increased from 80 -> 100</li>
+                    <li>Ice Pillar: Now has a 4s CD</li>
+                    <li>Calm Focus, Enrage, and Meditation now properly have tags, and are spiritual spells</li>
+                    <li>Umbral Fortify is now a SPELL, not an ATTACK</li>
+                    <li>Cougar Strike: Cooldown increased from 3s -> 4s, damage reduced from 150 -> 120</li>
+                    <li>Flame Burst: Damage decreased from 150 -> 140</li>
+                    <li>Slice: Damage reduced from 120 -> 110</li>
+                    <li>Rising Flames: Damage reduced from 30 -> 20</li>
+                    <li>Forest Fire: Damage reduced from 140 -> 120</li>
+                    <li>Slice: Damage reduced from 120 -> 110</li>
+                    <li>Terra Coola: Now properly DECREASES movement speed instead of increasing it</li>
+                </ul> <span class="patch-notes-other-balance">Other Balance:</span>
+                <ul class="list">
+                    <li>Damage is no longer floored (truncating the decimal off the number), but is now randomly rounded
+                        up or down, based on the decimal value (1.75 damage = 75% chance to be 2 damage, 25% chance to
+                        be 1 damage). This is a massive buff to duration builds and low % damage abilities.</li>
+                    <li>ALL ENEMY DAMAGE at higher levels has been scaled down slightly</li>
+                    <li>Fire Elemental in the Grasslands biome was nerfed, he was simply too spooky</li>
+                    <li>Crazed Butcher is mildly less crazed, but still does CHUNKY damage</li>
+                </ul> <span class="patch-notes-bugfixes">Bugfixes:</span>
+                <ul class="list">
+                    <li>Fixed two memory leaks</li>
+                    <li>Greatly increased the FPS performance of high-attack-speed builds</li>
+                    <li>Greatly increased the FPS performance of most machines</li>
+                    <li>Psuedo-fixed a bug where Destroyer of Worlds would permanently set your Create Damage to 0, you
+                        can now reverse it, but it requires a respec + reload</li>
+                    <li>Added orb counts to ability cards, next to the icons</li>
+                    <li>The Quiddity Shop is easier to read. And teal!</li>
+                    <li>The MOTD pop-up (this) now displays in the correct spot on mobile, and can be closed</li>
+                    <li>Fixed a bug (hopefully) where the stat panel for exp/level would show incorrect/invalid values
+                    </li>
+                    <li>Fixed a bug where shop offers could appear over top of tooltips</li>
+                </ul>
+                <hr>
+                <h3>Beta Patch Notes - v0.8.0b</h3> <span class="patch-notes-enhancements">Enhancements:</span>
+                <ul class="list">
+                    <li>Added a "Total time" for your character across all runs</li>
+                    <li>Added attack and spell damage dealt, and damage received, as separate counters. This should make
+                        it easier to build defense/resists in the appropriate biomes</li>
+                </ul> <span class="patch-notes-ability-balance">Ability Balance:</span>
+                <ul class="list">
+                    <li>Flamethrower: Damage reduced from 240 -> 200</li>
+                    <li>Regrowth: Damage reduced from 150 -> 60</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="/main.019cfb63.js" type="text/javascript"></script>
+</body>
+
+</html>
