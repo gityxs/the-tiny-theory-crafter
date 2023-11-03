@@ -1,0 +1,3296 @@
+{"frames": {
+
+"oryx_16bit_fantasy_creatures_01.png":
+{
+	"frame": {"x":0,"y":0,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_02.png":
+{
+	"frame": {"x":24,"y":0,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_03.png":
+{
+	"frame": {"x":48,"y":0,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_04.png":
+{
+	"frame": {"x":72,"y":0,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_05.png":
+{
+	"frame": {"x":96,"y":0,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_06.png":
+{
+	"frame": {"x":120,"y":0,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_07.png":
+{
+	"frame": {"x":144,"y":0,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_08.png":
+{
+	"frame": {"x":168,"y":0,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_09.png":
+{
+	"frame": {"x":192,"y":0,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_10.png":
+{
+	"frame": {"x":216,"y":0,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_11.png":
+{
+	"frame": {"x":0,"y":24,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_12.png":
+{
+	"frame": {"x":24,"y":24,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_13.png":
+{
+	"frame": {"x":48,"y":24,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_14.png":
+{
+	"frame": {"x":72,"y":24,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_15.png":
+{
+	"frame": {"x":96,"y":24,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_16.png":
+{
+	"frame": {"x":120,"y":24,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_17.png":
+{
+	"frame": {"x":144,"y":24,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_18.png":
+{
+	"frame": {"x":168,"y":24,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_19.png":
+{
+	"frame": {"x":192,"y":24,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_20.png":
+{
+	"frame": {"x":216,"y":24,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_21.png":
+{
+	"frame": {"x":0,"y":48,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_22.png":
+{
+	"frame": {"x":24,"y":48,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_23.png":
+{
+	"frame": {"x":48,"y":48,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_24.png":
+{
+	"frame": {"x":72,"y":48,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_25.png":
+{
+	"frame": {"x":96,"y":48,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_26.png":
+{
+	"frame": {"x":120,"y":48,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_27.png":
+{
+	"frame": {"x":144,"y":48,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_28.png":
+{
+	"frame": {"x":168,"y":48,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_29.png":
+{
+	"frame": {"x":192,"y":48,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_30.png":
+{
+	"frame": {"x":216,"y":48,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_31.png":
+{
+	"frame": {"x":0,"y":72,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_32.png":
+{
+	"frame": {"x":24,"y":72,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_33.png":
+{
+	"frame": {"x":48,"y":72,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_34.png":
+{
+	"frame": {"x":72,"y":72,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_35.png":
+{
+	"frame": {"x":96,"y":72,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_36.png":
+{
+	"frame": {"x":120,"y":72,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_37.png":
+{
+	"frame": {"x":144,"y":72,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_38.png":
+{
+	"frame": {"x":168,"y":72,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_39.png":
+{
+	"frame": {"x":192,"y":72,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_40.png":
+{
+	"frame": {"x":216,"y":72,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_41.png":
+{
+	"frame": {"x":0,"y":96,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_42.png":
+{
+	"frame": {"x":24,"y":96,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_43.png":
+{
+	"frame": {"x":48,"y":96,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_44.png":
+{
+	"frame": {"x":72,"y":96,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_45.png":
+{
+	"frame": {"x":96,"y":96,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_46.png":
+{
+	"frame": {"x":120,"y":96,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_47.png":
+{
+	"frame": {"x":144,"y":96,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_48.png":
+{
+	"frame": {"x":168,"y":96,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_49.png":
+{
+	"frame": {"x":192,"y":96,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_50.png":
+{
+	"frame": {"x":216,"y":96,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_51.png":
+{
+	"frame": {"x":0,"y":120,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_52.png":
+{
+	"frame": {"x":24,"y":120,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_53.png":
+{
+	"frame": {"x":48,"y":120,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_54.png":
+{
+	"frame": {"x":72,"y":120,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_55.png":
+{
+	"frame": {"x":96,"y":120,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_56.png":
+{
+	"frame": {"x":120,"y":120,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_57.png":
+{
+	"frame": {"x":144,"y":120,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_58.png":
+{
+	"frame": {"x":168,"y":120,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_59.png":
+{
+	"frame": {"x":192,"y":120,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_60.png":
+{
+	"frame": {"x":216,"y":120,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_61.png":
+{
+	"frame": {"x":0,"y":144,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_62.png":
+{
+	"frame": {"x":24,"y":144,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_63.png":
+{
+	"frame": {"x":48,"y":144,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_64.png":
+{
+	"frame": {"x":72,"y":144,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_65.png":
+{
+	"frame": {"x":96,"y":144,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_66.png":
+{
+	"frame": {"x":120,"y":144,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_67.png":
+{
+	"frame": {"x":144,"y":144,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_68.png":
+{
+	"frame": {"x":168,"y":144,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_69.png":
+{
+	"frame": {"x":192,"y":144,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_70.png":
+{
+	"frame": {"x":216,"y":144,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_71.png":
+{
+	"frame": {"x":0,"y":168,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_72.png":
+{
+	"frame": {"x":24,"y":168,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_73.png":
+{
+	"frame": {"x":48,"y":168,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_74.png":
+{
+	"frame": {"x":72,"y":168,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_75.png":
+{
+	"frame": {"x":96,"y":168,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_76.png":
+{
+	"frame": {"x":120,"y":168,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_77.png":
+{
+	"frame": {"x":144,"y":168,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_78.png":
+{
+	"frame": {"x":168,"y":168,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_79.png":
+{
+	"frame": {"x":192,"y":168,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_80.png":
+{
+	"frame": {"x":216,"y":168,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_81.png":
+{
+	"frame": {"x":0,"y":192,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_82.png":
+{
+	"frame": {"x":24,"y":192,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_83.png":
+{
+	"frame": {"x":48,"y":192,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_84.png":
+{
+	"frame": {"x":72,"y":192,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_85.png":
+{
+	"frame": {"x":96,"y":192,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_86.png":
+{
+	"frame": {"x":120,"y":192,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_87.png":
+{
+	"frame": {"x":144,"y":192,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_88.png":
+{
+	"frame": {"x":168,"y":192,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_89.png":
+{
+	"frame": {"x":192,"y":192,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_90.png":
+{
+	"frame": {"x":216,"y":192,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_91.png":
+{
+	"frame": {"x":0,"y":216,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_92.png":
+{
+	"frame": {"x":24,"y":216,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_93.png":
+{
+	"frame": {"x":48,"y":216,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_94.png":
+{
+	"frame": {"x":72,"y":216,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_95.png":
+{
+	"frame": {"x":96,"y":216,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_96.png":
+{
+	"frame": {"x":120,"y":216,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_97.png":
+{
+	"frame": {"x":144,"y":216,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_98.png":
+{
+	"frame": {"x":168,"y":216,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_99.png":
+{
+	"frame": {"x":192,"y":216,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_100.png":
+{
+	"frame": {"x":216,"y":216,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_101.png":
+{
+	"frame": {"x":0,"y":240,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_102.png":
+{
+	"frame": {"x":24,"y":240,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_103.png":
+{
+	"frame": {"x":48,"y":240,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_104.png":
+{
+	"frame": {"x":72,"y":240,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_105.png":
+{
+	"frame": {"x":96,"y":240,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_106.png":
+{
+	"frame": {"x":120,"y":240,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_107.png":
+{
+	"frame": {"x":144,"y":240,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_108.png":
+{
+	"frame": {"x":168,"y":240,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_109.png":
+{
+	"frame": {"x":192,"y":240,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_110.png":
+{
+	"frame": {"x":216,"y":240,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_111.png":
+{
+	"frame": {"x":0,"y":264,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_112.png":
+{
+	"frame": {"x":24,"y":264,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_113.png":
+{
+	"frame": {"x":48,"y":264,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_114.png":
+{
+	"frame": {"x":72,"y":264,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_115.png":
+{
+	"frame": {"x":96,"y":264,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_116.png":
+{
+	"frame": {"x":120,"y":264,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_117.png":
+{
+	"frame": {"x":144,"y":264,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_118.png":
+{
+	"frame": {"x":168,"y":264,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_119.png":
+{
+	"frame": {"x":192,"y":264,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_120.png":
+{
+	"frame": {"x":216,"y":264,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_121.png":
+{
+	"frame": {"x":0,"y":288,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_122.png":
+{
+	"frame": {"x":24,"y":288,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_123.png":
+{
+	"frame": {"x":48,"y":288,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_124.png":
+{
+	"frame": {"x":72,"y":288,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_125.png":
+{
+	"frame": {"x":96,"y":288,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_126.png":
+{
+	"frame": {"x":120,"y":288,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_127.png":
+{
+	"frame": {"x":144,"y":288,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_128.png":
+{
+	"frame": {"x":168,"y":288,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_129.png":
+{
+	"frame": {"x":192,"y":288,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_130.png":
+{
+	"frame": {"x":216,"y":288,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_131.png":
+{
+	"frame": {"x":0,"y":312,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_132.png":
+{
+	"frame": {"x":24,"y":312,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_133.png":
+{
+	"frame": {"x":48,"y":312,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_134.png":
+{
+	"frame": {"x":72,"y":312,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_135.png":
+{
+	"frame": {"x":96,"y":312,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_136.png":
+{
+	"frame": {"x":120,"y":312,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_137.png":
+{
+	"frame": {"x":144,"y":312,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_138.png":
+{
+	"frame": {"x":168,"y":312,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_139.png":
+{
+	"frame": {"x":192,"y":312,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_140.png":
+{
+	"frame": {"x":216,"y":312,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_141.png":
+{
+	"frame": {"x":0,"y":336,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_142.png":
+{
+	"frame": {"x":24,"y":336,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_143.png":
+{
+	"frame": {"x":48,"y":336,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_144.png":
+{
+	"frame": {"x":72,"y":336,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_145.png":
+{
+	"frame": {"x":96,"y":336,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_146.png":
+{
+	"frame": {"x":120,"y":336,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_147.png":
+{
+	"frame": {"x":144,"y":336,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_148.png":
+{
+	"frame": {"x":168,"y":336,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_149.png":
+{
+	"frame": {"x":192,"y":336,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_150.png":
+{
+	"frame": {"x":216,"y":336,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_151.png":
+{
+	"frame": {"x":0,"y":360,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_152.png":
+{
+	"frame": {"x":24,"y":360,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_153.png":
+{
+	"frame": {"x":48,"y":360,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_154.png":
+{
+	"frame": {"x":72,"y":360,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_155.png":
+{
+	"frame": {"x":96,"y":360,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_156.png":
+{
+	"frame": {"x":120,"y":360,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_157.png":
+{
+	"frame": {"x":144,"y":360,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_158.png":
+{
+	"frame": {"x":168,"y":360,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_159.png":
+{
+	"frame": {"x":192,"y":360,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_160.png":
+{
+	"frame": {"x":216,"y":360,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_161.png":
+{
+	"frame": {"x":0,"y":384,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_162.png":
+{
+	"frame": {"x":24,"y":384,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_163.png":
+{
+	"frame": {"x":48,"y":384,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_164.png":
+{
+	"frame": {"x":72,"y":384,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_165.png":
+{
+	"frame": {"x":96,"y":384,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_166.png":
+{
+	"frame": {"x":120,"y":384,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_167.png":
+{
+	"frame": {"x":144,"y":384,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_168.png":
+{
+	"frame": {"x":168,"y":384,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_169.png":
+{
+	"frame": {"x":192,"y":384,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_170.png":
+{
+	"frame": {"x":216,"y":384,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_171.png":
+{
+	"frame": {"x":0,"y":408,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_172.png":
+{
+	"frame": {"x":24,"y":408,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_173.png":
+{
+	"frame": {"x":48,"y":408,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_174.png":
+{
+	"frame": {"x":72,"y":408,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_175.png":
+{
+	"frame": {"x":96,"y":408,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_176.png":
+{
+	"frame": {"x":120,"y":408,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_177.png":
+{
+	"frame": {"x":144,"y":408,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_178.png":
+{
+	"frame": {"x":168,"y":408,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_179.png":
+{
+	"frame": {"x":192,"y":408,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_180.png":
+{
+	"frame": {"x":216,"y":408,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_181.png":
+{
+	"frame": {"x":0,"y":432,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_182.png":
+{
+	"frame": {"x":24,"y":432,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_183.png":
+{
+	"frame": {"x":48,"y":432,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_184.png":
+{
+	"frame": {"x":72,"y":432,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_185.png":
+{
+	"frame": {"x":96,"y":432,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_186.png":
+{
+	"frame": {"x":120,"y":432,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_187.png":
+{
+	"frame": {"x":144,"y":432,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_188.png":
+{
+	"frame": {"x":168,"y":432,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_189.png":
+{
+	"frame": {"x":192,"y":432,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_190.png":
+{
+	"frame": {"x":216,"y":432,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_191.png":
+{
+	"frame": {"x":0,"y":456,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_192.png":
+{
+	"frame": {"x":24,"y":456,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_193.png":
+{
+	"frame": {"x":48,"y":456,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_194.png":
+{
+	"frame": {"x":72,"y":456,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_195.png":
+{
+	"frame": {"x":96,"y":456,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_196.png":
+{
+	"frame": {"x":120,"y":456,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_197.png":
+{
+	"frame": {"x":144,"y":456,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_198.png":
+{
+	"frame": {"x":168,"y":456,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_199.png":
+{
+	"frame": {"x":192,"y":456,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_200.png":
+{
+	"frame": {"x":216,"y":456,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_201.png":
+{
+	"frame": {"x":0,"y":480,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_202.png":
+{
+	"frame": {"x":24,"y":480,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_203.png":
+{
+	"frame": {"x":48,"y":480,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_204.png":
+{
+	"frame": {"x":72,"y":480,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_205.png":
+{
+	"frame": {"x":96,"y":480,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_206.png":
+{
+	"frame": {"x":120,"y":480,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_207.png":
+{
+	"frame": {"x":144,"y":480,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_208.png":
+{
+	"frame": {"x":168,"y":480,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_209.png":
+{
+	"frame": {"x":192,"y":480,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_210.png":
+{
+	"frame": {"x":216,"y":480,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_211.png":
+{
+	"frame": {"x":0,"y":504,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_212.png":
+{
+	"frame": {"x":24,"y":504,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_213.png":
+{
+	"frame": {"x":48,"y":504,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_214.png":
+{
+	"frame": {"x":72,"y":504,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_215.png":
+{
+	"frame": {"x":96,"y":504,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_216.png":
+{
+	"frame": {"x":120,"y":504,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_217.png":
+{
+	"frame": {"x":144,"y":504,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_218.png":
+{
+	"frame": {"x":168,"y":504,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_219.png":
+{
+	"frame": {"x":192,"y":504,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_220.png":
+{
+	"frame": {"x":216,"y":504,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_221.png":
+{
+	"frame": {"x":0,"y":528,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_222.png":
+{
+	"frame": {"x":24,"y":528,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_223.png":
+{
+	"frame": {"x":48,"y":528,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_224.png":
+{
+	"frame": {"x":72,"y":528,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_225.png":
+{
+	"frame": {"x":96,"y":528,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_226.png":
+{
+	"frame": {"x":120,"y":528,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_227.png":
+{
+	"frame": {"x":144,"y":528,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_228.png":
+{
+	"frame": {"x":168,"y":528,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_229.png":
+{
+	"frame": {"x":192,"y":528,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_230.png":
+{
+	"frame": {"x":216,"y":528,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_231.png":
+{
+	"frame": {"x":0,"y":552,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_232.png":
+{
+	"frame": {"x":24,"y":552,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_233.png":
+{
+	"frame": {"x":48,"y":552,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_234.png":
+{
+	"frame": {"x":72,"y":552,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_235.png":
+{
+	"frame": {"x":96,"y":552,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_236.png":
+{
+	"frame": {"x":120,"y":552,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_237.png":
+{
+	"frame": {"x":144,"y":552,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_238.png":
+{
+	"frame": {"x":168,"y":552,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_239.png":
+{
+	"frame": {"x":192,"y":552,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_240.png":
+{
+	"frame": {"x":216,"y":552,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_241.png":
+{
+	"frame": {"x":0,"y":576,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_242.png":
+{
+	"frame": {"x":24,"y":576,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_243.png":
+{
+	"frame": {"x":48,"y":576,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_244.png":
+{
+	"frame": {"x":72,"y":576,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_245.png":
+{
+	"frame": {"x":96,"y":576,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_246.png":
+{
+	"frame": {"x":120,"y":576,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_247.png":
+{
+	"frame": {"x":144,"y":576,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_248.png":
+{
+	"frame": {"x":168,"y":576,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_249.png":
+{
+	"frame": {"x":192,"y":576,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_250.png":
+{
+	"frame": {"x":216,"y":576,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_251.png":
+{
+	"frame": {"x":0,"y":600,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_252.png":
+{
+	"frame": {"x":24,"y":600,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_253.png":
+{
+	"frame": {"x":48,"y":600,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_254.png":
+{
+	"frame": {"x":72,"y":600,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_255.png":
+{
+	"frame": {"x":96,"y":600,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_256.png":
+{
+	"frame": {"x":120,"y":600,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_257.png":
+{
+	"frame": {"x":144,"y":600,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_258.png":
+{
+	"frame": {"x":168,"y":600,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_259.png":
+{
+	"frame": {"x":192,"y":600,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_260.png":
+{
+	"frame": {"x":216,"y":600,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_261.png":
+{
+	"frame": {"x":0,"y":624,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_262.png":
+{
+	"frame": {"x":24,"y":624,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_263.png":
+{
+	"frame": {"x":48,"y":624,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_264.png":
+{
+	"frame": {"x":72,"y":624,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_265.png":
+{
+	"frame": {"x":96,"y":624,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_266.png":
+{
+	"frame": {"x":120,"y":624,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_267.png":
+{
+	"frame": {"x":144,"y":624,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_268.png":
+{
+	"frame": {"x":168,"y":624,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_269.png":
+{
+	"frame": {"x":192,"y":624,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_270.png":
+{
+	"frame": {"x":216,"y":624,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_271.png":
+{
+	"frame": {"x":0,"y":648,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_272.png":
+{
+	"frame": {"x":24,"y":648,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_273.png":
+{
+	"frame": {"x":48,"y":648,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_274.png":
+{
+	"frame": {"x":72,"y":648,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_275.png":
+{
+	"frame": {"x":96,"y":648,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_276.png":
+{
+	"frame": {"x":120,"y":648,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_277.png":
+{
+	"frame": {"x":144,"y":648,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_278.png":
+{
+	"frame": {"x":168,"y":648,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_279.png":
+{
+	"frame": {"x":192,"y":648,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_280.png":
+{
+	"frame": {"x":216,"y":648,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_281.png":
+{
+	"frame": {"x":0,"y":672,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_282.png":
+{
+	"frame": {"x":24,"y":672,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_283.png":
+{
+	"frame": {"x":48,"y":672,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_284.png":
+{
+	"frame": {"x":72,"y":672,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_285.png":
+{
+	"frame": {"x":96,"y":672,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_286.png":
+{
+	"frame": {"x":120,"y":672,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_287.png":
+{
+	"frame": {"x":144,"y":672,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_288.png":
+{
+	"frame": {"x":168,"y":672,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_289.png":
+{
+	"frame": {"x":192,"y":672,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_290.png":
+{
+	"frame": {"x":216,"y":672,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_291.png":
+{
+	"frame": {"x":0,"y":696,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_292.png":
+{
+	"frame": {"x":24,"y":696,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_293.png":
+{
+	"frame": {"x":48,"y":696,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_294.png":
+{
+	"frame": {"x":72,"y":696,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_295.png":
+{
+	"frame": {"x":96,"y":696,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_296.png":
+{
+	"frame": {"x":120,"y":696,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_297.png":
+{
+	"frame": {"x":144,"y":696,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_298.png":
+{
+	"frame": {"x":168,"y":696,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_299.png":
+{
+	"frame": {"x":192,"y":696,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_300.png":
+{
+	"frame": {"x":216,"y":696,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_301.png":
+{
+	"frame": {"x":0,"y":720,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_302.png":
+{
+	"frame": {"x":24,"y":720,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_303.png":
+{
+	"frame": {"x":48,"y":720,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_304.png":
+{
+	"frame": {"x":72,"y":720,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_305.png":
+{
+	"frame": {"x":96,"y":720,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_306.png":
+{
+	"frame": {"x":120,"y":720,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_307.png":
+{
+	"frame": {"x":144,"y":720,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_308.png":
+{
+	"frame": {"x":168,"y":720,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_309.png":
+{
+	"frame": {"x":192,"y":720,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_310.png":
+{
+	"frame": {"x":216,"y":720,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_311.png":
+{
+	"frame": {"x":0,"y":744,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_312.png":
+{
+	"frame": {"x":24,"y":744,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_313.png":
+{
+	"frame": {"x":48,"y":744,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_314.png":
+{
+	"frame": {"x":72,"y":744,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_315.png":
+{
+	"frame": {"x":96,"y":744,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_316.png":
+{
+	"frame": {"x":120,"y":744,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_317.png":
+{
+	"frame": {"x":144,"y":744,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_318.png":
+{
+	"frame": {"x":168,"y":744,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_319.png":
+{
+	"frame": {"x":192,"y":744,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_320.png":
+{
+	"frame": {"x":216,"y":744,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_321.png":
+{
+	"frame": {"x":0,"y":768,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_322.png":
+{
+	"frame": {"x":24,"y":768,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_323.png":
+{
+	"frame": {"x":48,"y":768,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_324.png":
+{
+	"frame": {"x":72,"y":768,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_325.png":
+{
+	"frame": {"x":96,"y":768,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_326.png":
+{
+	"frame": {"x":120,"y":768,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_327.png":
+{
+	"frame": {"x":144,"y":768,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_328.png":
+{
+	"frame": {"x":168,"y":768,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_329.png":
+{
+	"frame": {"x":192,"y":768,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_330.png":
+{
+	"frame": {"x":216,"y":768,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_331.png":
+{
+	"frame": {"x":0,"y":792,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_332.png":
+{
+	"frame": {"x":24,"y":792,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_333.png":
+{
+	"frame": {"x":48,"y":792,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_334.png":
+{
+	"frame": {"x":72,"y":792,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_335.png":
+{
+	"frame": {"x":96,"y":792,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_336.png":
+{
+	"frame": {"x":120,"y":792,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_337.png":
+{
+	"frame": {"x":144,"y":792,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_338.png":
+{
+	"frame": {"x":168,"y":792,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_339.png":
+{
+	"frame": {"x":192,"y":792,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_340.png":
+{
+	"frame": {"x":216,"y":792,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_341.png":
+{
+	"frame": {"x":0,"y":816,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_342.png":
+{
+	"frame": {"x":24,"y":816,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_343.png":
+{
+	"frame": {"x":48,"y":816,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_344.png":
+{
+	"frame": {"x":72,"y":816,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_345.png":
+{
+	"frame": {"x":96,"y":816,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_346.png":
+{
+	"frame": {"x":120,"y":816,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_347.png":
+{
+	"frame": {"x":144,"y":816,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_348.png":
+{
+	"frame": {"x":168,"y":816,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_349.png":
+{
+	"frame": {"x":192,"y":816,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_350.png":
+{
+	"frame": {"x":216,"y":816,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_351.png":
+{
+	"frame": {"x":0,"y":840,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_352.png":
+{
+	"frame": {"x":24,"y":840,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_353.png":
+{
+	"frame": {"x":48,"y":840,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_354.png":
+{
+	"frame": {"x":72,"y":840,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_355.png":
+{
+	"frame": {"x":96,"y":840,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_356.png":
+{
+	"frame": {"x":120,"y":840,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_357.png":
+{
+	"frame": {"x":144,"y":840,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_358.png":
+{
+	"frame": {"x":168,"y":840,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_359.png":
+{
+	"frame": {"x":192,"y":840,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_360.png":
+{
+	"frame": {"x":216,"y":840,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_361.png":
+{
+	"frame": {"x":0,"y":864,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_362.png":
+{
+	"frame": {"x":24,"y":864,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_363.png":
+{
+	"frame": {"x":48,"y":864,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_364.png":
+{
+	"frame": {"x":72,"y":864,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_365.png":
+{
+	"frame": {"x":96,"y":864,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_366.png":
+{
+	"frame": {"x":120,"y":864,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_367.png":
+{
+	"frame": {"x":144,"y":864,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_368.png":
+{
+	"frame": {"x":168,"y":864,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_369.png":
+{
+	"frame": {"x":192,"y":864,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_370.png":
+{
+	"frame": {"x":216,"y":864,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_371.png":
+{
+	"frame": {"x":0,"y":888,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_372.png":
+{
+	"frame": {"x":24,"y":888,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_373.png":
+{
+	"frame": {"x":48,"y":888,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_374.png":
+{
+	"frame": {"x":72,"y":888,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_375.png":
+{
+	"frame": {"x":96,"y":888,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_376.png":
+{
+	"frame": {"x":120,"y":888,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_377.png":
+{
+	"frame": {"x":144,"y":888,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_378.png":
+{
+	"frame": {"x":168,"y":888,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_379.png":
+{
+	"frame": {"x":192,"y":888,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_380.png":
+{
+	"frame": {"x":216,"y":888,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_381.png":
+{
+	"frame": {"x":0,"y":912,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_382.png":
+{
+	"frame": {"x":24,"y":912,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_383.png":
+{
+	"frame": {"x":48,"y":912,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_384.png":
+{
+	"frame": {"x":72,"y":912,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_385.png":
+{
+	"frame": {"x":96,"y":912,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_386.png":
+{
+	"frame": {"x":120,"y":912,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_387.png":
+{
+	"frame": {"x":144,"y":912,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_388.png":
+{
+	"frame": {"x":168,"y":912,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_389.png":
+{
+	"frame": {"x":192,"y":912,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_390.png":
+{
+	"frame": {"x":216,"y":912,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_391.png":
+{
+	"frame": {"x":0,"y":936,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_392.png":
+{
+	"frame": {"x":24,"y":936,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_393.png":
+{
+	"frame": {"x":48,"y":936,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_394.png":
+{
+	"frame": {"x":72,"y":936,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_395.png":
+{
+	"frame": {"x":96,"y":936,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_396.png":
+{
+	"frame": {"x":120,"y":936,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"oryx_16bit_fantasy_creatures_397.png":
+{
+	"frame": {"x":144,"y":936,"w":27,"h":25},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":27,"h":25},
+	"sourceSize": {"w":27,"h":25}
+},
+"player_death_animation_1.png":
+{
+	"frame": {"x":171,"y":936,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"player_death_animation_2.png":
+{
+	"frame": {"x":195,"y":936,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"player_death_animation_3.png":
+{
+	"frame": {"x":219,"y":936,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"player_death_animation_4.png":
+{
+	"frame": {"x":0,"y":961,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"player_death_animation_5.png":
+{
+	"frame": {"x":24,"y":961,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"player_death_animation_6.png":
+{
+	"frame": {"x":48,"y":961,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"player_death_animation_7.png":
+{
+	"frame": {"x":72,"y":961,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"player_death_animation_8.png":
+{
+	"frame": {"x":96,"y":961,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"player_death_animation_9.png":
+{
+	"frame": {"x":120,"y":961,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"player_death_animation_10.png":
+{
+	"frame": {"x":144,"y":961,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"player_death_animation_11.png":
+{
+	"frame": {"x":168,"y":961,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"player_death_animation_12.png":
+{
+	"frame": {"x":192,"y":961,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+},
+"player_death_animation_13.png":
+{
+	"frame": {"x":216,"y":961,"w":24,"h":24},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":24,"h":24},
+	"sourceSize": {"w":24,"h":24}
+}},
+"animations": {
+	"oryx_16bit_fantasy_creatures": ["oryx_16bit_fantasy_creatures_01.png","oryx_16bit_fantasy_creatures_02.png","oryx_16bit_fantasy_creatures_03.png","oryx_16bit_fantasy_creatures_04.png","oryx_16bit_fantasy_creatures_05.png","oryx_16bit_fantasy_creatures_06.png","oryx_16bit_fantasy_creatures_07.png","oryx_16bit_fantasy_creatures_08.png","oryx_16bit_fantasy_creatures_09.png","oryx_16bit_fantasy_creatures_10.png","oryx_16bit_fantasy_creatures_11.png","oryx_16bit_fantasy_creatures_12.png","oryx_16bit_fantasy_creatures_13.png","oryx_16bit_fantasy_creatures_14.png","oryx_16bit_fantasy_creatures_15.png","oryx_16bit_fantasy_creatures_16.png","oryx_16bit_fantasy_creatures_17.png","oryx_16bit_fantasy_creatures_18.png","oryx_16bit_fantasy_creatures_19.png","oryx_16bit_fantasy_creatures_20.png","oryx_16bit_fantasy_creatures_21.png","oryx_16bit_fantasy_creatures_22.png","oryx_16bit_fantasy_creatures_23.png","oryx_16bit_fantasy_creatures_24.png","oryx_16bit_fantasy_creatures_25.png","oryx_16bit_fantasy_creatures_26.png","oryx_16bit_fantasy_creatures_27.png","oryx_16bit_fantasy_creatures_28.png","oryx_16bit_fantasy_creatures_29.png","oryx_16bit_fantasy_creatures_30.png","oryx_16bit_fantasy_creatures_31.png","oryx_16bit_fantasy_creatures_32.png","oryx_16bit_fantasy_creatures_33.png","oryx_16bit_fantasy_creatures_34.png","oryx_16bit_fantasy_creatures_35.png","oryx_16bit_fantasy_creatures_36.png","oryx_16bit_fantasy_creatures_37.png","oryx_16bit_fantasy_creatures_38.png","oryx_16bit_fantasy_creatures_39.png","oryx_16bit_fantasy_creatures_40.png","oryx_16bit_fantasy_creatures_41.png","oryx_16bit_fantasy_creatures_42.png","oryx_16bit_fantasy_creatures_43.png","oryx_16bit_fantasy_creatures_44.png","oryx_16bit_fantasy_creatures_45.png","oryx_16bit_fantasy_creatures_46.png","oryx_16bit_fantasy_creatures_47.png","oryx_16bit_fantasy_creatures_48.png","oryx_16bit_fantasy_creatures_49.png","oryx_16bit_fantasy_creatures_50.png","oryx_16bit_fantasy_creatures_51.png","oryx_16bit_fantasy_creatures_52.png","oryx_16bit_fantasy_creatures_53.png","oryx_16bit_fantasy_creatures_54.png","oryx_16bit_fantasy_creatures_55.png","oryx_16bit_fantasy_creatures_56.png","oryx_16bit_fantasy_creatures_57.png","oryx_16bit_fantasy_creatures_58.png","oryx_16bit_fantasy_creatures_59.png","oryx_16bit_fantasy_creatures_60.png","oryx_16bit_fantasy_creatures_61.png","oryx_16bit_fantasy_creatures_62.png","oryx_16bit_fantasy_creatures_63.png","oryx_16bit_fantasy_creatures_64.png","oryx_16bit_fantasy_creatures_65.png","oryx_16bit_fantasy_creatures_66.png","oryx_16bit_fantasy_creatures_67.png","oryx_16bit_fantasy_creatures_68.png","oryx_16bit_fantasy_creatures_69.png","oryx_16bit_fantasy_creatures_70.png","oryx_16bit_fantasy_creatures_71.png","oryx_16bit_fantasy_creatures_72.png","oryx_16bit_fantasy_creatures_73.png","oryx_16bit_fantasy_creatures_74.png","oryx_16bit_fantasy_creatures_75.png","oryx_16bit_fantasy_creatures_76.png","oryx_16bit_fantasy_creatures_77.png","oryx_16bit_fantasy_creatures_78.png","oryx_16bit_fantasy_creatures_79.png","oryx_16bit_fantasy_creatures_80.png","oryx_16bit_fantasy_creatures_81.png","oryx_16bit_fantasy_creatures_82.png","oryx_16bit_fantasy_creatures_83.png","oryx_16bit_fantasy_creatures_84.png","oryx_16bit_fantasy_creatures_85.png","oryx_16bit_fantasy_creatures_86.png","oryx_16bit_fantasy_creatures_87.png","oryx_16bit_fantasy_creatures_88.png","oryx_16bit_fantasy_creatures_89.png","oryx_16bit_fantasy_creatures_90.png","oryx_16bit_fantasy_creatures_91.png","oryx_16bit_fantasy_creatures_92.png","oryx_16bit_fantasy_creatures_93.png","oryx_16bit_fantasy_creatures_94.png","oryx_16bit_fantasy_creatures_95.png","oryx_16bit_fantasy_creatures_96.png","oryx_16bit_fantasy_creatures_97.png","oryx_16bit_fantasy_creatures_98.png","oryx_16bit_fantasy_creatures_99.png","oryx_16bit_fantasy_creatures_100.png","oryx_16bit_fantasy_creatures_101.png","oryx_16bit_fantasy_creatures_102.png","oryx_16bit_fantasy_creatures_103.png","oryx_16bit_fantasy_creatures_104.png","oryx_16bit_fantasy_creatures_105.png","oryx_16bit_fantasy_creatures_106.png","oryx_16bit_fantasy_creatures_107.png","oryx_16bit_fantasy_creatures_108.png","oryx_16bit_fantasy_creatures_109.png","oryx_16bit_fantasy_creatures_110.png","oryx_16bit_fantasy_creatures_111.png","oryx_16bit_fantasy_creatures_112.png","oryx_16bit_fantasy_creatures_113.png","oryx_16bit_fantasy_creatures_114.png","oryx_16bit_fantasy_creatures_115.png","oryx_16bit_fantasy_creatures_116.png","oryx_16bit_fantasy_creatures_117.png","oryx_16bit_fantasy_creatures_118.png","oryx_16bit_fantasy_creatures_119.png","oryx_16bit_fantasy_creatures_120.png","oryx_16bit_fantasy_creatures_121.png","oryx_16bit_fantasy_creatures_122.png","oryx_16bit_fantasy_creatures_123.png","oryx_16bit_fantasy_creatures_124.png","oryx_16bit_fantasy_creatures_125.png","oryx_16bit_fantasy_creatures_126.png","oryx_16bit_fantasy_creatures_127.png","oryx_16bit_fantasy_creatures_128.png","oryx_16bit_fantasy_creatures_129.png","oryx_16bit_fantasy_creatures_130.png","oryx_16bit_fantasy_creatures_131.png","oryx_16bit_fantasy_creatures_132.png","oryx_16bit_fantasy_creatures_133.png","oryx_16bit_fantasy_creatures_134.png","oryx_16bit_fantasy_creatures_135.png","oryx_16bit_fantasy_creatures_136.png","oryx_16bit_fantasy_creatures_137.png","oryx_16bit_fantasy_creatures_138.png","oryx_16bit_fantasy_creatures_139.png","oryx_16bit_fantasy_creatures_140.png","oryx_16bit_fantasy_creatures_141.png","oryx_16bit_fantasy_creatures_142.png","oryx_16bit_fantasy_creatures_143.png","oryx_16bit_fantasy_creatures_144.png","oryx_16bit_fantasy_creatures_145.png","oryx_16bit_fantasy_creatures_146.png","oryx_16bit_fantasy_creatures_147.png","oryx_16bit_fantasy_creatures_148.png","oryx_16bit_fantasy_creatures_149.png","oryx_16bit_fantasy_creatures_150.png","oryx_16bit_fantasy_creatures_151.png","oryx_16bit_fantasy_creatures_152.png","oryx_16bit_fantasy_creatures_153.png","oryx_16bit_fantasy_creatures_154.png","oryx_16bit_fantasy_creatures_155.png","oryx_16bit_fantasy_creatures_156.png","oryx_16bit_fantasy_creatures_157.png","oryx_16bit_fantasy_creatures_158.png","oryx_16bit_fantasy_creatures_159.png","oryx_16bit_fantasy_creatures_160.png","oryx_16bit_fantasy_creatures_161.png","oryx_16bit_fantasy_creatures_162.png","oryx_16bit_fantasy_creatures_163.png","oryx_16bit_fantasy_creatures_164.png","oryx_16bit_fantasy_creatures_165.png","oryx_16bit_fantasy_creatures_166.png","oryx_16bit_fantasy_creatures_167.png","oryx_16bit_fantasy_creatures_168.png","oryx_16bit_fantasy_creatures_169.png","oryx_16bit_fantasy_creatures_170.png","oryx_16bit_fantasy_creatures_171.png","oryx_16bit_fantasy_creatures_172.png","oryx_16bit_fantasy_creatures_173.png","oryx_16bit_fantasy_creatures_174.png","oryx_16bit_fantasy_creatures_175.png","oryx_16bit_fantasy_creatures_176.png","oryx_16bit_fantasy_creatures_177.png","oryx_16bit_fantasy_creatures_178.png","oryx_16bit_fantasy_creatures_179.png","oryx_16bit_fantasy_creatures_180.png","oryx_16bit_fantasy_creatures_181.png","oryx_16bit_fantasy_creatures_182.png","oryx_16bit_fantasy_creatures_183.png","oryx_16bit_fantasy_creatures_184.png","oryx_16bit_fantasy_creatures_185.png","oryx_16bit_fantasy_creatures_186.png","oryx_16bit_fantasy_creatures_187.png","oryx_16bit_fantasy_creatures_188.png","oryx_16bit_fantasy_creatures_189.png","oryx_16bit_fantasy_creatures_190.png","oryx_16bit_fantasy_creatures_191.png","oryx_16bit_fantasy_creatures_192.png","oryx_16bit_fantasy_creatures_193.png","oryx_16bit_fantasy_creatures_194.png","oryx_16bit_fantasy_creatures_195.png","oryx_16bit_fantasy_creatures_196.png","oryx_16bit_fantasy_creatures_197.png","oryx_16bit_fantasy_creatures_198.png","oryx_16bit_fantasy_creatures_199.png","oryx_16bit_fantasy_creatures_200.png","oryx_16bit_fantasy_creatures_201.png","oryx_16bit_fantasy_creatures_202.png","oryx_16bit_fantasy_creatures_203.png","oryx_16bit_fantasy_creatures_204.png","oryx_16bit_fantasy_creatures_205.png","oryx_16bit_fantasy_creatures_206.png","oryx_16bit_fantasy_creatures_207.png","oryx_16bit_fantasy_creatures_208.png","oryx_16bit_fantasy_creatures_209.png","oryx_16bit_fantasy_creatures_210.png","oryx_16bit_fantasy_creatures_211.png","oryx_16bit_fantasy_creatures_212.png","oryx_16bit_fantasy_creatures_213.png","oryx_16bit_fantasy_creatures_214.png","oryx_16bit_fantasy_creatures_215.png","oryx_16bit_fantasy_creatures_216.png","oryx_16bit_fantasy_creatures_217.png","oryx_16bit_fantasy_creatures_218.png","oryx_16bit_fantasy_creatures_219.png","oryx_16bit_fantasy_creatures_220.png","oryx_16bit_fantasy_creatures_221.png","oryx_16bit_fantasy_creatures_222.png","oryx_16bit_fantasy_creatures_223.png","oryx_16bit_fantasy_creatures_224.png","oryx_16bit_fantasy_creatures_225.png","oryx_16bit_fantasy_creatures_226.png","oryx_16bit_fantasy_creatures_227.png","oryx_16bit_fantasy_creatures_228.png","oryx_16bit_fantasy_creatures_229.png","oryx_16bit_fantasy_creatures_230.png","oryx_16bit_fantasy_creatures_231.png","oryx_16bit_fantasy_creatures_232.png","oryx_16bit_fantasy_creatures_233.png","oryx_16bit_fantasy_creatures_234.png","oryx_16bit_fantasy_creatures_235.png","oryx_16bit_fantasy_creatures_236.png","oryx_16bit_fantasy_creatures_237.png","oryx_16bit_fantasy_creatures_238.png","oryx_16bit_fantasy_creatures_239.png","oryx_16bit_fantasy_creatures_240.png","oryx_16bit_fantasy_creatures_241.png","oryx_16bit_fantasy_creatures_242.png","oryx_16bit_fantasy_creatures_243.png","oryx_16bit_fantasy_creatures_244.png","oryx_16bit_fantasy_creatures_245.png","oryx_16bit_fantasy_creatures_246.png","oryx_16bit_fantasy_creatures_247.png","oryx_16bit_fantasy_creatures_248.png","oryx_16bit_fantasy_creatures_249.png","oryx_16bit_fantasy_creatures_250.png","oryx_16bit_fantasy_creatures_251.png","oryx_16bit_fantasy_creatures_252.png","oryx_16bit_fantasy_creatures_253.png","oryx_16bit_fantasy_creatures_254.png","oryx_16bit_fantasy_creatures_255.png","oryx_16bit_fantasy_creatures_256.png","oryx_16bit_fantasy_creatures_257.png","oryx_16bit_fantasy_creatures_258.png","oryx_16bit_fantasy_creatures_259.png","oryx_16bit_fantasy_creatures_260.png","oryx_16bit_fantasy_creatures_261.png","oryx_16bit_fantasy_creatures_262.png","oryx_16bit_fantasy_creatures_263.png","oryx_16bit_fantasy_creatures_264.png","oryx_16bit_fantasy_creatures_265.png","oryx_16bit_fantasy_creatures_266.png","oryx_16bit_fantasy_creatures_267.png","oryx_16bit_fantasy_creatures_268.png","oryx_16bit_fantasy_creatures_269.png","oryx_16bit_fantasy_creatures_270.png","oryx_16bit_fantasy_creatures_271.png","oryx_16bit_fantasy_creatures_272.png","oryx_16bit_fantasy_creatures_273.png","oryx_16bit_fantasy_creatures_274.png","oryx_16bit_fantasy_creatures_275.png","oryx_16bit_fantasy_creatures_276.png","oryx_16bit_fantasy_creatures_277.png","oryx_16bit_fantasy_creatures_278.png","oryx_16bit_fantasy_creatures_279.png","oryx_16bit_fantasy_creatures_280.png","oryx_16bit_fantasy_creatures_281.png","oryx_16bit_fantasy_creatures_282.png","oryx_16bit_fantasy_creatures_283.png","oryx_16bit_fantasy_creatures_284.png","oryx_16bit_fantasy_creatures_285.png","oryx_16bit_fantasy_creatures_286.png","oryx_16bit_fantasy_creatures_287.png","oryx_16bit_fantasy_creatures_288.png","oryx_16bit_fantasy_creatures_289.png","oryx_16bit_fantasy_creatures_290.png","oryx_16bit_fantasy_creatures_291.png","oryx_16bit_fantasy_creatures_292.png","oryx_16bit_fantasy_creatures_293.png","oryx_16bit_fantasy_creatures_294.png","oryx_16bit_fantasy_creatures_295.png","oryx_16bit_fantasy_creatures_296.png","oryx_16bit_fantasy_creatures_297.png","oryx_16bit_fantasy_creatures_298.png","oryx_16bit_fantasy_creatures_299.png","oryx_16bit_fantasy_creatures_300.png","oryx_16bit_fantasy_creatures_301.png","oryx_16bit_fantasy_creatures_302.png","oryx_16bit_fantasy_creatures_303.png","oryx_16bit_fantasy_creatures_304.png","oryx_16bit_fantasy_creatures_305.png","oryx_16bit_fantasy_creatures_306.png","oryx_16bit_fantasy_creatures_307.png","oryx_16bit_fantasy_creatures_308.png","oryx_16bit_fantasy_creatures_309.png","oryx_16bit_fantasy_creatures_310.png","oryx_16bit_fantasy_creatures_311.png","oryx_16bit_fantasy_creatures_312.png","oryx_16bit_fantasy_creatures_313.png","oryx_16bit_fantasy_creatures_314.png","oryx_16bit_fantasy_creatures_315.png","oryx_16bit_fantasy_creatures_316.png","oryx_16bit_fantasy_creatures_317.png","oryx_16bit_fantasy_creatures_318.png","oryx_16bit_fantasy_creatures_319.png","oryx_16bit_fantasy_creatures_320.png","oryx_16bit_fantasy_creatures_321.png","oryx_16bit_fantasy_creatures_322.png","oryx_16bit_fantasy_creatures_323.png","oryx_16bit_fantasy_creatures_324.png","oryx_16bit_fantasy_creatures_325.png","oryx_16bit_fantasy_creatures_326.png","oryx_16bit_fantasy_creatures_327.png","oryx_16bit_fantasy_creatures_328.png","oryx_16bit_fantasy_creatures_329.png","oryx_16bit_fantasy_creatures_330.png","oryx_16bit_fantasy_creatures_331.png","oryx_16bit_fantasy_creatures_332.png","oryx_16bit_fantasy_creatures_333.png","oryx_16bit_fantasy_creatures_334.png","oryx_16bit_fantasy_creatures_335.png","oryx_16bit_fantasy_creatures_336.png","oryx_16bit_fantasy_creatures_337.png","oryx_16bit_fantasy_creatures_338.png","oryx_16bit_fantasy_creatures_339.png","oryx_16bit_fantasy_creatures_340.png","oryx_16bit_fantasy_creatures_341.png","oryx_16bit_fantasy_creatures_342.png","oryx_16bit_fantasy_creatures_343.png","oryx_16bit_fantasy_creatures_344.png","oryx_16bit_fantasy_creatures_345.png","oryx_16bit_fantasy_creatures_346.png","oryx_16bit_fantasy_creatures_347.png","oryx_16bit_fantasy_creatures_348.png","oryx_16bit_fantasy_creatures_349.png","oryx_16bit_fantasy_creatures_350.png","oryx_16bit_fantasy_creatures_351.png","oryx_16bit_fantasy_creatures_352.png","oryx_16bit_fantasy_creatures_353.png","oryx_16bit_fantasy_creatures_354.png","oryx_16bit_fantasy_creatures_355.png","oryx_16bit_fantasy_creatures_356.png","oryx_16bit_fantasy_creatures_357.png","oryx_16bit_fantasy_creatures_358.png","oryx_16bit_fantasy_creatures_359.png","oryx_16bit_fantasy_creatures_360.png","oryx_16bit_fantasy_creatures_361.png","oryx_16bit_fantasy_creatures_362.png","oryx_16bit_fantasy_creatures_363.png","oryx_16bit_fantasy_creatures_364.png","oryx_16bit_fantasy_creatures_365.png","oryx_16bit_fantasy_creatures_366.png","oryx_16bit_fantasy_creatures_367.png","oryx_16bit_fantasy_creatures_368.png","oryx_16bit_fantasy_creatures_369.png","oryx_16bit_fantasy_creatures_370.png","oryx_16bit_fantasy_creatures_371.png","oryx_16bit_fantasy_creatures_372.png","oryx_16bit_fantasy_creatures_373.png","oryx_16bit_fantasy_creatures_374.png","oryx_16bit_fantasy_creatures_375.png","oryx_16bit_fantasy_creatures_376.png","oryx_16bit_fantasy_creatures_377.png","oryx_16bit_fantasy_creatures_378.png","oryx_16bit_fantasy_creatures_379.png","oryx_16bit_fantasy_creatures_380.png","oryx_16bit_fantasy_creatures_381.png","oryx_16bit_fantasy_creatures_382.png","oryx_16bit_fantasy_creatures_383.png","oryx_16bit_fantasy_creatures_384.png","oryx_16bit_fantasy_creatures_385.png","oryx_16bit_fantasy_creatures_386.png","oryx_16bit_fantasy_creatures_387.png","oryx_16bit_fantasy_creatures_388.png","oryx_16bit_fantasy_creatures_389.png","oryx_16bit_fantasy_creatures_390.png","oryx_16bit_fantasy_creatures_391.png","oryx_16bit_fantasy_creatures_392.png","oryx_16bit_fantasy_creatures_393.png","oryx_16bit_fantasy_creatures_394.png","oryx_16bit_fantasy_creatures_395.png","oryx_16bit_fantasy_creatures_396.png","oryx_16bit_fantasy_creatures_397.png"],
+	"player_death_animation": ["player_death_animation_1.png","player_death_animation_2.png","player_death_animation_3.png","player_death_animation_4.png","player_death_animation_5.png","player_death_animation_6.png","player_death_animation_7.png","player_death_animation_8.png","player_death_animation_9.png","player_death_animation_10.png","player_death_animation_11.png","player_death_animation_12.png","player_death_animation_13.png"]
+},
+"meta": {
+	"app": "https://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "characters-spritesheet.png",
+	"format": "RGBA8888",
+	"size": {"w":243,"h":985},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:1d0b2b06c181359becc8a5990f89625a:4275de4ca3eacfdb5e848cc8e2bdfb09:f31e0829ec99f45e76b69670c8cdd44a$"
+}
+}
