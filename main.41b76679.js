@@ -18583,17 +18583,17 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#ffffff",
             stats: [{
-                shortDescr: "5% Critical Chance",
+                shortDescr: "5% 暴击几率",
                 statType: "critChance",
                 operator: "add",
                 value: 500
             }, {
-                shortDescr: "50% Critical Damage",
+                shortDescr: "50% 暴击伤害",
                 statType: "critDamage",
                 operator: "add",
                 value: 150
             }, {
-                shortDescr: "+100 Evasion score",
+                shortDescr: "+100 闪避分数",
                 statType: "evasion",
                 operator: "add",
                 value: 100
@@ -18603,17 +18603,17 @@ parcelRequire = function (e, r, t, n) {
             x: 15008,
             y: 15168,
             links: [1, 113, 114, 124],
-            name: "Trained Constitution",
-            descr: "+12 HP per Level",
+            name: "受过训练的体质",
+            descr: "+12 生命值每级",
             size: 3,
             color: "#ffffff",
             stats: [{
-                shortDescr: "+10 Defense",
+                shortDescr: "+10 防御",
                 statType: "defense",
                 operator: "add",
                 value: 10
             }, {
-                shortDescr: "+10 Resist",
+                shortDescr: "+10 抵抗",
                 statType: "resist",
                 operator: "add",
                 value: 10
@@ -18623,7 +18623,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15456,
             y: 15808,
             links: [3, 23],
-            name: "Minor 智力",
+            name: "次要智力",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -18637,7 +18637,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15456,
             y: 14528,
             links: [2, 11],
-            name: "Minor 力量",
+            name: "次要力量",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -18651,7 +18651,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15456,
             y: 14272,
             links: [11, 24],
-            name: "Minor 力量",
+            name: "次要力量",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -18665,11 +18665,11 @@ parcelRequire = function (e, r, t, n) {
             x: 15584,
             y: 14400,
             links: [9, 10],
-            name: "Minor Health",
+            name: "次要生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "+30 Health",
+                shortDescr: "+30 生命值",
                 statType: "maxhp",
                 operator: "add",
                 value: 30
@@ -18679,7 +18679,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15456,
             y: 16064,
             links: [23, 43],
-            name: "Minor 智力",
+            name: "次要智力",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -18697,12 +18697,12 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#00bcd4",
             stats: [{
-                shortDescr: "3% increased Health",
+                shortDescr: "3% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 3
             }, {
-                shortDescr: "+40 Evasion score",
+                shortDescr: "+40 闪避分数",
                 statType: "evasion",
                 operator: "add",
                 value: 40
@@ -18735,7 +18735,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 2
             }, {
-                shortDescr: "3% increased Expend Damage",
+                shortDescr: "3% 增加的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: 3
@@ -18745,7 +18745,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16416,
             y: 15168,
             links: [44, 22, 63],
-            name: "Minor 敏捷",
+            name: "次要敏捷",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -18759,7 +18759,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16160,
             y: 15168,
             links: [4, 22],
-            name: "Minor 敏捷",
+            name: "次要敏捷",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -18782,7 +18782,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 2
             }, {
-                shortDescr: "3% increased Expend Damage",
+                shortDescr: "3% 增加的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: 3
@@ -18792,11 +18792,11 @@ parcelRequire = function (e, r, t, n) {
             x: 13856,
             y: 15168,
             links: [19, 145, 269, 270],
-            name: "Minor Health",
+            name: "次要生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "3% increased Health",
+                shortDescr: "3% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 3
@@ -18806,7 +18806,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16032,
             y: 12992,
             links: [26, 27, 365],
-            name: "Minor 力量",
+            name: "次要力量",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -18820,11 +18820,11 @@ parcelRequire = function (e, r, t, n) {
             x: 16288,
             y: 15296,
             links: [18, 17],
-            name: "Minor Attack Speed",
+            name: "次要攻击速度",
             size: 2,
             color: "#cddc39",
             stats: [{
-                shortDescr: "+3 Attack Speed",
+                shortDescr: "+3 攻击速度",
                 statType: "attackSpeed",
                 operator: "add",
                 value: 3
@@ -18843,7 +18843,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 2
             }, {
-                shortDescr: "3% increased Expend Damage",
+                shortDescr: "3% 增加的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: 3
@@ -18853,7 +18853,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15456,
             y: 13824,
             links: [10, 25, 189, 195, 110],
-            name: "Minor 力量",
+            name: "次要力量",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -18867,7 +18867,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15456,
             y: 13440,
             links: [24, 26],
-            name: "Minor 力量",
+            name: "次要力量",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -18895,7 +18895,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16608,
             y: 12992,
             links: [21, 28, 82],
-            name: "Minor 力量",
+            name: "次要力量",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -18909,7 +18909,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17120,
             y: 12992,
             links: [27, 29, 353, 199],
-            name: "Minor 力量",
+            name: "次要力量",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -18923,7 +18923,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17376,
             y: 13440,
             links: [28, 30],
-            name: "Minor 敏捷",
+            name: "次要敏捷",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -18956,7 +18956,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17888,
             y: 14336,
             links: [30, 32, 58],
-            name: "Minor 敏捷",
+            name: "次要敏捷",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -18970,7 +18970,7 @@ parcelRequire = function (e, r, t, n) {
             x: 18144,
             y: 14784,
             links: [31, 33],
-            name: "Minor 敏捷",
+            name: "次要敏捷",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -18998,7 +18998,7 @@ parcelRequire = function (e, r, t, n) {
             x: 18144,
             y: 15616,
             links: [33, 35],
-            name: "Minor 敏捷",
+            name: "次要敏捷",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -19012,7 +19012,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17888,
             y: 16064,
             links: [34, 36],
-            name: "Minor 敏捷",
+            name: "次要敏捷",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -19045,7 +19045,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17376,
             y: 16960,
             links: [36, 38, 320],
-            name: "Minor 智力",
+            name: "次要智力",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -19059,7 +19059,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17120,
             y: 17408,
             links: [37, 40, 326, 351],
-            name: "Minor 智力",
+            name: "次要智力",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -19087,7 +19087,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16608,
             y: 17408,
             links: [38, 41, 308],
-            name: "Minor 智力",
+            name: "次要智力",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -19101,7 +19101,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16032,
             y: 17408,
             links: [40, 39, 337, 368],
-            name: "Minor 智力",
+            name: "次要智力",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -19115,7 +19115,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15456,
             y: 16960,
             links: [39, 43, 214, 331],
-            name: "Minor 智力",
+            name: "次要智力",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -19129,7 +19129,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15456,
             y: 16576,
             links: [42, 12, 303, 212],
-            name: "Minor 智力",
+            name: "次要智力",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -19143,7 +19143,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16864,
             y: 15168,
             links: [45, 17, 49, 367],
-            name: "Minor 敏捷",
+            name: "次要敏捷",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -19157,7 +19157,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17312,
             y: 15168,
             links: [46, 44, 101],
-            name: "Minor 敏捷",
+            name: "次要敏捷",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -19171,7 +19171,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17632,
             y: 15168,
             links: [45, 52, 53, 57, 286],
-            name: "Minor 敏捷",
+            name: "次要敏捷",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -19185,11 +19185,11 @@ parcelRequire = function (e, r, t, n) {
             x: 14496,
             y: 15168,
             links: [123, 269],
-            name: "Minor Health",
+            name: "次要生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "3% increased Health",
+                shortDescr: "3% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 3
@@ -19241,7 +19241,7 @@ parcelRequire = function (e, r, t, n) {
             x: 18016,
             y: 15168,
             links: [46, 33],
-            name: "Minor 敏捷",
+            name: "次要敏捷",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -19350,11 +19350,11 @@ parcelRequire = function (e, r, t, n) {
             x: 17760,
             y: 14464,
             links: [31, 59],
-            name: "Improved Health",
+            name: "改良生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "6% increased Health",
+                shortDescr: "6% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 6
@@ -19364,11 +19364,11 @@ parcelRequire = function (e, r, t, n) {
             x: 17632,
             y: 14336,
             links: [58, 60],
-            name: "Improved Health",
+            name: "改良生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "6% increased Health",
+                shortDescr: "6% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 6
@@ -19378,11 +19378,11 @@ parcelRequire = function (e, r, t, n) {
             x: 17504,
             y: 14464,
             links: [59],
-            name: "Improved Health",
+            name: "改良生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "6% increased Health",
+                shortDescr: "6% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 6
@@ -19396,7 +19396,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#9c27b0",
             stats: [{
-                shortDescr: "11% increased Expend Damage",
+                shortDescr: "11%增加的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: 11
@@ -19410,12 +19410,12 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#00bcd4",
             stats: [{
-                shortDescr: "+90 Health",
+                shortDescr: "+90 生命值",
                 statType: "maxhp",
                 operator: "add",
                 value: 90
             }, {
-                shortDescr: "+100 Evasion score",
+                shortDescr: "+100 闪避分数",
                 statType: "evasion",
                 operator: "add",
                 value: 100
@@ -19429,7 +19429,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#009688",
             stats: [{
-                shortDescr: "3% increased Health",
+                shortDescr: "3% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 3
@@ -19448,7 +19448,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#009688",
             stats: [{
-                shortDescr: "3% increased Health",
+                shortDescr: "3% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 3
@@ -19467,7 +19467,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#009688",
             stats: [{
-                shortDescr: "6% increased Health",
+                shortDescr: "6% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 6
@@ -19491,12 +19491,12 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#00bcd4",
             stats: [{
-                shortDescr: "3% increased Health",
+                shortDescr: "3% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 3
             }, {
-                shortDescr: "+40 Evasion score",
+                shortDescr: "+40 闪避分数",
                 statType: "evasion",
                 operator: "add",
                 value: 40
@@ -19510,7 +19510,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#9c27b0",
             stats: [{
-                shortDescr: "23% increased Expend Damage",
+                shortDescr: "23%增加的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: 23
@@ -19524,7 +19524,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#9c27b0",
             stats: [{
-                shortDescr: "11% increased Expend Damage",
+                shortDescr: "11%增加的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: 11
@@ -19538,7 +19538,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#9c27b0",
             stats: [{
-                shortDescr: "11% increased Expend Damage",
+                shortDescr: "11%增加的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: 11
@@ -19552,7 +19552,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#9c27b0",
             stats: [{
-                shortDescr: "11% increased Expend Damage",
+                shortDescr: "11%增加的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: 11
@@ -19562,7 +19562,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15840,
             y: 14848,
             links: [4, 2, 79, 354],
-            name: "Minor Strength & 敏捷",
+            name: "次要力量 & 敏捷",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -19581,7 +19581,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15840,
             y: 15488,
             links: [4, 3, 271, 372],
-            name: "Minor Intelligence & 敏捷",
+            name: "次要智力 & 敏捷",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -19600,7 +19600,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16032,
             y: 14400,
             links: [77, 80, 83],
-            name: "Minor Strength & 敏捷",
+            name: "次要力量 & 敏捷",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -19619,7 +19619,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16160,
             y: 14016,
             links: [79, 81, 89, 87],
-            name: "Minor Strength & 敏捷",
+            name: "次要力量 & 敏捷",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -19638,7 +19638,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16288,
             y: 13632,
             links: [80, 82, 93, 97, 107],
-            name: "Minor Strength & 敏捷",
+            name: "次要力量 & 敏捷",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -19657,7 +19657,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16416,
             y: 13248,
             links: [81, 27],
-            name: "Minor Strength & 敏捷",
+            name: "次要力量 & 敏捷",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -19718,11 +19718,11 @@ parcelRequire = function (e, r, t, n) {
             x: 15840,
             y: 14272,
             links: [87, 88],
-            name: "Improved Health",
+            name: "改良生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "6% increased Health",
+                shortDescr: "6% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 6
@@ -19732,11 +19732,11 @@ parcelRequire = function (e, r, t, n) {
             x: 15904,
             y: 14080,
             links: [80, 86],
-            name: "Improved Health",
+            name: "改良生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "6% increased Health",
+                shortDescr: "6% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 6
@@ -19746,11 +19746,11 @@ parcelRequire = function (e, r, t, n) {
             x: 15712,
             y: 14144,
             links: [86],
-            name: "Improved Health",
+            name: "改良生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "6% increased Health",
+                shortDescr: "6% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 6
@@ -19825,7 +19825,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 18
             }, {
-                shortDescr: "7% decreased Expend Damage",
+                shortDescr: "7% 降低的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: -7
@@ -19844,7 +19844,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 18
             }, {
-                shortDescr: "7% decreased Expend Damage",
+                shortDescr: "7% 降低的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: -7
@@ -19858,22 +19858,22 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#9c27b0",
             stats: [{
-                shortDescr: "10% more Create Damage",
+                shortDescr: "10% 更多制造伤害",
                 statType: "createDamage",
                 operator: "more",
                 value: 10
             }, {
-                shortDescr: "10% more Expend Damage",
+                shortDescr: "10% 更多消耗伤害",
                 statType: "expendDamage",
                 operator: "more",
                 value: 10
             }, {
-                shortDescr: "20% decreased Create Damage",
+                shortDescr: "20% 降低的制造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: -20
             }, {
-                shortDescr: "20% decreased Expend Damage",
+                shortDescr: "20% 降低的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: -20
@@ -19887,12 +19887,12 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#9c27b0",
             stats: [{
-                shortDescr: "18% increased Expend Damage",
+                shortDescr: "18%增加的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: 18
             }, {
-                shortDescr: "8% decreased Create Damage",
+                shortDescr: "8% 降低的制造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: -8
@@ -19911,12 +19911,12 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#9c27b0",
             stats: [{
-                shortDescr: "18% increased Expend Damage",
+                shortDescr: "18%增加的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: 18
             }, {
-                shortDescr: "8% decreased Create Damage",
+                shortDescr: "8% 降低的制造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: -8
@@ -19931,7 +19931,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15584,
             y: 13120,
             links: [26, 99],
-            name: "Improved Health",
+            name: "改良生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -19945,7 +19945,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15712,
             y: 13248,
             links: [98, 100],
-            name: "Improved Health",
+            name: "改良生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -19959,7 +19959,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15840,
             y: 13120,
             links: [99],
-            name: "Improved Health",
+            name: "改良生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -20148,7 +20148,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 8
             }, {
-                shortDescr: "2% decreased Health",
+                shortDescr: "2% 减少的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: -2
@@ -20172,7 +20172,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 8
             }, {
-                shortDescr: "2% decreased Health",
+                shortDescr: "2% 减少的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: -2
@@ -20196,7 +20196,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 8
             }, {
-                shortDescr: "2% decreased Health",
+                shortDescr: "2% 减少的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: -2
@@ -20211,7 +20211,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15072,
             y: 15488,
             links: [3, 5, 160, 356],
-            name: "Minor Health & 智力",
+            name: "次要生命值 & 智力",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -20220,7 +20220,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 1
             }, {
-                shortDescr: "2% increased Health",
+                shortDescr: "2% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 2
@@ -20230,7 +20230,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15072,
             y: 14848,
             links: [5, 2, 136, 355],
-            name: "Minor Health & 力量",
+            name: "次要生命值 & 力量",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -20239,7 +20239,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 1
             }, {
-                shortDescr: "2% increased Health",
+                shortDescr: "2% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 2
@@ -20249,7 +20249,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14880,
             y: 12992,
             links: [26, 116],
-            name: "Minor 力量",
+            name: "次要力量",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -20263,7 +20263,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14368,
             y: 12992,
             links: [115, 117, 167],
-            name: "Minor 力量",
+            name: "次要力量",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -20277,7 +20277,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13856,
             y: 12992,
             links: [116, 118, 168, 346],
-            name: "Minor 力量",
+            name: "次要力量",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -20291,7 +20291,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13600,
             y: 13440,
             links: [117, 119, 177],
-            name: "Minor 力量",
+            name: "次要力量",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -20309,7 +20309,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#4caf50",
             stats: [{
-                shortDescr: "7% increased Health",
+                shortDescr: "7% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 7
@@ -20324,11 +20324,11 @@ parcelRequire = function (e, r, t, n) {
             x: 13088,
             y: 14336,
             links: [119, 121],
-            name: "Minor Health",
+            name: "次要生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "3% increased Health",
+                shortDescr: "3% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 3
@@ -20338,11 +20338,11 @@ parcelRequire = function (e, r, t, n) {
             x: 12832,
             y: 14784,
             links: [120, 122],
-            name: "Minor Health",
+            name: "次要生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "3% increased Health",
+                shortDescr: "3% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 3
@@ -20352,11 +20352,11 @@ parcelRequire = function (e, r, t, n) {
             x: 12640,
             y: 15168,
             links: [121, 132, 157, 352, 125],
-            name: "Major Health",
+            name: "主要生命值",
             size: 3,
             color: "#4caf50",
             stats: [{
-                shortDescr: "6% increased Health",
+                shortDescr: "6% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 6
@@ -20371,7 +20371,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14624,
             y: 15040,
             links: [47, 124],
-            name: "Minor 基础伤害",
+            name: "次要基础伤害",
             size: 2,
             color: "#cddc39",
             stats: [{
@@ -20385,11 +20385,11 @@ parcelRequire = function (e, r, t, n) {
             x: 14752,
             y: 15168,
             links: [123, 5],
-            name: "Minor Health",
+            name: "次要生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "3% increased Health",
+                shortDescr: "3% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 3
@@ -20399,11 +20399,11 @@ parcelRequire = function (e, r, t, n) {
             x: 13216,
             y: 15168,
             links: [254, 122, 270],
-            name: "Minor Health",
+            name: "次要生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "3% increased Health",
+                shortDescr: "3% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 3
@@ -20413,7 +20413,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14880,
             y: 17408,
             links: [39, 127],
-            name: "Minor 智力",
+            name: "次要智力",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -20427,7 +20427,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14304,
             y: 17408,
             links: [126, 128, 226],
-            name: "Minor 智力",
+            name: "次要智力",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -20441,7 +20441,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13664,
             y: 17408,
             links: [127, 129, 350],
-            name: "Minor 智力",
+            name: "次要智力",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -20459,7 +20459,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#4caf50",
             stats: [{
-                shortDescr: "7% increased Health",
+                shortDescr: "7% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 7
@@ -20474,11 +20474,11 @@ parcelRequire = function (e, r, t, n) {
             x: 13216,
             y: 16512,
             links: [129, 131, 243],
-            name: "Minor Health",
+            name: "次要生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "3% increased Health",
+                shortDescr: "3% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 3
@@ -20488,11 +20488,11 @@ parcelRequire = function (e, r, t, n) {
             x: 13024,
             y: 16064,
             links: [130, 132, 246],
-            name: "Minor Health",
+            name: "次要生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "3% increased Health",
+                shortDescr: "3% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 3
@@ -20502,11 +20502,11 @@ parcelRequire = function (e, r, t, n) {
             x: 12832,
             y: 15616,
             links: [131, 122],
-            name: "Minor Health",
+            name: "次要生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "3% increased Health",
+                shortDescr: "3% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 3
@@ -20558,7 +20558,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14688,
             y: 14720,
             links: [114, 137, 140],
-            name: "Minor Health & 力量",
+            name: "次要生命值 & 力量",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -20567,7 +20567,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 1
             }, {
-                shortDescr: "2% increased Health",
+                shortDescr: "2% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 2
@@ -20577,7 +20577,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14304,
             y: 14528,
             links: [136, 138, 143, 166, 186],
-            name: "Minor Health & 力量",
+            name: "次要生命值 & 力量",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -20586,7 +20586,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 1
             }, {
-                shortDescr: "2% increased Health",
+                shortDescr: "2% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 2
@@ -20596,7 +20596,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13984,
             y: 14336,
             links: [137, 139, 147, 348],
-            name: "Minor Health & 力量",
+            name: "次要生命值 & 力量",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -20605,7 +20605,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 1
             }, {
-                shortDescr: "2% increased Health",
+                shortDescr: "2% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 2
@@ -20615,7 +20615,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13664,
             y: 14144,
             links: [138, 119, 173],
-            name: "Minor Health & 力量",
+            name: "次要生命值 & 力量",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -20624,7 +20624,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 1
             }, {
-                shortDescr: "2% increased Health",
+                shortDescr: "2% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 2
@@ -20662,7 +20662,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14304,
             y: 14720,
             links: [137, 144],
-            name: "Minor Attributes",
+            name: "次要属性",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -20686,7 +20686,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14048,
             y: 14720,
             links: [143, 145],
-            name: "Minor Attributes",
+            name: "次要属性",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -20710,7 +20710,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13984,
             y: 14976,
             links: [144, 146, 20],
-            name: "Minor Attributes",
+            name: "次要属性",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -20796,7 +20796,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13792,
             y: 14848,
             links: [148, 150],
-            name: "Physical Damage & Minor 力量",
+            name: "Physical Damage & 次要力量",
             size: 2,
             color: "#e91e63",
             stats: [{
@@ -20848,7 +20848,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13472,
             y: 14784,
             links: [151, 153],
-            name: "Magical Damage & Minor 力量",
+            name: "Magical Damage & 次要力量",
             size: 2,
             color: "#673ab7",
             stats: [{
@@ -20900,7 +20900,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13280,
             y: 14528,
             links: [154, 156],
-            name: "Spiritual Damage & Minor 力量",
+            name: "Spiritual Damage & 次要力量",
             size: 2,
             color: "#ffeb3b",
             stats: [{
@@ -20938,11 +20938,11 @@ parcelRequire = function (e, r, t, n) {
             x: 12832,
             y: 15040,
             links: [122, 158],
-            name: "Improved Health",
+            name: "改良生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "6% increased Health",
+                shortDescr: "6% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 6
@@ -20952,11 +20952,11 @@ parcelRequire = function (e, r, t, n) {
             x: 12960,
             y: 14912,
             links: [157, 159],
-            name: "Improved Health",
+            name: "改良生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "6% increased Health",
+                shortDescr: "6% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 6
@@ -20966,11 +20966,11 @@ parcelRequire = function (e, r, t, n) {
             x: 13088,
             y: 15040,
             links: [158],
-            name: "Improved Health",
+            name: "改良生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "6% increased Health",
+                shortDescr: "6% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 6
@@ -20980,7 +20980,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14816,
             y: 15744,
             links: [113, 161, 215, 267],
-            name: "Minor Health & 智力",
+            name: "次要生命值 & 智力",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -20989,7 +20989,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 1
             }, {
-                shortDescr: "2% increased Health",
+                shortDescr: "2% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 2
@@ -20999,7 +20999,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14560,
             y: 16e3,
             links: [160, 162, 263],
-            name: "Minor Health & 智力",
+            name: "次要生命值 & 智力",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -21008,7 +21008,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 1
             }, {
-                shortDescr: "2% increased Health",
+                shortDescr: "2% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 2
@@ -21018,7 +21018,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14240,
             y: 16320,
             links: [161, 163, 15, 202],
-            name: "Minor Health & 智力",
+            name: "次要生命值 & 智力",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -21027,7 +21027,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 1
             }, {
-                shortDescr: "2% increased Health",
+                shortDescr: "2% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 2
@@ -21037,7 +21037,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13920,
             y: 16640,
             links: [162, 164, 234, 237, 241],
-            name: "Minor Health & 智力",
+            name: "次要生命值 & 智力",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -21046,7 +21046,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 1
             }, {
-                shortDescr: "2% increased Health",
+                shortDescr: "2% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 2
@@ -21056,7 +21056,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13664,
             y: 16896,
             links: [163, 129, 230],
-            name: "Minor Health & 智力",
+            name: "次要生命值 & 智力",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -21065,7 +21065,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 1
             }, {
-                shortDescr: "2% increased Health",
+                shortDescr: "2% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 2
@@ -21079,7 +21079,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "4% increased Expend Damage",
+                shortDescr: "4%增加的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: 4
@@ -21093,7 +21093,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "4% increased Expend Damage",
+                shortDescr: "4%增加的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: 4
@@ -21107,7 +21107,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "4% increased Expend Damage",
+                shortDescr: "4%增加的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: 4
@@ -21483,7 +21483,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#00bcd4",
             stats: [{
-                shortDescr: "+70 Evasion score",
+                shortDescr: "+70 闪避分数",
                 statType: "evasion",
                 operator: "add",
                 value: 70
@@ -21497,7 +21497,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#00bcd4",
             stats: [{
-                shortDescr: "+70 Evasion score",
+                shortDescr: "+70 闪避分数",
                 statType: "evasion",
                 operator: "add",
                 value: 70
@@ -21511,7 +21511,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#00bcd4",
             stats: [{
-                shortDescr: "+70 Evasion score",
+                shortDescr: "+70 闪避分数",
                 statType: "evasion",
                 operator: "add",
                 value: 70
@@ -21525,12 +21525,12 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#00bcd4",
             stats: [{
-                shortDescr: "+85 Evasion score",
+                shortDescr: "+85 闪避分数",
                 statType: "evasion",
                 operator: "add",
                 value: 85
             }, {
-                shortDescr: "20% increased Evasion score",
+                shortDescr: "20% 增加的闪避分数",
                 statType: "evasion",
                 operator: "multi",
                 value: 20
@@ -21633,7 +21633,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 2
             }, {
-                shortDescr: "3% increased Expend Damage",
+                shortDescr: "3%增加的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: 3
@@ -21647,7 +21647,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#00ffe7",
             stats: [{
-                shortDescr: "+30 Evasion score",
+                shortDescr: "+30 闪避分数",
                 statType: "evasion",
                 operator: "add",
                 value: 30
@@ -21666,7 +21666,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#00bcd4",
             stats: [{
-                shortDescr: "+60 Evasion score",
+                shortDescr: "+60 闪避分数",
                 statType: "evasion",
                 operator: "add",
                 value: 60
@@ -21680,12 +21680,12 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#00bcd4",
             stats: [{
-                shortDescr: "+65 Evasion score",
+                shortDescr: "+65 闪避分数",
                 statType: "evasion",
                 operator: "add",
                 value: 65
             }, {
-                shortDescr: "10% increased Evasion score",
+                shortDescr: "10% 增加的闪避分数",
                 statType: "evasion",
                 operator: "multi",
                 value: 10
@@ -21699,7 +21699,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#00bcd4",
             stats: [{
-                shortDescr: "+60 Evasion score",
+                shortDescr: "+60 闪避分数",
                 statType: "evasion",
                 operator: "add",
                 value: 60
@@ -21760,7 +21760,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#00ffe7",
             stats: [{
-                shortDescr: "+30 Evasion score",
+                shortDescr: "+30 闪避分数",
                 statType: "evasion",
                 operator: "add",
                 value: 30
@@ -21807,7 +21807,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#00ffe7",
             stats: [{
-                shortDescr: "+30 Evasion score",
+                shortDescr: "+30 闪避分数",
                 statType: "evasion",
                 operator: "add",
                 value: 30
@@ -22141,7 +22141,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 30
             }, {
-                shortDescr: "8% increased Expend Damage",
+                shortDescr: "8%增加的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: 8
@@ -22151,11 +22151,11 @@ parcelRequire = function (e, r, t, n) {
             x: 13664,
             y: 16640,
             links: [163, 238],
-            name: "Improved Health",
+            name: "改良生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "6% increased Health",
+                shortDescr: "6% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 6
@@ -22165,11 +22165,11 @@ parcelRequire = function (e, r, t, n) {
             x: 13472,
             y: 16576,
             links: [237, 239],
-            name: "Improved Health",
+            name: "改良生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "6% increased Health",
+                shortDescr: "6% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 6
@@ -22183,7 +22183,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#4caf50",
             stats: [{
-                shortDescr: "12% increased Health",
+                shortDescr: "12% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 12
@@ -22193,11 +22193,11 @@ parcelRequire = function (e, r, t, n) {
             x: 13856,
             y: 16192,
             links: [241, 239],
-            name: "Improved Health",
+            name: "改良生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "6% increased Health",
+                shortDescr: "6% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 6
@@ -22207,11 +22207,11 @@ parcelRequire = function (e, r, t, n) {
             x: 13920,
             y: 16384,
             links: [163, 240],
-            name: "Improved Health",
+            name: "改良生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "6% increased Health",
+                shortDescr: "6% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 6
@@ -22263,7 +22263,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "4% increased Health",
+                shortDescr: "4% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 4
@@ -22282,7 +22282,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "4% increased Health",
+                shortDescr: "4% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 4
@@ -22301,7 +22301,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "4% increased Health",
+                shortDescr: "4% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 4
@@ -22320,7 +22320,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "4% increased Health",
+                shortDescr: "4% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 4
@@ -22339,12 +22339,12 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#4caf50",
             stats: [{
-                shortDescr: "5% increased Health",
+                shortDescr: "5% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 5
             }, {
-                shortDescr: "5% more Health",
+                shortDescr: "5% 更多生命值",
                 statType: "maxhp",
                 operator: "more",
                 value: 5
@@ -22391,7 +22391,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "4% increased Health",
+                shortDescr: "4% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 4
@@ -22452,7 +22452,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#cddc39",
             stats: [{
-                shortDescr: "+6 Attack Speed",
+                shortDescr: "+6 攻击速度",
                 statType: "attackSpeed",
                 operator: "add",
                 value: 6
@@ -22471,7 +22471,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#cddc39",
             stats: [{
-                shortDescr: "+6 Attack Speed",
+                shortDescr: "+6 攻击速度",
                 statType: "attackSpeed",
                 operator: "add",
                 value: 6
@@ -22490,7 +22490,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#cddc39",
             stats: [{
-                shortDescr: "+12 Attack Speed",
+                shortDescr: "+12 攻击速度",
                 statType: "attackSpeed",
                 operator: "add",
                 value: 12
@@ -22565,12 +22565,12 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#9c27b0",
             stats: [{
-                shortDescr: "18% increased Expend Damage",
+                shortDescr: "18%增加的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: 18
             }, {
-                shortDescr: "8% decreased Create Damage",
+                shortDescr: "8% 降低的制造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: -8
@@ -22589,12 +22589,12 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#9c27b0",
             stats: [{
-                shortDescr: "18% increased Expend Damage",
+                shortDescr: "18%增加的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: 18
             }, {
-                shortDescr: "8% decreased Create Damage",
+                shortDescr: "8% 降低的制造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: -8
@@ -22613,12 +22613,12 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#9c27b0",
             stats: [{
-                shortDescr: "18% increased Expend Damage",
+                shortDescr: "18%增加的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: 18
             }, {
-                shortDescr: "8% decreased Create Damage",
+                shortDescr: "8% 降低的制造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: -8
@@ -22637,17 +22637,17 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#9c27b0",
             stats: [{
-                shortDescr: "30% increased Expend Damage",
+                shortDescr: "30%增加的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: 30
             }, {
-                shortDescr: "16% decreased Create Damage",
+                shortDescr: "16% 降低的制造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: -16
             }, {
-                shortDescr: "10% decreased Health",
+                shortDescr: "10% 减少的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: -10
@@ -22657,11 +22657,11 @@ parcelRequire = function (e, r, t, n) {
             x: 14208,
             y: 15168,
             links: [47, 20, 364],
-            name: "Minor Health",
+            name: "次要生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "3% increased Health",
+                shortDescr: "3% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 3
@@ -22671,11 +22671,11 @@ parcelRequire = function (e, r, t, n) {
             x: 13536,
             y: 15168,
             links: [125, 20],
-            name: "Minor Health",
+            name: "次要生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "3% increased Health",
+                shortDescr: "3% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 3
@@ -22685,7 +22685,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16032,
             y: 15744,
             links: [78, 272, 299],
-            name: "Minor Intelligence & 敏捷",
+            name: "次要智力 & 敏捷",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -22704,7 +22704,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16416,
             y: 15744,
             links: [271, 273, 278, 279, 357],
-            name: "Minor Intelligence & 敏捷",
+            name: "次要智力 & 敏捷",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -22723,7 +22723,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16672,
             y: 16e3,
             links: [272, 274, 306, 362],
-            name: "Minor Intelligence & 敏捷",
+            name: "次要智力 & 敏捷",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -22742,7 +22742,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17120,
             y: 16064,
             links: [273, 275, 283],
-            name: "Minor Intelligence & 敏捷",
+            name: "次要智力 & 敏捷",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -22761,7 +22761,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17312,
             y: 16384,
             links: [274, 36, 290],
-            name: "Minor Intelligence & 敏捷",
+            name: "次要智力 & 敏捷",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -22883,11 +22883,11 @@ parcelRequire = function (e, r, t, n) {
             x: 17184,
             y: 15872,
             links: [274, 284, 287],
-            name: "Improved Health",
+            name: "改良生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "6% increased Health",
+                shortDescr: "6% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 6
@@ -22897,11 +22897,11 @@ parcelRequire = function (e, r, t, n) {
             x: 17120,
             y: 15616,
             links: [283, 285],
-            name: "Improved Health",
+            name: "改良生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "6% increased Health",
+                shortDescr: "6% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 6
@@ -22911,11 +22911,11 @@ parcelRequire = function (e, r, t, n) {
             x: 17248,
             y: 15424,
             links: [284, 286],
-            name: "Improved Health",
+            name: "改良生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "6% increased Health",
+                shortDescr: "6% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 6
@@ -22925,11 +22925,11 @@ parcelRequire = function (e, r, t, n) {
             x: 17504,
             y: 15360,
             links: [285, 288, 46],
-            name: "Improved Health",
+            name: "改良生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "6% increased Health",
+                shortDescr: "6% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 6
@@ -22939,11 +22939,11 @@ parcelRequire = function (e, r, t, n) {
             x: 17440,
             y: 15808,
             links: [283, 288],
-            name: "Improved Health",
+            name: "改良生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "3% increased Health",
+                shortDescr: "3% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 3
@@ -22958,11 +22958,11 @@ parcelRequire = function (e, r, t, n) {
             x: 17568,
             y: 15616,
             links: [287, 286],
-            name: "Improved Health",
+            name: "改良生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "3% increased Health",
+                shortDescr: "3% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 3
@@ -23029,7 +23029,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 18
             }, {
-                shortDescr: "+10 Attack Speed",
+                shortDescr: "+10 攻击速度",
                 statType: "attackSpeed",
                 operator: "add",
                 value: 10
@@ -23110,7 +23110,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 18
             }, {
-                shortDescr: "+10 Attack Speed",
+                shortDescr: "+10 攻击速度",
                 statType: "attackSpeed",
                 operator: "add",
                 value: 10
@@ -23143,7 +23143,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#cddc39",
             stats: [{
-                shortDescr: "+8 Attack Speed",
+                shortDescr: "+8 攻击速度",
                 statType: "attackSpeed",
                 operator: "add",
                 value: 8
@@ -23157,7 +23157,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#cddc39",
             stats: [{
-                shortDescr: "+8 Attack Speed",
+                shortDescr: "+8 攻击速度",
                 statType: "attackSpeed",
                 operator: "add",
                 value: 8
@@ -23171,7 +23171,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#cddc39",
             stats: [{
-                shortDescr: "+10 Attack Speed",
+                shortDescr: "+10 攻击速度",
                 statType: "attackSpeed",
                 operator: "add",
                 value: 10
@@ -23185,7 +23185,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#cddc39",
             stats: [{
-                shortDescr: "+15 Attack Speed",
+                shortDescr: "+15 攻击速度",
                 statType: "attackSpeed",
                 operator: "add",
                 value: 15
@@ -23237,7 +23237,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#cddc39",
             stats: [{
-                shortDescr: "+10 Attack Speed",
+                shortDescr: "+10 攻击速度",
                 statType: "attackSpeed",
                 operator: "add",
                 value: 10
@@ -23256,7 +23256,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 2
             }, {
-                shortDescr: "3% increased Expend Damage",
+                shortDescr: "3%增加的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: 3
@@ -23275,7 +23275,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 2
             }, {
-                shortDescr: "3% increased Expend Damage",
+                shortDescr: "3%增加的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: 3
@@ -23294,7 +23294,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 2
             }, {
-                shortDescr: "3% increased Expend Damage",
+                shortDescr: "3%增加的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: 3
@@ -23313,7 +23313,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 2
             }, {
-                shortDescr: "+40 Evasion score",
+                shortDescr: "+40 闪避分数",
                 statType: "evasion",
                 operator: "add",
                 value: 40
@@ -23332,7 +23332,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 2
             }, {
-                shortDescr: "+40 Evasion score",
+                shortDescr: "+40 闪避分数",
                 statType: "evasion",
                 operator: "add",
                 value: 40
@@ -23356,7 +23356,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 10
             }, {
-                shortDescr: "15% increased Evasion score",
+                shortDescr: "15% 增加的闪避分数",
                 statType: "evasion",
                 operator: "multi",
                 value: 15
@@ -23375,7 +23375,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 2
             }, {
-                shortDescr: "+40 Evasion score",
+                shortDescr: "+40 闪避分数",
                 statType: "evasion",
                 operator: "add",
                 value: 40
@@ -23394,7 +23394,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 2
             }, {
-                shortDescr: "+40 Evasion score",
+                shortDescr: "+40 闪避分数",
                 statType: "evasion",
                 operator: "add",
                 value: 40
@@ -23404,7 +23404,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16800,
             y: 16320,
             links: [306, 315],
-            name: "Improved Health",
+            name: "改良生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -23418,7 +23418,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16928,
             y: 16192,
             links: [314, 316],
-            name: "Improved Health",
+            name: "改良生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -23432,7 +23432,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17056,
             y: 16320,
             links: [315],
-            name: "Improved Health",
+            name: "改良生命值",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -23534,7 +23534,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#9c27b0",
             stats: [{
-                shortDescr: "25% increased Expend Damage",
+                shortDescr: "25%增加的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: 25
@@ -23787,22 +23787,22 @@ parcelRequire = function (e, r, t, n) {
             size: 4,
             color: "#737373",
             stats: [{
-                shortDescr: "15% more Defense",
+                shortDescr: "15% 更多防御",
                 statType: "defense",
                 operator: "more",
                 value: 15
             }, {
-                shortDescr: "15% more Resist",
+                shortDescr: "15% 更多抵抗",
                 statType: "resist",
                 operator: "more",
                 value: 15
             }, {
-                shortDescr: "25% less Move Speed",
+                shortDescr: "25% 更少的移动速度",
                 statType: "moveSpeed",
                 operator: "more",
                 value: -25
             }, {
-                shortDescr: "85% less Evasion score",
+                shortDescr: "85% 更少的闪避分数",
                 statType: "evasion",
                 operator: "more",
                 value: -85
@@ -23836,7 +23836,7 @@ parcelRequire = function (e, r, t, n) {
             size: 4,
             color: "#8bc34a",
             stats: [{
-                shortDescr: "20% more Attack Speed",
+                shortDescr: "20% 更多攻击速度",
                 statType: "attackSpeed",
                 operator: "more",
                 value: 20
@@ -23860,7 +23860,7 @@ parcelRequire = function (e, r, t, n) {
             size: 4,
             color: "#a90c00",
             stats: [{
-                shortDescr: "40% more Expend Damage",
+                shortDescr: "40% 更多消耗伤害",
                 statType: "expendDamage",
                 operator: "more",
                 value: 40
@@ -23884,12 +23884,12 @@ parcelRequire = function (e, r, t, n) {
                 operator: "more",
                 value: 10
             }, {
-                shortDescr: "10% more Create Damage",
+                shortDescr: "10% 更多制造伤害",
                 statType: "createDamage",
                 operator: "more",
                 value: 10
             }, {
-                shortDescr: "10% more Attack Speed",
+                shortDescr: "10% 更多攻击速度",
                 statType: "attackSpeed",
                 operator: "more",
                 value: 10
@@ -23908,7 +23908,7 @@ parcelRequire = function (e, r, t, n) {
             size: 4,
             color: "#e91e63",
             stats: [{
-                shortDescr: "25% more Health",
+                shortDescr: "25% 更多生命值",
                 statType: "maxhp",
                 operator: "more",
                 value: 25
@@ -23993,7 +23993,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 35
             }, {
-                shortDescr: "+30 Evasion score",
+                shortDescr: "+30 闪避分数",
                 statType: "evasion",
                 operator: "add",
                 value: 30
@@ -24058,12 +24058,12 @@ parcelRequire = function (e, r, t, n) {
             x: 14176,
             y: 13600,
             links: [165],
-            name: "Improved Health",
+            name: "改良生命值",
             descr: "",
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "6% increased Health",
+                shortDescr: "6% 增加的生命值",
                 statType: "maxhp",
                 operator: "multi",
                 value: 6
@@ -24073,7 +24073,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14272,
             y: 15360,
             links: [269],
-            name: "Improved Health",
+            name: "改良生命值",
             descr: "",
             size: 2,
             color: "#4caf50",
@@ -24153,12 +24153,12 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#9c27b0",
             stats: [{
-                shortDescr: "18% increased Expend Damage",
+                shortDescr: "18%增加的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: 15
             }, {
-                shortDescr: "8% decreased Create Damage",
+                shortDescr: "8% 降低的制造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: -8
@@ -24178,12 +24178,12 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#9c27b0",
             stats: [{
-                shortDescr: "18% increased Expend Damage",
+                shortDescr: "18%增加的消耗伤害",
                 statType: "expendDamage",
                 operator: "multi",
                 value: 15
             }, {
-                shortDescr: "8% decreased Create Damage",
+                shortDescr: "8% 降低的制造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: -8
@@ -24431,7 +24431,7 @@ parcelRequire = function (e, r, t, n) {
                                 b: !0,
                                 size: 14
                             }), t.push({
-                                t: "Skill #".concat(e.node.skillId),
+                                t: "技能 #".concat(e.node.skillId),
                                 c: "#444",
                                 b: !1,
                                 size: 14
@@ -34152,7 +34152,7 @@ parcelRequire = function (e, r, t, n) {
                 oneTime: !0
             }, {
                 purchaseType: h.MID_ATTACK_SPEED_20,
-                title: "+20 Attack Speed",
+                title: "+20 攻击速度",
                 description: "",
                 price: 1e7,
                 priceToShow: 5e6,
