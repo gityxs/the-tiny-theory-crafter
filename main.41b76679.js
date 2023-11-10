@@ -18523,8 +18523,8 @@ parcelRequire = function (e, r, t, n) {
             x: 15456,
             y: 15168,
             links: [2, 5, 3, 4],
-            name: "The Tiny Theorycrafter",
-            descr: "Welcome to the world of Solus. You are The Tiny Theorycrafter, and you seek to put an end to the threatening evil that is slowly encroaching on the land. Venture deep into the world, overcoming enemies in every environment.\n\nStart at level 1 on every run and try to make it as far as you can. Earn Quiddity that you can spend to upgrade your powers. Unlock points on the skill tree and allocate them to boost your abilities, as well as unlocking new abilities.\n\nPress [B] to move the screen back here.\nPress [V] to zoom out and see the tree.",
+            name: "小小理论创造者",
+            descr: "欢迎来到 Solus 的世界。 你是小小理论创造者，你试图终结正在慢慢侵蚀这片土地的邪恶势力。 深入世界冒险，克服各种环境中的敌人。\n\n每次运行都从 1 级开始，并尽力走得更远。 赚取 Quiddity，您可以用它来升级您的力量。 解锁技能树上的点并分配它们来增强你的能力，以及解锁新的能力。\n\n按 [B] 将屏幕移回此处。\n按 [V] 缩小并查看树。",
             size: 5,
             color: "#ffffff",
             stats: [{
@@ -18693,7 +18693,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16864,
             y: 14720,
             links: [14, 66, 62],
-            name: "Health & Evasion",
+            name: "生命值 & 闪避",
             size: 2,
             color: "#00bcd4",
             stats: [{
@@ -18716,7 +18716,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#8bc34a",
             stats: [{
-                shortDescr: "12% 增加的制造伤害",
+                shortDescr: "12% 增加的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: 12
@@ -18730,7 +18730,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "2% 增加的制造伤害",
+                shortDescr: "2% 增加的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: 2
@@ -18777,7 +18777,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "2% 增加的制造伤害",
+                shortDescr: "2% 增加的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: 2
@@ -18838,7 +18838,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "2% 增加的制造伤害",
+                shortDescr: "2% 增加的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: 2
@@ -18881,7 +18881,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15456,
             y: 12992,
             links: [25, 21, 98, 115, 133],
-            name: "Major 力量",
+            name: "主要力量",
             size: 3,
             color: "#ffc107",
             stats: [{
@@ -18937,7 +18937,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17632,
             y: 13888,
             links: [29, 31, 51, 371],
-            name: "Shrewd and Stacked",
+            name: "精明和堆叠",
             size: 3,
             color: "#ffc107",
             stats: [{
@@ -18984,7 +18984,7 @@ parcelRequire = function (e, r, t, n) {
             x: 18336,
             y: 15168,
             links: [32, 34, 52, 105, 104],
-            name: "Major 敏捷",
+            name: "主要敏捷",
             size: 3,
             color: "#ffc107",
             stats: [{
@@ -19026,7 +19026,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17632,
             y: 16512,
             links: [35, 37, 275],
-            name: "Illusionist",
+            name: "魔术师",
             size: 3,
             color: "#ffc107",
             stats: [{
@@ -19073,7 +19073,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15456,
             y: 17408,
             links: [41, 42, 126, 223],
-            name: "Major 智力",
+            name: "主要智力",
             size: 3,
             color: "#ffc107",
             stats: [{
@@ -19199,11 +19199,11 @@ parcelRequire = function (e, r, t, n) {
             x: 17120,
             y: 14720,
             links: [44, 50],
-            name: "Creation",
+            name: "创造",
             size: 2,
             color: "#8bc34a",
             stats: [{
-                shortDescr: "12% 增加的制造伤害",
+                shortDescr: "12% 增加的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: 12
@@ -19213,11 +19213,11 @@ parcelRequire = function (e, r, t, n) {
             x: 17312,
             y: 14656,
             links: [51, 49, 14],
-            name: "Creation",
+            name: "创造",
             size: 2,
             color: "#8bc34a",
             stats: [{
-                shortDescr: "12% 增加的制造伤害",
+                shortDescr: "12% 增加的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: 12
@@ -19227,11 +19227,11 @@ parcelRequire = function (e, r, t, n) {
             x: 17312,
             y: 14464,
             links: [30, 50],
-            name: "Creation",
+            name: "创造",
             size: 2,
             color: "#8bc34a",
             stats: [{
-                shortDescr: "12% 增加的制造伤害",
+                shortDescr: "12% 增加的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: 12
@@ -19425,7 +19425,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16544,
             y: 14912,
             links: [62, 64, 17],
-            name: "Health & Resist",
+            name: "Health & 抵抗",
             size: 2,
             color: "#009688",
             stats: [{
@@ -19434,7 +19434,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 3
             }, {
-                shortDescr: "+5 Resist",
+                shortDescr: "+5 抵抗",
                 statType: "resist",
                 operator: "add",
                 value: 5
@@ -19444,7 +19444,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16416,
             y: 14720,
             links: [63, 65],
-            name: "Health & Resist",
+            name: "Health & 抵抗",
             size: 2,
             color: "#009688",
             stats: [{
@@ -19453,7 +19453,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 3
             }, {
-                shortDescr: "+5 Resist",
+                shortDescr: "+5 抵抗",
                 statType: "resist",
                 operator: "add",
                 value: 5
@@ -19477,7 +19477,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 45
             }, {
-                shortDescr: "+12 Resist",
+                shortDescr: "+12 抵抗",
                 statType: "resist",
                 operator: "add",
                 value: 12
@@ -19680,7 +19680,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "18% increased Magical Damage",
+                shortDescr: "18%  增加的魔法伤害",
                 statType: "magicalDamage",
                 operator: "multi",
                 value: 18
@@ -19694,7 +19694,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "18% increased Magical Damage",
+                shortDescr: "18%  增加的魔法伤害",
                 statType: "magicalDamage",
                 operator: "multi",
                 value: 18
@@ -19708,7 +19708,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "18% increased Magical Damage",
+                shortDescr: "18%  增加的魔法伤害",
                 statType: "magicalDamage",
                 operator: "multi",
                 value: 18
@@ -19764,7 +19764,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "18% increased Spiritual Damage",
+                shortDescr: "18% 增加的精神伤害",
                 statType: "spiritualDamage",
                 operator: "multi",
                 value: 18
@@ -19778,7 +19778,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "18% increased Spiritual Damage",
+                shortDescr: "18% 增加的精神伤害",
                 statType: "spiritualDamage",
                 operator: "multi",
                 value: 18
@@ -19792,7 +19792,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "18% increased Spiritual Damage",
+                shortDescr: "18% 增加的精神伤害",
                 statType: "spiritualDamage",
                 operator: "multi",
                 value: 18
@@ -19806,7 +19806,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#ffc107",
             stats: [{
-                shortDescr: "32% increased Spiritual Damage",
+                shortDescr: "32% 增加的精神伤害",
                 statType: "spiritualDamage",
                 operator: "multi",
                 value: 32
@@ -19820,7 +19820,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#8bc34a",
             stats: [{
-                shortDescr: "18% 增加的制造伤害",
+                shortDescr: "18% 增加的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: 18
@@ -19839,7 +19839,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#8bc34a",
             stats: [{
-                shortDescr: "18% 增加的制造伤害",
+                shortDescr: "18% 增加的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: 18
@@ -19858,7 +19858,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#9c27b0",
             stats: [{
-                shortDescr: "10% 更多制造伤害",
+                shortDescr: "10% 更多创造伤害",
                 statType: "createDamage",
                 operator: "more",
                 value: 10
@@ -19868,7 +19868,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "more",
                 value: 10
             }, {
-                shortDescr: "20% 降低的制造伤害",
+                shortDescr: "20% 降低的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: -20
@@ -19892,7 +19892,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 18
             }, {
-                shortDescr: "8% 降低的制造伤害",
+                shortDescr: "8% 降低的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: -8
@@ -19916,7 +19916,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 18
             }, {
-                shortDescr: "8% 降低的制造伤害",
+                shortDescr: "8% 降低的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: -8
@@ -19973,7 +19973,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17312,
             y: 14976,
             links: [45, 102],
-            name: "Defense & Resist",
+            name: "Defense & 抵抗",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -19982,7 +19982,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 4
             }, {
-                shortDescr: "+4 Resist",
+                shortDescr: "+4 抵抗",
                 statType: "resist",
                 operator: "add",
                 value: 4
@@ -19992,7 +19992,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17120,
             y: 15040,
             links: [101, 103],
-            name: "Defense & Resist",
+            name: "Defense & 抵抗",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -20001,7 +20001,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 4
             }, {
-                shortDescr: "+4 Resist",
+                shortDescr: "+4 抵抗",
                 statType: "resist",
                 operator: "add",
                 value: 4
@@ -20011,7 +20011,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17248,
             y: 14848,
             links: [102],
-            name: "Defense & Resist",
+            name: "Defense & 抵抗",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -20020,7 +20020,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 4
             }, {
-                shortDescr: "+4 Resist",
+                shortDescr: "+4 抵抗",
                 statType: "resist",
                 operator: "add",
                 value: 4
@@ -20520,7 +20520,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#009688",
             stats: [{
-                shortDescr: "+6 Resist",
+                shortDescr: "+6 抵抗",
                 statType: "resist",
                 operator: "add",
                 value: 6
@@ -20534,7 +20534,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#009688",
             stats: [{
-                shortDescr: "+6 Resist",
+                shortDescr: "+6 抵抗",
                 statType: "resist",
                 operator: "add",
                 value: 6
@@ -20548,7 +20548,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#009688",
             stats: [{
-                shortDescr: "+6 Resist",
+                shortDescr: "+6 抵抗",
                 statType: "resist",
                 operator: "add",
                 value: 6
@@ -20634,7 +20634,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14496,
             y: 14848,
             links: [136, 141],
-            name: "Defense",
+            name: "防御",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -20738,17 +20738,17 @@ parcelRequire = function (e, r, t, n) {
             size: 4,
             color: "#ffc107",
             stats: [{
-                shortDescr: "8% increased 力量",
+                shortDescr: "8% 增加的力量",
                 statType: "strength",
                 operator: "multi",
                 value: 8
             }, {
-                shortDescr: "8% increased 智力",
+                shortDescr: "8% 增加的智力",
                 statType: "intelligence",
                 operator: "multi",
                 value: 8
             }, {
-                shortDescr: "8% increased 敏捷",
+                shortDescr: "8% 增加的敏捷",
                 statType: "agility",
                 operator: "multi",
                 value: 8
@@ -20762,17 +20762,17 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "12% increased Physical Damage",
+                shortDescr: "12% 增加的物理伤害",
                 statType: "physicalDamage",
                 operator: "multi",
                 value: 12
             }, {
-                shortDescr: "12% increased Spiritual Damage",
+                shortDescr: "12% 增加的精神伤害",
                 statType: "spiritualDamage",
                 operator: "multi",
                 value: 12
             }, {
-                shortDescr: "12% increased Magical Damage",
+                shortDescr: "12%  增加的魔法伤害",
                 statType: "magicalDamage",
                 operator: "multi",
                 value: 12
@@ -20786,7 +20786,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#e91e63",
             stats: [{
-                shortDescr: "18% increased Physical Damage",
+                shortDescr: "18% 增加的物理伤害",
                 statType: "physicalDamage",
                 operator: "multi",
                 value: 18
@@ -20805,7 +20805,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 2
             }, {
-                shortDescr: "10% increased Physical Damage",
+                shortDescr: "10% 增加的物理伤害",
                 statType: "physicalDamage",
                 operator: "multi",
                 value: 10
@@ -20824,7 +20824,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 3
             }, {
-                shortDescr: "30% increased Physical Damage",
+                shortDescr: "30% 增加的物理伤害",
                 statType: "physicalDamage",
                 operator: "multi",
                 value: 30
@@ -20838,7 +20838,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#673ab7",
             stats: [{
-                shortDescr: "18% increased Magical Damage",
+                shortDescr: "18%  增加的魔法伤害",
                 statType: "magicalDamage",
                 operator: "multi",
                 value: 18
@@ -20857,7 +20857,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 2
             }, {
-                shortDescr: "10% increased Magical Damage",
+                shortDescr: "10%  增加的魔法伤害",
                 statType: "magicalDamage",
                 operator: "multi",
                 value: 10
@@ -20876,7 +20876,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 3
             }, {
-                shortDescr: "30% increased Magical Damage",
+                shortDescr: "30%  增加的魔法伤害",
                 statType: "magicalDamage",
                 operator: "multi",
                 value: 30
@@ -20890,7 +20890,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffeb3b",
             stats: [{
-                shortDescr: "18% increased Spiritual Damage",
+                shortDescr: "18% 增加的精神伤害",
                 statType: "spiritualDamage",
                 operator: "multi",
                 value: 18
@@ -20909,7 +20909,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 2
             }, {
-                shortDescr: "10% increased Spiritual Damage",
+                shortDescr: "10% 增加的精神伤害",
                 statType: "spiritualDamage",
                 operator: "multi",
                 value: 10
@@ -20928,7 +20928,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 3
             }, {
-                shortDescr: "30% increased Spiritual Damage",
+                shortDescr: "30% 增加的精神伤害",
                 statType: "spiritualDamage",
                 operator: "multi",
                 value: 30
@@ -21117,7 +21117,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13984,
             y: 13184,
             links: [117, 169],
-            name: "Defense & Resist",
+            name: "Defense & 抵抗",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -21126,7 +21126,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 4
             }, {
-                shortDescr: "+4 Resist",
+                shortDescr: "+4 抵抗",
                 statType: "resist",
                 operator: "add",
                 value: 4
@@ -21136,7 +21136,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14176,
             y: 13184,
             links: [168, 170],
-            name: "Defense & Resist",
+            name: "Defense & 抵抗",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -21145,7 +21145,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 4
             }, {
-                shortDescr: "+4 Resist",
+                shortDescr: "+4 抵抗",
                 statType: "resist",
                 operator: "add",
                 value: 4
@@ -21155,7 +21155,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14176,
             y: 13440,
             links: [169, 171],
-            name: "Defense & Resist",
+            name: "Defense & 抵抗",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -21164,7 +21164,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 4
             }, {
-                shortDescr: "+4 Resist",
+                shortDescr: "+4 抵抗",
                 statType: "resist",
                 operator: "add",
                 value: 4
@@ -21183,7 +21183,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 12
             }, {
-                shortDescr: "+12 Resist",
+                shortDescr: "+12 抵抗",
                 statType: "resist",
                 operator: "add",
                 value: 12
@@ -21413,7 +21413,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#3f51b5",
             stats: [{
-                shortDescr: "+5 Defense Penetration",
+                shortDescr: "+5 防御穿透",
                 statType: "defensePenetration",
                 operator: "add",
                 value: 5
@@ -21427,7 +21427,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#3f51b5",
             stats: [{
-                shortDescr: "+5 Defense Penetration",
+                shortDescr: "+5 防御穿透",
                 statType: "defensePenetration",
                 operator: "add",
                 value: 5
@@ -21441,7 +21441,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#3f51b5",
             stats: [{
-                shortDescr: "+5 Defense Penetration",
+                shortDescr: "+5 防御穿透",
                 statType: "defensePenetration",
                 operator: "add",
                 value: 5
@@ -21469,7 +21469,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#f44336",
             stats: [{
-                shortDescr: "14% increased 力量",
+                shortDescr: "14% 增加的力量",
                 statType: "strength",
                 operator: "multi",
                 value: 14
@@ -21628,7 +21628,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "2% 增加的制造伤害",
+                shortDescr: "2% 增加的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: 2
@@ -21652,7 +21652,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 30
             }, {
-                shortDescr: "+5 Resist",
+                shortDescr: "+5 抵抗",
                 statType: "resist",
                 operator: "add",
                 value: 5
@@ -21713,7 +21713,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#009688",
             stats: [{
-                shortDescr: "+8 Resist",
+                shortDescr: "+8 抵抗",
                 statType: "resist",
                 operator: "add",
                 value: 8
@@ -21727,12 +21727,12 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#009688",
             stats: [{
-                shortDescr: "10% increased Resist",
+                shortDescr: "10% 增加的抵抗",
                 statType: "resist",
                 operator: "multi",
                 value: 10
             }, {
-                shortDescr: "+10 Resist",
+                shortDescr: "+10 抵抗",
                 statType: "resist",
                 operator: "add",
                 value: 10
@@ -21746,7 +21746,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#009688",
             stats: [{
-                shortDescr: "+8 Resist",
+                shortDescr: "+8 抵抗",
                 statType: "resist",
                 operator: "add",
                 value: 8
@@ -21765,7 +21765,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 30
             }, {
-                shortDescr: "+5 Resist",
+                shortDescr: "+5 抵抗",
                 statType: "resist",
                 operator: "add",
                 value: 5
@@ -21793,7 +21793,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#673ab7",
             stats: [{
-                shortDescr: "%14 increased 智力",
+                shortDescr: "%14 增加的智力",
                 statType: "intelligence",
                 operator: "multi",
                 value: 14
@@ -21812,7 +21812,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 30
             }, {
-                shortDescr: "+5 Resist",
+                shortDescr: "+5 抵抗",
                 statType: "resist",
                 operator: "add",
                 value: 5
@@ -21826,17 +21826,17 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "12% increased Physical Damage",
+                shortDescr: "12% 增加的物理伤害",
                 statType: "physicalDamage",
                 operator: "multi",
                 value: 12
             }, {
-                shortDescr: "12% increased Spiritual Damage",
+                shortDescr: "12% 增加的精神伤害",
                 statType: "spiritualDamage",
                 operator: "multi",
                 value: 12
             }, {
-                shortDescr: "12% increased Magical Damage",
+                shortDescr: "12%  增加的魔法伤害",
                 statType: "magicalDamage",
                 operator: "multi",
                 value: 12
@@ -21850,7 +21850,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffeb3b",
             stats: [{
-                shortDescr: "15% increased Spiritual Damage",
+                shortDescr: "15% 增加的精神伤害",
                 statType: "spiritualDamage",
                 operator: "multi",
                 value: 15
@@ -21864,7 +21864,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#ffeb3b",
             stats: [{
-                shortDescr: "35% increased Spiritual Damage",
+                shortDescr: "35% 增加的精神伤害",
                 statType: "spiritualDamage",
                 operator: "multi",
                 value: 35
@@ -21878,7 +21878,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#e91e63",
             stats: [{
-                shortDescr: "15% increased Physical Damage",
+                shortDescr: "15% 增加的物理伤害",
                 statType: "physicalDamage",
                 operator: "multi",
                 value: 15
@@ -21892,7 +21892,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#e91e63",
             stats: [{
-                shortDescr: "35% increased Physical Damage",
+                shortDescr: "35% 增加的物理伤害",
                 statType: "physicalDamage",
                 operator: "multi",
                 value: 35
@@ -21906,7 +21906,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#673ab7",
             stats: [{
-                shortDescr: "15% increased Magical Damage",
+                shortDescr: "15%  增加的魔法伤害",
                 statType: "magicalDamage",
                 operator: "multi",
                 value: 15
@@ -21920,7 +21920,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#673ab7",
             stats: [{
-                shortDescr: "35% increased Magical Damage",
+                shortDescr: "35%  增加的魔法伤害",
                 statType: "magicalDamage",
                 operator: "multi",
                 value: 35
@@ -21939,7 +21939,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 12
             }, {
-                shortDescr: "+5 Resist",
+                shortDescr: "+5 抵抗",
                 statType: "resist",
                 operator: "add",
                 value: 5
@@ -21958,7 +21958,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 12
             }, {
-                shortDescr: "+5 Resist",
+                shortDescr: "+5 抵抗",
                 statType: "resist",
                 operator: "add",
                 value: 5
@@ -21977,7 +21977,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 12
             }, {
-                shortDescr: "+5 Resist",
+                shortDescr: "+5 抵抗",
                 statType: "resist",
                 operator: "add",
                 value: 5
@@ -22047,7 +22047,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#673ab7",
             stats: [{
-                shortDescr: "18% increased Magical Damage",
+                shortDescr: "18%  增加的魔法伤害",
                 statType: "magicalDamage",
                 operator: "multi",
                 value: 18
@@ -22061,7 +22061,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#673ab7",
             stats: [{
-                shortDescr: "18% increased Magical Damage",
+                shortDescr: "18%  增加的魔法伤害",
                 statType: "magicalDamage",
                 operator: "multi",
                 value: 18
@@ -22075,7 +22075,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#673ab7",
             stats: [{
-                shortDescr: "18% increased Magical Damage",
+                shortDescr: "18%  增加的魔法伤害",
                 statType: "magicalDamage",
                 operator: "multi",
                 value: 18
@@ -22089,12 +22089,12 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#673ab7",
             stats: [{
-                shortDescr: "25% increased Magical Damage",
+                shortDescr: "25%  增加的魔法伤害",
                 statType: "magicalDamage",
                 operator: "multi",
                 value: 25
             }, {
-                shortDescr: "20% 增加的制造伤害",
+                shortDescr: "20% 增加的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: 20
@@ -22108,7 +22108,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#e91e63",
             stats: [{
-                shortDescr: "18% increased Physical Damage",
+                shortDescr: "18% 增加的物理伤害",
                 statType: "physicalDamage",
                 operator: "multi",
                 value: 18
@@ -22122,7 +22122,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#e91e63",
             stats: [{
-                shortDescr: "18% increased Physical Damage",
+                shortDescr: "18% 增加的物理伤害",
                 statType: "physicalDamage",
                 operator: "multi",
                 value: 18
@@ -22136,7 +22136,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#e91e63",
             stats: [{
-                shortDescr: "30% increased Physical Damage",
+                shortDescr: "30% 增加的物理伤害",
                 statType: "physicalDamage",
                 operator: "multi",
                 value: 30
@@ -22358,7 +22358,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffffff",
             stats: [{
-                shortDescr: "10% increased Quiddity Energize Rate",
+                shortDescr: "10%  增加的Quidity充能率",",
                 statType: "quiddityEnergizeRate",
                 operator: "multi",
                 value: 10
@@ -22410,7 +22410,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffffff",
             stats: [{
-                shortDescr: "10% increased Quiddity Energize Rate",
+                shortDescr: "10%  增加的Quidity充能率",",
                 statType: "quiddityEnergizeRate",
                 operator: "multi",
                 value: 10
@@ -22420,11 +22420,11 @@ parcelRequire = function (e, r, t, n) {
             x: 13024,
             y: 15616,
             links: [251, 256],
-            name: "Energize Experience",
+            name: "充能经验",
             size: 2,
             color: "#ffffff",
             stats: [{
-                shortDescr: "10% increased Quiddity Energize Rate",
+                shortDescr: "10%  增加的Quidity充能率",",
                 statType: "quiddityEnergizeRate",
                 operator: "multi",
                 value: 10
@@ -22438,7 +22438,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#ffffff",
             stats: [{
-                shortDescr: "20% increased Quiddity Energize Rate",
+                shortDescr: "20%  增加的Quidity充能率",",
                 statType: "quiddityEnergizeRate",
                 operator: "multi",
                 value: 20
@@ -22509,7 +22509,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#8bc34a",
             stats: [{
-                shortDescr: "12% 增加的制造伤害",
+                shortDescr: "12% 增加的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: 12
@@ -22523,7 +22523,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#8bc34a",
             stats: [{
-                shortDescr: "27% 增加的制造伤害",
+                shortDescr: "27% 增加的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: 27
@@ -22537,7 +22537,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#8bc34a",
             stats: [{
-                shortDescr: "12% 增加的制造伤害",
+                shortDescr: "12% 增加的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: 12
@@ -22551,7 +22551,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#8bc34a",
             stats: [{
-                shortDescr: "12% 增加的制造伤害",
+                shortDescr: "12% 增加的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: 12
@@ -22570,7 +22570,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 18
             }, {
-                shortDescr: "8% 降低的制造伤害",
+                shortDescr: "8% 降低的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: -8
@@ -22594,7 +22594,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 18
             }, {
-                shortDescr: "8% 降低的制造伤害",
+                shortDescr: "8% 降低的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: -8
@@ -22618,7 +22618,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 18
             }, {
-                shortDescr: "8% 降低的制造伤害",
+                shortDescr: "8% 降低的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: -8
@@ -22642,7 +22642,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 30
             }, {
-                shortDescr: "16% 降低的制造伤害",
+                shortDescr: "16% 降低的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: -16
@@ -23251,7 +23251,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "2% 增加的制造伤害",
+                shortDescr: "2% 增加的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: 2
@@ -23270,7 +23270,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "2% 增加的制造伤害",
+                shortDescr: "2% 增加的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: 2
@@ -23289,7 +23289,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "2% 增加的制造伤害",
+                shortDescr: "2% 增加的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: 2
@@ -23346,7 +23346,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#00bcd4",
             stats: [{
-                shortDescr: "8% increased 敏捷",
+                shortDescr: "8% 增加的敏捷",
                 statType: "agility",
                 operator: "multi",
                 value: 8
@@ -23492,7 +23492,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#8bc34a",
             stats: [{
-                shortDescr: "12% 增加的制造伤害",
+                shortDescr: "12% 增加的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: 12
@@ -23520,7 +23520,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#8bc34a",
             stats: [{
-                shortDescr: "30% 增加的制造伤害",
+                shortDescr: "30% 增加的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: 30
@@ -23548,7 +23548,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#3f51b5",
             stats: [{
-                shortDescr: "+5 Defense Penetration",
+                shortDescr: "+5 防御穿透",
                 statType: "defensePenetration",
                 operator: "add",
                 value: 5
@@ -23562,7 +23562,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#3f51b5",
             stats: [{
-                shortDescr: "+5 Defense Penetration",
+                shortDescr: "+5 防御穿透",
                 statType: "defensePenetration",
                 operator: "add",
                 value: 5
@@ -23572,11 +23572,11 @@ parcelRequire = function (e, r, t, n) {
             x: 15648,
             y: 16832,
             links: [333],
-            name: "Pious Ascendant",
+            name: "虔诚的转生者",
             size: 3,
             color: "#ffeb3b",
             stats: [{
-                shortDescr: "30% increased Spiritual Damage",
+                shortDescr: "30% 增加的精神伤害",
                 statType: "spiritualDamage",
                 operator: "multi",
                 value: 30
@@ -23586,11 +23586,11 @@ parcelRequire = function (e, r, t, n) {
             x: 15648,
             y: 17024,
             links: [42, 332],
-            name: "Inner Spirit",
+            name: "内在精神",
             size: 2,
             color: "#ffeb3b",
             stats: [{
-                shortDescr: "18% increased Spiritual Damage",
+                shortDescr: "18% 增加的精神伤害",
                 statType: "spiritualDamage",
                 operator: "multi",
                 value: 18
@@ -23600,11 +23600,11 @@ parcelRequire = function (e, r, t, n) {
             x: 15648,
             y: 17216,
             links: [331, 333],
-            name: "Inner Spirit",
+            name: "内在精神",
             size: 2,
             color: "#ffeb3b",
             stats: [{
-                shortDescr: "18% increased Spiritual Damage",
+                shortDescr: "18% 增加的精神伤害",
                 statType: "spiritualDamage",
                 operator: "multi",
                 value: 18
@@ -23614,11 +23614,11 @@ parcelRequire = function (e, r, t, n) {
             x: 15840,
             y: 17024,
             links: [332, 330],
-            name: "Inner Spirit",
+            name: "内在精神",
             size: 2,
             color: "#ffeb3b",
             stats: [{
-                shortDescr: "18% increased Spiritual Damage",
+                shortDescr: "18% 增加的精神伤害",
                 statType: "spiritualDamage",
                 operator: "multi",
                 value: 18
@@ -23628,7 +23628,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16224,
             y: 17024,
             links: [335],
-            name: "Unmoving Resolve",
+            name: "坚定不移的决心",
             size: 3,
             color: "#f44336",
             stats: [{
@@ -23642,7 +23642,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16416,
             y: 17024,
             links: [336, 334, 339],
-            name: "Defense",
+            name: "防御",
             size: 2,
             color: "#f44336",
             stats: [{
@@ -23656,7 +23656,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16352,
             y: 17216,
             links: [337, 335],
-            name: "Defense",
+            name: "防御",
             size: 2,
             color: "#f44336",
             stats: [{
@@ -23670,7 +23670,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16160,
             y: 17216,
             links: [41, 336],
-            name: "Defense",
+            name: "防御",
             size: 2,
             color: "#f44336",
             stats: [{
@@ -23684,7 +23684,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16416,
             y: 16576,
             links: [307, 339],
-            name: "Defense",
+            name: "防御",
             size: 2,
             color: "#f44336",
             stats: [{
@@ -23698,7 +23698,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16416,
             y: 16832,
             links: [338, 335],
-            name: "Defense",
+            name: "防御",
             size: 2,
             color: "#f44336",
             stats: [{
@@ -23841,12 +23841,12 @@ parcelRequire = function (e, r, t, n) {
                 operator: "more",
                 value: 20
             }, {
-                shortDescr: "10% 更少的制造伤害",
+                shortDescr: "10% 更少的创造伤害",
                 statType: "createDamage",
                 operator: "more",
                 value: -10
             }, {
-                shortDescr: "16% less Expend Damage",
+                shortDescr: "16% 更少的消耗伤害",
                 statType: "expendDamage",
                 operator: "more",
                 value: -16
@@ -23856,7 +23856,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13440,
             y: 17664,
             links: [128],
-            name: "Destroyer of Worlds",
+            name: "世界毁灭者",
             size: 4,
             color: "#a90c00",
             stats: [{
@@ -23865,7 +23865,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "more",
                 value: 40
             }, {
-                shortDescr: "85% 更少的制造伤害",
+                shortDescr: "85% 更少的创造伤害",
                 statType: "createDamage",
                 operator: "more",
                 value: -85
@@ -23875,16 +23875,16 @@ parcelRequire = function (e, r, t, n) {
             x: 17376,
             y: 17696,
             links: [38],
-            name: "Agility of the Creator",
+            name: "造物主的敏捷",
             size: 4,
             color: "#2196f3",
             stats: [{
-                shortDescr: "10% more 敏捷",
+                shortDescr: "10% 更多的敏捷",
                 statType: "agility",
                 operator: "more",
                 value: 10
             }, {
-                shortDescr: "10% 更多制造伤害",
+                shortDescr: "10% 更多创造伤害",
                 statType: "createDamage",
                 operator: "more",
                 value: 10
@@ -23894,7 +23894,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "more",
                 value: 10
             }, {
-                shortDescr: "35% less Expend Damage",
+                shortDescr: "35% 更少的消耗伤害",
                 statType: "expendDamage",
                 operator: "more",
                 value: -35
@@ -23904,7 +23904,7 @@ parcelRequire = function (e, r, t, n) {
             x: 12384,
             y: 15168,
             links: [122],
-            name: "Irrepresible Focus",
+            name: "难以抑制的专注",
             size: 4,
             color: "#e91e63",
             stats: [{
@@ -23918,7 +23918,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "more",
                 value: -20
             }, {
-                shortDescr: "20% less Resist",
+                shortDescr: "20% less 抵抗",
                 statType: "resist",
                 operator: "more",
                 value: -20
@@ -23928,8 +23928,8 @@ parcelRequire = function (e, r, t, n) {
             x: 17312,
             y: 12704,
             links: [28],
-            name: "Brute Headhunting",
-            descr: "Gain 80% increased Critical Chance and 4% less Critical Damage every time you do not critically strike. Lasts 20 seconds.",
+            name: "野蛮猎头",
+            descr: "每次未造成暴击时，暴击几率提高 80%，暴击伤害降低 4%。 持续20秒。",
             size: 4,
             color: "#e48e00",
             stats: []
@@ -24048,7 +24048,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "+6 Resist",
+                shortDescr: "+6 抵抗",
                 statType: "resist",
                 operator: "add",
                 value: 6
@@ -24093,7 +24093,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#8bc34a",
             stats: [{
-                shortDescr: "12% 增加的制造伤害",
+                shortDescr: "12% 增加的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: 12
@@ -24108,7 +24108,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#8bc34a",
             stats: [{
-                shortDescr: "12% 增加的制造伤害",
+                shortDescr: "12% 增加的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: 12
@@ -24158,7 +24158,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 15
             }, {
-                shortDescr: "8% 降低的制造伤害",
+                shortDescr: "8% 降低的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: -8
@@ -24183,7 +24183,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 15
             }, {
-                shortDescr: "8% 降低的制造伤害",
+                shortDescr: "8% 降低的创造伤害",
                 statType: "createDamage",
                 operator: "multi",
                 value: -8
@@ -34145,7 +34145,7 @@ parcelRequire = function (e, r, t, n) {
                 oneTime: !0
             }, {
                 purchaseType: h.EARLY_RESIST_5,
-                title: "+5 Resist",
+                title: "+5 抵抗",
                 description: "",
                 price: 24e5,
                 priceToShow: 13e5,
