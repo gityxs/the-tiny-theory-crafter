@@ -19472,7 +19472,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 6
             }, {
-                shortDescr: "+45 Health",
+                shortDescr: "+45 生命值",
                 statType: "maxhp",
                 operator: "add",
                 value: 45
@@ -19897,7 +19897,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: -8
             }, {
-                shortDescr: "-5 Health",
+                shortDescr: "-5 生命值",
                 statType: "maxhp",
                 operator: "add",
                 value: -5
@@ -19921,7 +19921,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: -8
             }, {
-                shortDescr: "-5 Health",
+                shortDescr: "-5 生命值",
                 statType: "maxhp",
                 operator: "add",
                 value: -5
@@ -19935,7 +19935,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "+35 Health",
+                shortDescr: "+35 生命值",
                 statType: "maxhp",
                 operator: "add",
                 value: 35
@@ -19949,7 +19949,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "+35 Health",
+                shortDescr: "+35 生命值",
                 statType: "maxhp",
                 operator: "add",
                 value: 35
@@ -19963,7 +19963,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "+35 Health",
+                shortDescr: "+35 生命值",
                 statType: "maxhp",
                 operator: "add",
                 value: 35
@@ -19977,7 +19977,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "+4 Defense",
+                shortDescr: "+4 防御",
                 statType: "defense",
                 operator: "add",
                 value: 4
@@ -19996,7 +19996,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "+4 Defense",
+                shortDescr: "+4 防御",
                 statType: "defense",
                 operator: "add",
                 value: 4
@@ -20015,7 +20015,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "+4 Defense",
+                shortDescr: "+4 防御",
                 statType: "defense",
                 operator: "add",
                 value: 4
@@ -20034,7 +20034,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffffff",
             stats: [{
-                shortDescr: "10% increased Quiddity Transfer Rate",
+                shortDescr: "10% 增加的 Quiddity 传输率",
                 statType: "quiddityTransferRate",
                 operator: "multi",
                 value: 10
@@ -20048,12 +20048,12 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#2196f3",
             stats: [{
-                shortDescr: "+5 Movement Speed",
+                shortDescr: "+5 移动速度",
                 statType: "moveSpeed",
                 operator: "add",
                 value: 5
             }, {
-                shortDescr: "7% increased Quiddity Transfer Rate",
+                shortDescr: "7% 增加的 Quiddity 传输率",
                 statType: "quiddityTransferRate",
                 operator: "multi",
                 value: 7
@@ -20143,7 +20143,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#2196f3",
             stats: [{
-                shortDescr: "+8 Movement Speed",
+                shortDescr: "+8 移动速度",
                 statType: "moveSpeed",
                 operator: "add",
                 value: 8
@@ -20153,7 +20153,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: -2
             }, {
-                shortDescr: "7% increased Quiddity Transfer Rate",
+                shortDescr: "7% 增加的 Quiddity 传输率",
                 statType: "quiddityTransferRate",
                 operator: "multi",
                 value: 7
@@ -20167,7 +20167,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#2196f3",
             stats: [{
-                shortDescr: "+8 Movement Speed",
+                shortDescr: "+8 移动速度",
                 statType: "moveSpeed",
                 operator: "add",
                 value: 8
@@ -20177,7 +20177,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: -2
             }, {
-                shortDescr: "7% increased Quiddity Transfer Rate",
+                shortDescr: "7% 增加的 Quiddity 传输率",
                 statType: "quiddityTransferRate",
                 operator: "multi",
                 value: 7
@@ -20191,7 +20191,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#2196f3",
             stats: [{
-                shortDescr: "+8 Movement Speed",
+                shortDescr: "+8 移动速度",
                 statType: "moveSpeed",
                 operator: "add",
                 value: 8
@@ -20201,7 +20201,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: -2
             }, {
-                shortDescr: "7% increased Quiddity Transfer Rate",
+                shortDescr: "7% 增加的 Quiddity 传输率",
                 statType: "quiddityTransferRate",
                 operator: "multi",
                 value: 7
@@ -20361,7 +20361,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 6
             }, {
-                shortDescr: "+60 Health",
+                shortDescr: "+60 生命值",
                 statType: "maxhp",
                 operator: "add",
                 value: 60
@@ -20638,7 +20638,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "+5 Defense",
+                shortDescr: "+5 防御",
                 statType: "defense",
                 operator: "add",
                 value: 5
@@ -20652,7 +20652,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#ffc107",
             stats: [{
-                shortDescr: "+8 Defense",
+                shortDescr: "+8 防御",
                 statType: "defense",
                 operator: "add",
                 value: 8
@@ -21121,7 +21121,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "+4 Defense",
+                shortDescr: "+4 防御",
                 statType: "defense",
                 operator: "add",
                 value: 4
@@ -21140,7 +21140,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "+4 Defense",
+                shortDescr: "+4 防御",
                 statType: "defense",
                 operator: "add",
                 value: 4
@@ -21159,7 +21159,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "+4 Defense",
+                shortDescr: "+4 防御",
                 statType: "defense",
                 operator: "add",
                 value: 4
@@ -21178,7 +21178,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#ffc107",
             stats: [{
-                shortDescr: "+12 Defense",
+                shortDescr: "+12 防御",
                 statType: "defense",
                 operator: "add",
                 value: 12
@@ -21188,7 +21188,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 12
             }, {
-                shortDescr: "-8 Movement Speed",
+                shortDescr: "-8 移动速度",
                 statType: "moveSpeed",
                 operator: "add",
                 value: -6
@@ -21221,7 +21221,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 25
             }, {
-                shortDescr: "8% increased Accuracy",
+                shortDescr: "8% 提高的精准",
                 statType: "accuracy",
                 operator: "multi",
                 value: 8
@@ -21273,7 +21273,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 15
             }, {
-                shortDescr: "10% increased Accuracy",
+                shortDescr: "10% 提高的精准",
                 statType: "accuracy",
                 operator: "multi",
                 value: 10
@@ -21301,7 +21301,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#e91e63",
             stats: [{
-                shortDescr: "15% increased Attack Damage",
+                shortDescr: "15% 增加的攻击伤害",
                 statType: "attackDamage",
                 operator: "multi",
                 value: 15
@@ -21315,7 +21315,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#e91e63",
             stats: [{
-                shortDescr: "25% increased Attack Damage",
+                shortDescr: "25% 增加的攻击伤害",
                 statType: "attackDamage",
                 operator: "multi",
                 value: 25
@@ -21329,7 +21329,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#e91e63",
             stats: [{
-                shortDescr: "15% increased Attack Damage",
+                shortDescr: "15% 增加的攻击伤害",
                 statType: "attackDamage",
                 operator: "multi",
                 value: 15
@@ -21343,7 +21343,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#e91e63",
             stats: [{
-                shortDescr: "15% increased Attack Damage",
+                shortDescr: "15% 增加的攻击伤害",
                 statType: "attackDamage",
                 operator: "multi",
                 value: 15
@@ -21357,7 +21357,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#673ab7",
             stats: [{
-                shortDescr: "15% increased Spell Damage",
+                shortDescr: "15% 增加的法术伤害",
                 statType: "spellDamage",
                 operator: "multi",
                 value: 15
@@ -21371,7 +21371,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#673ab7",
             stats: [{
-                shortDescr: "25% increased Spell Damage",
+                shortDescr: "25% 增加的法术伤害",
                 statType: "spellDamage",
                 operator: "multi",
                 value: 25
@@ -21385,7 +21385,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#673ab7",
             stats: [{
-                shortDescr: "15% increased Spell Damage",
+                shortDescr: "15% 增加的法术伤害",
                 statType: "spellDamage",
                 operator: "multi",
                 value: 15
@@ -21399,7 +21399,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#673ab7",
             stats: [{
-                shortDescr: "15% increased Spell Damage",
+                shortDescr: "15% 增加的法术伤害",
                 statType: "spellDamage",
                 operator: "multi",
                 value: 15
@@ -21934,7 +21934,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "12% increased Spell Damage",
+                shortDescr: "12% 增加的法术伤害",
                 statType: "spellDamage",
                 operator: "multi",
                 value: 12
@@ -21953,7 +21953,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "12% increased Spell Damage",
+                shortDescr: "12% 增加的法术伤害",
                 statType: "spellDamage",
                 operator: "multi",
                 value: 12
@@ -21972,7 +21972,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "12% increased Spell Damage",
+                shortDescr: "12% 增加的法术伤害",
                 statType: "spellDamage",
                 operator: "multi",
                 value: 12
@@ -21991,7 +21991,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffffff",
             stats: [{
-                shortDescr: "10% increased Quiddity Transfer Rate",
+                shortDescr: "10% 增加的 Quiddity 传输率",
                 statType: "quiddityTransferRate",
                 operator: "multi",
                 value: 10
@@ -22005,7 +22005,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#ffffff",
             stats: [{
-                shortDescr: "15% increased Quiddity Transfer Rate",
+                shortDescr: "15% 增加的 Quiddity 传输率",
                 statType: "quiddityTransferRate",
                 operator: "multi",
                 value: 15
@@ -22019,7 +22019,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffffff",
             stats: [{
-                shortDescr: "10% increased Quiddity Transfer Rate",
+                shortDescr: "10% 增加的 Quiddity 传输率",
                 statType: "quiddityTransferRate",
                 operator: "multi",
                 value: 10
@@ -22033,7 +22033,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffffff",
             stats: [{
-                shortDescr: "10% increased Quiddity Transfer Rate",
+                shortDescr: "10% 增加的 Quiddity 传输率",
                 statType: "quiddityTransferRate",
                 operator: "multi",
                 value: 10
@@ -22225,12 +22225,12 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#2196f3",
             stats: [{
-                shortDescr: "+6 Movement Speed",
+                shortDescr: "+6 移动速度",
                 statType: "moveSpeed",
                 operator: "add",
                 value: 6
             }, {
-                shortDescr: "5% increased Quiddity Transfer Rate",
+                shortDescr: "5% 增加的 Quiddity 传输率",
                 statType: "quiddityTransferRate",
                 operator: "multi",
                 value: 5
@@ -22244,12 +22244,12 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#2196f3",
             stats: [{
-                shortDescr: "+6 Movement Speed",
+                shortDescr: "+6 移动速度",
                 statType: "moveSpeed",
                 operator: "add",
                 value: 6
             }, {
-                shortDescr: "5% increased Quiddity Transfer Rate",
+                shortDescr: "5% 增加的 Quiddity 传输率",
                 statType: "quiddityTransferRate",
                 operator: "multi",
                 value: 5
@@ -22259,7 +22259,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13344,
             y: 15808,
             links: [246, 249],
-            name: "Health & Defense",
+            name: "Health & 防御",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -22268,7 +22268,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 4
             }, {
-                shortDescr: "+3 Defense",
+                shortDescr: "+3 防御",
                 statType: "defense",
                 operator: "add",
                 value: 3
@@ -22278,7 +22278,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13216,
             y: 16e3,
             links: [131, 245],
-            name: "Health & Defense",
+            name: "Health & 防御",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -22287,7 +22287,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 4
             }, {
-                shortDescr: "+3 Defense",
+                shortDescr: "+3 防御",
                 statType: "defense",
                 operator: "add",
                 value: 3
@@ -22297,7 +22297,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13728,
             y: 16e3,
             links: [15, 253],
-            name: "Health & Defense",
+            name: "Health & 防御",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -22306,7 +22306,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 4
             }, {
-                shortDescr: "+3 Defense",
+                shortDescr: "+3 防御",
                 statType: "defense",
                 operator: "add",
                 value: 3
@@ -22316,7 +22316,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13472,
             y: 15680,
             links: [245, 253, 250, 252],
-            name: "Health & Defense",
+            name: "Health & 防御",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -22325,7 +22325,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 4
             }, {
-                shortDescr: "+3 Defense",
+                shortDescr: "+3 防御",
                 statType: "defense",
                 operator: "add",
                 value: 3
@@ -22372,12 +22372,12 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#f44336",
             stats: [{
-                shortDescr: "10% increased Defense",
+                shortDescr: "10% 增加的防御",
                 statType: "defense",
                 operator: "multi",
                 value: 10
             }, {
-                shortDescr: "+12 Defense",
+                shortDescr: "+12 防御",
                 statType: "defense",
                 operator: "add",
                 value: 12
@@ -22387,7 +22387,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13600,
             y: 15808,
             links: [249, 247],
-            name: "Health & Defense",
+            name: "Health & 防御",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -22396,7 +22396,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 4
             }, {
-                shortDescr: "+3 Defense",
+                shortDescr: "+3 防御",
                 statType: "defense",
                 operator: "add",
                 value: 3
@@ -22457,7 +22457,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 6
             }, {
-                shortDescr: "+4 Movement Speed",
+                shortDescr: "+4 移动速度",
                 statType: "moveSpeed",
                 operator: "add",
                 value: 4
@@ -22476,7 +22476,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 6
             }, {
-                shortDescr: "+4 Movement Speed",
+                shortDescr: "+4 移动速度",
                 statType: "moveSpeed",
                 operator: "add",
                 value: 4
@@ -22495,7 +22495,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "add",
                 value: 12
             }, {
-                shortDescr: "+8 Movement Speed",
+                shortDescr: "+8 移动速度",
                 statType: "moveSpeed",
                 operator: "add",
                 value: 8
@@ -22575,7 +22575,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: -8
             }, {
-                shortDescr: "-5 Health",
+                shortDescr: "-5 生命值",
                 statType: "maxhp",
                 operator: "add",
                 value: -5
@@ -22599,7 +22599,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: -8
             }, {
-                shortDescr: "-5 Health",
+                shortDescr: "-5 生命值",
                 statType: "maxhp",
                 operator: "add",
                 value: -5
@@ -22623,7 +22623,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: -8
             }, {
-                shortDescr: "-5 Health",
+                shortDescr: "-5 生命值",
                 statType: "maxhp",
                 operator: "add",
                 value: -5
@@ -22784,7 +22784,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "15% increased Attack Damage",
+                shortDescr: "15% 增加的攻击伤害",
                 statType: "attackDamage",
                 operator: "multi",
                 value: 15
@@ -22798,7 +22798,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "15% increased Attack Damage",
+                shortDescr: "15% 增加的攻击伤害",
                 statType: "attackDamage",
                 operator: "multi",
                 value: 15
@@ -22812,7 +22812,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "15% increased Attack Damage",
+                shortDescr: "15% 增加的攻击伤害",
                 statType: "attackDamage",
                 operator: "multi",
                 value: 15
@@ -22948,7 +22948,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 3
             }, {
-                shortDescr: "+20 Health",
+                shortDescr: "+20 生命值",
                 statType: "maxhp",
                 operator: "add",
                 value: 20
@@ -22967,7 +22967,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 3
             }, {
-                shortDescr: "+20 Health",
+                shortDescr: "+20 生命值",
                 statType: "maxhp",
                 operator: "add",
                 value: 20
@@ -22981,12 +22981,12 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#2196f3",
             stats: [{
-                shortDescr: "+6 Movement Speed",
+                shortDescr: "+6 移动速度",
                 statType: "moveSpeed",
                 operator: "add",
                 value: 6
             }, {
-                shortDescr: "5% increased Quiddity Transfer Rate",
+                shortDescr: "5% 增加的 Quiddity 传输率",
                 statType: "quiddityTransferRate",
                 operator: "multi",
                 value: 5
@@ -23000,12 +23000,12 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#2196f3",
             stats: [{
-                shortDescr: "+6 Movement Speed",
+                shortDescr: "+6 移动速度",
                 statType: "moveSpeed",
                 operator: "add",
                 value: 6
             }, {
-                shortDescr: "5% increased Quiddity Transfer Rate",
+                shortDescr: "5% 增加的 Quiddity 传输率",
                 statType: "quiddityTransferRate",
                 operator: "multi",
                 value: 5
@@ -23019,12 +23019,12 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#2196f3",
             stats: [{
-                shortDescr: "+10 Movement Speed",
+                shortDescr: "+10 移动速度",
                 statType: "moveSpeed",
                 operator: "add",
                 value: 10
             }, {
-                shortDescr: "18% increased Spell Damage",
+                shortDescr: "18% 增加的法术伤害",
                 statType: "spellDamage",
                 operator: "multi",
                 value: 18
@@ -23043,12 +23043,12 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#2196f3",
             stats: [{
-                shortDescr: "+6 Movement Speed",
+                shortDescr: "+6 移动速度",
                 statType: "moveSpeed",
                 operator: "add",
                 value: 6
             }, {
-                shortDescr: "5% increased Quiddity Transfer Rate",
+                shortDescr: "5% 增加的 Quiddity 传输率",
                 statType: "quiddityTransferRate",
                 operator: "multi",
                 value: 5
@@ -23062,12 +23062,12 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#2196f3",
             stats: [{
-                shortDescr: "+5 Movement Speed",
+                shortDescr: "+5 移动速度",
                 statType: "moveSpeed",
                 operator: "add",
                 value: 5
             }, {
-                shortDescr: "7% increased Quiddity Transfer Rate",
+                shortDescr: "7% 增加的 Quiddity 传输率",
                 statType: "quiddityTransferRate",
                 operator: "multi",
                 value: 7
@@ -23081,12 +23081,12 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#2196f3",
             stats: [{
-                shortDescr: "+5 Movement Speed",
+                shortDescr: "+5 移动速度",
                 statType: "moveSpeed",
                 operator: "add",
                 value: 5
             }, {
-                shortDescr: "7% increased Quiddity Transfer Rate",
+                shortDescr: "7% 增加的 Quiddity 传输率",
                 statType: "quiddityTransferRate",
                 operator: "multi",
                 value: 7
@@ -23100,12 +23100,12 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#2196f3",
             stats: [{
-                shortDescr: "+10 Movement Speed",
+                shortDescr: "+10 移动速度",
                 statType: "moveSpeed",
                 operator: "add",
                 value: 10
             }, {
-                shortDescr: "18% increased Attack Damage",
+                shortDescr: "18% 增加的攻击伤害",
                 statType: "attackDamage",
                 operator: "multi",
                 value: 18
@@ -23124,12 +23124,12 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#2196f3",
             stats: [{
-                shortDescr: "+6 Movement Speed",
+                shortDescr: "+6 移动速度",
                 statType: "moveSpeed",
                 operator: "add",
                 value: 6
             }, {
-                shortDescr: "5% increased Quiddity Transfer Rate",
+                shortDescr: "5% 增加的 Quiddity 传输率",
                 statType: "quiddityTransferRate",
                 operator: "multi",
                 value: 5
@@ -23199,12 +23199,12 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#2196f3",
             stats: [{
-                shortDescr: "+6 Movement Speed",
+                shortDescr: "+6 移动速度",
                 statType: "moveSpeed",
                 operator: "add",
                 value: 6
             }, {
-                shortDescr: "5% increased Quiddity Transfer Rate",
+                shortDescr: "5% 增加的 Quiddity 传输率",
                 statType: "quiddityTransferRate",
                 operator: "multi",
                 value: 5
@@ -23218,12 +23218,12 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#2196f3",
             stats: [{
-                shortDescr: "+6 Movement Speed",
+                shortDescr: "+6 移动速度",
                 statType: "moveSpeed",
                 operator: "add",
                 value: 6
             }, {
-                shortDescr: "5% increased Quiddity Transfer Rate",
+                shortDescr: "5% 增加的 Quiddity 传输率",
                 statType: "quiddityTransferRate",
                 operator: "multi",
                 value: 5
@@ -23351,7 +23351,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 8
             }, {
-                shortDescr: "10% increased Movement Speed",
+                shortDescr: "10% 增加的移动速度",
                 statType: "moveSpeed",
                 operator: "multi",
                 value: 10
@@ -23408,7 +23408,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "+45 Health",
+                shortDescr: "+45 生命值",
                 statType: "maxhp",
                 operator: "add",
                 value: 45
@@ -23422,7 +23422,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "+45 Health",
+                shortDescr: "+45 生命值",
                 statType: "maxhp",
                 operator: "add",
                 value: 45
@@ -23436,7 +23436,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "+45 Health",
+                shortDescr: "+45 生命值",
                 statType: "maxhp",
                 operator: "add",
                 value: 45
@@ -23450,7 +23450,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "15% increased Spell Damage",
+                shortDescr: "15% 增加的法术伤害",
                 statType: "spellDamage",
                 operator: "multi",
                 value: 15
@@ -23464,7 +23464,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffc107",
             stats: [{
-                shortDescr: "15% increased Attack Damage",
+                shortDescr: "15% 增加的攻击伤害",
                 statType: "attackDamage",
                 operator: "multi",
                 value: 15
@@ -23632,7 +23632,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#f44336",
             stats: [{
-                shortDescr: "+15 Defense",
+                shortDescr: "+15 防御",
                 statType: "defense",
                 operator: "add",
                 value: 15
@@ -23646,7 +23646,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#f44336",
             stats: [{
-                shortDescr: "+6 Defense",
+                shortDescr: "+6 防御",
                 statType: "defense",
                 operator: "add",
                 value: 6
@@ -23660,7 +23660,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#f44336",
             stats: [{
-                shortDescr: "+6 Defense",
+                shortDescr: "+6 防御",
                 statType: "defense",
                 operator: "add",
                 value: 6
@@ -23674,7 +23674,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#f44336",
             stats: [{
-                shortDescr: "+6 Defense",
+                shortDescr: "+6 防御",
                 statType: "defense",
                 operator: "add",
                 value: 6
@@ -23688,7 +23688,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#f44336",
             stats: [{
-                shortDescr: "+6 Defense",
+                shortDescr: "+6 防御",
                 statType: "defense",
                 operator: "add",
                 value: 6
@@ -23702,7 +23702,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#f44336",
             stats: [{
-                shortDescr: "+6 Defense",
+                shortDescr: "+6 防御",
                 statType: "defense",
                 operator: "add",
                 value: 6
@@ -23716,12 +23716,12 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#2196f3",
             stats: [{
-                shortDescr: "+6 Movement Speed",
+                shortDescr: "+6 移动速度",
                 statType: "moveSpeed",
                 operator: "add",
                 value: 6
             }, {
-                shortDescr: "5% increased Quiddity Transfer Rate",
+                shortDescr: "5% 增加的 Quiddity 传输率",
                 statType: "quiddityTransferRate",
                 operator: "multi",
                 value: 5
@@ -23735,12 +23735,12 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#2196f3",
             stats: [{
-                shortDescr: "+6 Movement Speed",
+                shortDescr: "+6 移动速度",
                 statType: "moveSpeed",
                 operator: "add",
                 value: 6
             }, {
-                shortDescr: "5% increased Quiddity Transfer Rate",
+                shortDescr: "5% 增加的 Quiddity 传输率",
                 statType: "quiddityTransferRate",
                 operator: "multi",
                 value: 5
@@ -23754,12 +23754,12 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#2196f3",
             stats: [{
-                shortDescr: "+15 Movement Speed",
+                shortDescr: "+15 移动速度",
                 statType: "moveSpeed",
                 operator: "add",
                 value: 15
             }, {
-                shortDescr: "20% increased Movement Speed",
+                shortDescr: "20% 增加的移动速度",
                 statType: "moveSpeed",
                 operator: "multi",
                 value: 20
@@ -23773,7 +23773,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffffff",
             stats: [{
-                shortDescr: "10% increased Quiddity Transfer Rate",
+                shortDescr: "10% 增加的 Quiddity 传输率",
                 statType: "quiddityTransferRate",
                 operator: "multi",
                 value: 10
@@ -23822,8 +23822,8 @@ parcelRequire = function (e, r, t, n) {
             x: 14176,
             y: 14240,
             links: [138],
-            name: "Berserker [Keystone Bugged :(]",
-            descr: "Every time you deal damage to an enemy with an ability, they lose 4 Defense, and you lose 1 Defense. Stacks and lasts 25s. When you kill an enemy, you lose 2 stacks of this debuff.",
+            name: "狂战士 [Keystone Bugged :(]",
+            descr: "每当你用某项技能对敌人造成伤害时，他们就会失去 4 点防御力，而你也会失去 1 点防御力。 堆叠并持续 25 秒。 当你杀死一个敌人时，你会失去 2 层此减益效果。",
             size: 1,
             color: "#ffc107",
             stats: []
@@ -23832,7 +23832,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16896,
             y: 14304,
             links: [14],
-            name: "Duelist's Fury",
+            name: "决斗者之怒",
             size: 4,
             color: "#8bc34a",
             stats: [{
@@ -23841,7 +23841,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "more",
                 value: 20
             }, {
-                shortDescr: "10% less Create Damage",
+                shortDescr: "10% 更少的制造伤害",
                 statType: "createDamage",
                 operator: "more",
                 value: -10
@@ -23865,7 +23865,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "more",
                 value: 40
             }, {
-                shortDescr: "85% less Create Damage",
+                shortDescr: "85% 更少的制造伤害",
                 statType: "createDamage",
                 operator: "more",
                 value: -85
@@ -23913,7 +23913,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "more",
                 value: 25
             }, {
-                shortDescr: "20% less Defense",
+                shortDescr: "20% 更少的防御",
                 statType: "defense",
                 operator: "more",
                 value: -20
@@ -23958,7 +23958,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#e91e63",
             stats: [{
-                shortDescr: "13% increased Attack Damage",
+                shortDescr: "13% 增加的攻击伤害",
                 statType: "attackDamage",
                 operator: "multi",
                 value: 13
@@ -23973,7 +23973,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#673ab7",
             stats: [{
-                shortDescr: "13% increased Spell Damage",
+                shortDescr: "13% 增加的法术伤害",
                 statType: "spellDamage",
                 operator: "multi",
                 value: 13
@@ -23988,7 +23988,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "+35 Health",
+                shortDescr: "+35 生命值",
                 statType: "maxhp",
                 operator: "add",
                 value: 35
@@ -24078,7 +24078,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#4caf50",
             stats: [{
-                shortDescr: "+45 Health",
+                shortDescr: "+45 生命值",
                 statType: "maxhp",
                 operator: "add",
                 value: 45
@@ -24138,7 +24138,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: 25
             }, {
-                shortDescr: "8% increased Accuracy",
+                shortDescr: "8% 提高的精准",
                 statType: "accuracy",
                 operator: "multi",
                 value: 8
@@ -24163,7 +24163,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: -8
             }, {
-                shortDescr: "-5 Health",
+                shortDescr: "-5 生命值",
                 statType: "maxhp",
                 operator: "add",
                 value: -5
@@ -24188,7 +24188,7 @@ parcelRequire = function (e, r, t, n) {
                 operator: "multi",
                 value: -8
             }, {
-                shortDescr: "-5 Health",
+                shortDescr: "-5 生命值",
                 statType: "maxhp",
                 operator: "add",
                 value: -5
@@ -24203,7 +24203,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#3f51b5",
             stats: [{
-                shortDescr: "+5 Defense Penetration",
+                shortDescr: "+5 防御穿透",
                 statType: "defensePenetration",
                 operator: "add",
                 value: 5
@@ -24217,12 +24217,12 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#2196f3",
             stats: [{
-                shortDescr: "+5 Movement Speed",
+                shortDescr: "+5 移动速度",
                 statType: "moveSpeed",
                 operator: "add",
                 value: 5
             }, {
-                shortDescr: "7% increased Quiddity Transfer Rate",
+                shortDescr: "7% 增加的 Quiddity 传输率",
                 statType: "quiddityTransferRate",
                 operator: "multi",
                 value: 7
@@ -34138,7 +34138,7 @@ parcelRequire = function (e, r, t, n) {
                 oneTime: !0
             }, {
                 purchaseType: h.EARLY_DEFENSE_5,
-                title: "+5 Defense",
+                title: "+5 防御",
                 description: "",
                 price: 275e4,
                 priceToShow: 13e5,
