@@ -18726,7 +18726,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13984,
             y: 16e3,
             links: [162, 201, 247, 261],
-            name: "Soulbound",
+            name: "灵魂束缚",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -18773,7 +18773,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13664,
             y: 15488,
             links: [201, 20],
-            name: "Soulbound",
+            name: "灵魂束缚",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -18834,7 +18834,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15328,
             y: 15936,
             links: [8, 12],
-            name: "Soulbound",
+            name: "灵魂束缚",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -19883,7 +19883,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16032,
             y: 13376,
             links: [95, 97],
-            name: "Power Gambit",
+            name: "力量策略",
             size: 2,
             color: "#9c27b0",
             stats: [{
@@ -19907,7 +19907,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16224,
             y: 13440,
             links: [96, 81],
-            name: "Power Gambit",
+            name: "力量策略",
             size: 2,
             color: "#9c27b0",
             stats: [{
@@ -20044,7 +20044,7 @@ parcelRequire = function (e, r, t, n) {
             x: 18080,
             y: 15360,
             links: [33, 293],
-            name: "Speedy Delivery",
+            name: "快速交货",
             size: 2,
             color: "#2196f3",
             stats: [{
@@ -20782,7 +20782,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13856,
             y: 14656,
             links: [147, 149],
-            name: "Physical Damage",
+            name: "物理伤害",
             size: 2,
             color: "#e91e63",
             stats: [{
@@ -21409,7 +21409,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14496,
             y: 14464,
             links: [137, 187],
-            name: "Defense Penetration",
+            name: "防御穿透",
             size: 2,
             color: "#3f51b5",
             stats: [{
@@ -21423,7 +21423,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14688,
             y: 14400,
             links: [186, 188],
-            name: "Defense Penetration",
+            name: "防御穿透",
             size: 2,
             color: "#3f51b5",
             stats: [{
@@ -21437,7 +21437,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14816,
             y: 14592,
             links: [187],
-            name: "Defense Penetration",
+            name: "防御穿透",
             size: 2,
             color: "#3f51b5",
             stats: [{
@@ -21540,7 +21540,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15264,
             y: 13920,
             links: [24, 196],
-            name: "Small Fire",
+            name: "小火",
             size: 2,
             color: "#cddc39",
             stats: [{
@@ -21554,7 +21554,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15200,
             y: 14208,
             links: [195, 198],
-            name: "Small Fire",
+            name: "小火",
             size: 2,
             color: "#cddc39",
             stats: [{
@@ -21568,7 +21568,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16736,
             y: 13184,
             links: [199, 200],
-            name: "Small Fire",
+            name: "小火",
             size: 2,
             color: "#cddc39",
             stats: [{
@@ -21596,7 +21596,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16992,
             y: 13184,
             links: [28, 197],
-            name: "Small Fire",
+            name: "小火",
             size: 2,
             color: "#cddc39",
             stats: [{
@@ -21610,7 +21610,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16864,
             y: 13376,
             links: [197],
-            name: "Small Fire",
+            name: "小火",
             size: 2,
             color: "#cddc39",
             stats: [{
@@ -21624,7 +21624,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13792,
             y: 15744,
             links: [15, 19, 258],
-            name: "Soulbound",
+            name: "灵魂束缚",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -21874,7 +21874,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14848,
             y: 16064,
             links: [215, 219],
-            name: "Physical Damage",
+            name: "物理伤害",
             size: 2,
             color: "#e91e63",
             stats: [{
@@ -22104,7 +22104,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14048,
             y: 16768,
             links: [163, 235],
-            name: "Physical Damage",
+            name: "物理伤害",
             size: 2,
             color: "#e91e63",
             stats: [{
@@ -22118,7 +22118,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14240,
             y: 16640,
             links: [234, 236],
-            name: "Physical Damage",
+            name: "物理伤害",
             size: 2,
             color: "#e91e63",
             stats: [{
@@ -22221,7 +22221,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13344,
             y: 16192,
             links: [243],
-            name: "Quickness",
+            name: "急速",
             size: 2,
             color: "#2196f3",
             stats: [{
@@ -22240,7 +22240,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13408,
             y: 16384,
             links: [130, 242],
-            name: "Quickness",
+            name: "急速",
             size: 2,
             color: "#2196f3",
             stats: [{
@@ -22561,7 +22561,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14624,
             y: 15360,
             links: [266, 268],
-            name: "Power Gambit",
+            name: "力量策略",
             size: 2,
             color: "#9c27b0",
             stats: [{
@@ -22585,7 +22585,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14432,
             y: 15488,
             links: [267, 265],
-            name: "Power Gambit",
+            name: "力量策略",
             size: 2,
             color: "#9c27b0",
             stats: [{
@@ -22609,7 +22609,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14624,
             y: 15616,
             links: [160, 266],
-            name: "Power Gambit",
+            name: "力量策略",
             size: 2,
             color: "#9c27b0",
             stats: [{
@@ -22977,7 +22977,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17376,
             y: 16064,
             links: [290, 292],
-            name: "Quickness",
+            name: "急速",
             size: 2,
             color: "#2196f3",
             stats: [{
@@ -22996,7 +22996,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17440,
             y: 16256,
             links: [275, 289],
-            name: "Quickness",
+            name: "急速",
             size: 2,
             color: "#2196f3",
             stats: [{
@@ -23015,7 +23015,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17632,
             y: 16192,
             links: [292],
-            name: "Quick Casting",
+            name: "快速施法",
             size: 3,
             color: "#2196f3",
             stats: [{
@@ -23039,7 +23039,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17568,
             y: 16e3,
             links: [289, 291, 296],
-            name: "Quickness",
+            name: "急速",
             size: 2,
             color: "#2196f3",
             stats: [{
@@ -23058,7 +23058,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17824,
             y: 15360,
             links: [105, 294],
-            name: "Speedy Delivery",
+            name: "快速交货",
             size: 2,
             color: "#2196f3",
             stats: [{
@@ -23077,7 +23077,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17952,
             y: 15552,
             links: [293],
-            name: "Speedy Delivery",
+            name: "快速交货",
             size: 2,
             color: "#2196f3",
             stats: [{
@@ -23096,7 +23096,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17824,
             y: 15808,
             links: [296],
-            name: "Expedited Thrashing",
+            name: "快速殴打",
             size: 3,
             color: "#2196f3",
             stats: [{
@@ -23120,7 +23120,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17632,
             y: 15808,
             links: [292, 295],
-            name: "Quickness",
+            name: "急速",
             size: 2,
             color: "#2196f3",
             stats: [{
@@ -23139,7 +23139,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15904,
             y: 15872,
             links: [271, 300],
-            name: "Flurry",
+            name: "乱舞",
             size: 2,
             color: "#cddc39",
             stats: [{
@@ -23153,7 +23153,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15776,
             y: 15744,
             links: [299, 301],
-            name: "Flurry",
+            name: "乱舞",
             size: 2,
             color: "#cddc39",
             stats: [{
@@ -23195,7 +23195,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15648,
             y: 16384,
             links: [43, 304],
-            name: "Quickness",
+            name: "急速",
             size: 2,
             color: "#2196f3",
             stats: [{
@@ -23214,7 +23214,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15776,
             y: 16512,
             links: [303, 305, 342],
-            name: "Quickness",
+            name: "急速",
             size: 2,
             color: "#2196f3",
             stats: [{
@@ -23247,7 +23247,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16608,
             y: 16320,
             links: [273, 307, 309, 314],
-            name: "Soulbound",
+            name: "灵魂束缚",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -23266,7 +23266,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16608,
             y: 16704,
             links: [306, 308, 317, 338],
-            name: "Soulbound",
+            name: "灵魂束缚",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -23285,7 +23285,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16608,
             y: 17088,
             links: [307, 40, 318],
-            name: "Soulbound",
+            name: "灵魂束缚",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -23446,7 +23446,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16800,
             y: 16768,
             links: [319, 307],
-            name: "Spell Mastery",
+            name: "法术精通",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -23460,7 +23460,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16800,
             y: 17024,
             links: [308, 319],
-            name: "Attack Mastery",
+            name: "攻击精通",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -23474,7 +23474,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16992,
             y: 16896,
             links: [318, 317, 321, 320],
-            name: "Small Fire",
+            name: "小火",
             size: 2,
             color: "#cddc39",
             stats: [{
@@ -23502,7 +23502,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16992,
             y: 16576,
             links: [319, 323, 322],
-            name: "Small Fire",
+            name: "小火",
             size: 2,
             color: "#cddc39",
             stats: [{
@@ -23544,7 +23544,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16800,
             y: 17216,
             links: [326],
-            name: "Defense Penetration",
+            name: "防御穿透",
             size: 2,
             color: "#3f51b5",
             stats: [{
@@ -23558,7 +23558,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16992,
             y: 17216,
             links: [325, 38],
-            name: "Defense Penetration",
+            name: "防御穿透",
             size: 2,
             color: "#3f51b5",
             stats: [{
@@ -23712,7 +23712,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15840,
             y: 16768,
             links: [304, 343],
-            name: "Quickness",
+            name: "急速",
             size: 2,
             color: "#2196f3",
             stats: [{
@@ -23731,7 +23731,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16096,
             y: 16768,
             links: [342, 344],
-            name: "Quickness",
+            name: "急速",
             size: 2,
             color: "#2196f3",
             stats: [{
@@ -24148,7 +24148,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13312,
             y: 14208,
             links: [119, 370],
-            name: "Power Gambit",
+            name: "力量策略",
             descr: "",
             size: 2,
             color: "#9c27b0",
@@ -24173,7 +24173,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13472,
             y: 14176,
             links: [369],
-            name: "Power Gambit",
+            name: "力量策略",
             descr: "",
             size: 2,
             color: "#9c27b0",
@@ -24198,7 +24198,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17632,
             y: 14144,
             links: [30],
-            name: "Defense Penetration",
+            name: "防御穿透",
             descr: "",
             size: 2,
             color: "#3f51b5",
@@ -24213,7 +24213,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15680,
             y: 15360,
             links: [78],
-            name: "Speedy Delivery",
+            name: "快速交货",
             size: 2,
             color: "#2196f3",
             stats: [{
@@ -29425,7 +29425,7 @@ parcelRequire = function (e, r, t, n) {
                 tickFn: null,
                 wearOffFn: null
             }), c.set(a.name, a), a = new t.default({
-                name: "Flurry",
+                name: "乱舞",
                 duration: 1e4,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -30674,7 +30674,7 @@ parcelRequire = function (e, r, t, n) {
                     SUPERNATURAL: 2
                 }
             }), o.set(e.name, e), e = new t.Ability({
-                name: "Flurry",
+                name: "乱舞",
                 price: 25e4,
                 tags: {
                     attack: !0,
