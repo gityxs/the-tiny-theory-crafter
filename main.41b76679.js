@@ -18712,7 +18712,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17056,
             y: 14464,
             links: [50, 13, 61, 349],
-            name: "Creation",
+            name: "创造",
             size: 2,
             color: "#8bc34a",
             stats: [{
@@ -19425,7 +19425,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16544,
             y: 14912,
             links: [62, 64, 17],
-            name: "Health & 抵抗",
+            name: "生命值 & 抵抗",
             size: 2,
             color: "#009688",
             stats: [{
@@ -19444,7 +19444,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16416,
             y: 14720,
             links: [63, 65],
-            name: "Health & 抵抗",
+            name: "生命值 & 抵抗",
             size: 2,
             color: "#009688",
             stats: [{
@@ -19487,7 +19487,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16736,
             y: 14528,
             links: [13, 65],
-            name: "Health & Evasion",
+            name: "生命值 & Evasion",
             size: 2,
             color: "#00bcd4",
             stats: [{
@@ -19676,7 +19676,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16160,
             y: 14656,
             links: [79, 84],
-            name: "Magical Damage",
+            name: "魔法伤害",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -19690,7 +19690,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16096,
             y: 14848,
             links: [83, 85],
-            name: "Magical Damage",
+            name: "魔法伤害",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -19704,7 +19704,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16288,
             y: 14848,
             links: [84],
-            name: "Magical Damage",
+            name: "魔法伤害",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -20030,7 +20030,7 @@ parcelRequire = function (e, r, t, n) {
             x: 18080,
             y: 14976,
             links: [345, 33],
-            name: "Efficient Quiddity",
+            name: "高效的Quiddity",
             size: 2,
             color: "#ffffff",
             stats: [{
@@ -20834,7 +20834,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13600,
             y: 14592,
             links: [147, 152],
-            name: "Magical Damage",
+            name: "魔法伤害",
             size: 2,
             color: "#673ab7",
             stats: [{
@@ -21198,7 +21198,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13664,
             y: 13888,
             links: [177, 173, 176],
-            name: "Critical Strikes",
+            name: "致命一击",
             size: 2,
             color: "#3f51b5",
             stats: [{
@@ -21231,7 +21231,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14112,
             y: 14080,
             links: [173, 175, 176],
-            name: "Critical Strikes",
+            name: "致命一击",
             size: 2,
             color: "#3f51b5",
             stats: [{
@@ -21245,7 +21245,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14176,
             y: 13824,
             links: [174, 165],
-            name: "Critical Strikes",
+            name: "致命一击",
             size: 2,
             color: "#3f51b5",
             stats: [{
@@ -21283,7 +21283,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13728,
             y: 13632,
             links: [118, 172],
-            name: "Critical Strikes",
+            name: "致命一击",
             size: 2,
             color: "#3f51b5",
             stats: [{
@@ -21297,7 +21297,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14560,
             y: 13376,
             links: [167, 181],
-            name: "Attack Damage",
+            name: "攻击伤害",
             size: 2,
             color: "#e91e63",
             stats: [{
@@ -21325,7 +21325,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14816,
             y: 13184,
             links: [181, 179],
-            name: "Attack Damage",
+            name: "攻击伤害",
             size: 2,
             color: "#e91e63",
             stats: [{
@@ -21339,7 +21339,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14624,
             y: 13184,
             links: [178, 180],
-            name: "Attack Damage",
+            name: "攻击伤害",
             size: 2,
             color: "#e91e63",
             stats: [{
@@ -21451,7 +21451,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15648,
             y: 13696,
             links: [24, 190],
-            name: "Medium 力量",
+            name: "中等力量",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -21479,7 +21479,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14624,
             y: 14080,
             links: [166, 193, 192],
-            name: "Evasion",
+            name: "闪避 ",
             size: 2,
             color: "#00bcd4",
             stats: [{
@@ -21493,7 +21493,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14880,
             y: 14208,
             links: [191, 194],
-            name: "Evasion",
+            name: "闪避 ",
             size: 2,
             color: "#00bcd4",
             stats: [{
@@ -21507,7 +21507,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14880,
             y: 13952,
             links: [191, 194],
-            name: "Evasion",
+            name: "闪避 ",
             size: 2,
             color: "#00bcd4",
             stats: [{
@@ -21643,7 +21643,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14496,
             y: 16384,
             links: [162, 206, 203],
-            name: "Evasion & Resistance",
+            name: "闪避 & 抵抗",
             size: 2,
             color: "#00ffe7",
             stats: [{
@@ -21662,7 +21662,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14688,
             y: 16384,
             links: [204, 202],
-            name: "Evasion",
+            name: "闪避 ",
             size: 2,
             color: "#00bcd4",
             stats: [{
@@ -21695,7 +21695,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15072,
             y: 16768,
             links: [209, 204],
-            name: "Evasion",
+            name: "闪避 ",
             size: 2,
             color: "#00bcd4",
             stats: [{
@@ -21756,7 +21756,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15072,
             y: 16960,
             links: [208, 205, 214, 347],
-            name: "Evasion & Resistance",
+            name: "闪避 & 抵抗",
             size: 2,
             color: "#00ffe7",
             stats: [{
@@ -21775,7 +21775,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15232,
             y: 16512,
             links: [43, 213],
-            name: "Medium 智力",
+            name: "中等智力",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -21803,7 +21803,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15264,
             y: 16960,
             links: [209, 42],
-            name: "Evasion & Resistance",
+            name: "闪避 & 抵抗",
             size: 2,
             color: "#00ffe7",
             stats: [{
@@ -21888,7 +21888,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14848,
             y: 16256,
             links: [218],
-            name: "Gladiator's Awareness",
+            name: "角斗士的意识",
             size: 3,
             color: "#e91e63",
             stats: [{
@@ -21902,7 +21902,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15136,
             y: 16064,
             links: [215, 222],
-            name: "Magical Damage",
+            name: "魔法伤害",
             size: 2,
             color: "#673ab7",
             stats: [{
@@ -21916,7 +21916,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15200,
             y: 16320,
             links: [221],
-            name: "Witch's Regard",
+            name: "女巫的注视",
             size: 3,
             color: "#673ab7",
             stats: [{
@@ -21930,7 +21930,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15264,
             y: 17216,
             links: [39, 225],
-            name: "Defensive Spellcasting",
+            name: "防御性施法",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -21949,7 +21949,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14880,
             y: 17216,
             links: [225],
-            name: "Defensive Spellcasting",
+            name: "防御性施法",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -21968,7 +21968,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15072,
             y: 17152,
             links: [223, 224],
-            name: "Defensive Spellcasting",
+            name: "防御性施法",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -21987,7 +21987,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14432,
             y: 17216,
             links: [127, 229],
-            name: "Efficient Quiddity",
+            name: "高效的Quiddity",
             size: 2,
             color: "#ffffff",
             stats: [{
@@ -22001,7 +22001,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14688,
             y: 17216,
             links: [228],
-            name: "Quiddity Manipulation",
+            name: "Quiddity操纵",
             size: 3,
             color: "#ffffff",
             stats: [{
@@ -22015,7 +22015,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14688,
             y: 17024,
             links: [229, 227],
-            name: "Efficient Quiddity",
+            name: "高效的Quiddity",
             size: 2,
             color: "#ffffff",
             stats: [{
@@ -22029,7 +22029,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14432,
             y: 17024,
             links: [226, 228],
-            name: "Efficient Quiddity",
+            name: "高效的Quiddity",
             size: 2,
             color: "#ffffff",
             stats: [{
@@ -22043,7 +22043,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13728,
             y: 17088,
             links: [164, 231],
-            name: "Mage Vittles",
+            name: "法师补给",
             size: 2,
             color: "#673ab7",
             stats: [{
@@ -22057,7 +22057,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13856,
             y: 17280,
             links: [230, 232],
-            name: "Mage Vittles",
+            name: "法师补给",
             size: 2,
             color: "#673ab7",
             stats: [{
@@ -22071,7 +22071,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14112,
             y: 17280,
             links: [231, 233],
-            name: "Mage Vittles",
+            name: "法师补给",
             size: 2,
             color: "#673ab7",
             stats: [{
@@ -22085,7 +22085,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13984,
             y: 17088,
             links: [232],
-            name: "Nourishing Power",
+            name: "滋补之力",
             size: 3,
             color: "#673ab7",
             stats: [{
@@ -22259,7 +22259,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13344,
             y: 15808,
             links: [246, 249],
-            name: "Health & 防御",
+            name: "生命值 & 防御",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -22278,7 +22278,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13216,
             y: 16e3,
             links: [131, 245],
-            name: "Health & 防御",
+            name: "生命值 & 防御",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -22297,7 +22297,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13728,
             y: 16e3,
             links: [15, 253],
-            name: "Health & 防御",
+            name: "生命值 & 防御",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -22316,7 +22316,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13472,
             y: 15680,
             links: [245, 253, 250, 252],
-            name: "Health & 防御",
+            name: "生命值 & 防御",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -22358,7 +22358,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffffff",
             stats: [{
-                shortDescr: "10%  增加的Quidity充能率",",
+                shortDescr: "10%  增加的Quidity充能率",
                 statType: "quiddityEnergizeRate",
                 operator: "multi",
                 value: 10
@@ -22387,7 +22387,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13600,
             y: 15808,
             links: [249, 247],
-            name: "Health & 防御",
+            name: "生命值 & 防御",
             size: 2,
             color: "#4caf50",
             stats: [{
@@ -22410,7 +22410,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffffff",
             stats: [{
-                shortDescr: "10%  增加的Quidity充能率",",
+                shortDescr: "10%  增加的Quidity充能率",
                 statType: "quiddityEnergizeRate",
                 operator: "multi",
                 value: 10
@@ -22424,7 +22424,7 @@ parcelRequire = function (e, r, t, n) {
             size: 2,
             color: "#ffffff",
             stats: [{
-                shortDescr: "10%  增加的Quidity充能率",",
+                shortDescr: "10%  增加的Quidity充能率",
                 statType: "quiddityEnergizeRate",
                 operator: "multi",
                 value: 10
@@ -22438,7 +22438,7 @@ parcelRequire = function (e, r, t, n) {
             size: 3,
             color: "#ffffff",
             stats: [{
-                shortDescr: "20%  增加的Quidity充能率",",
+                shortDescr: "20%  增加的Quidity充能率",
                 statType: "quiddityEnergizeRate",
                 operator: "multi",
                 value: 20
@@ -22448,7 +22448,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13920,
             y: 15616,
             links: [201, 259],
-            name: "Nimble Fighting",
+            name: "敏捷战斗",
             size: 2,
             color: "#cddc39",
             stats: [{
@@ -22467,7 +22467,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14112,
             y: 15488,
             links: [258, 260],
-            name: "Nimble Fighting",
+            name: "敏捷战斗",
             size: 2,
             color: "#cddc39",
             stats: [{
@@ -22486,7 +22486,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13920,
             y: 15360,
             links: [259],
-            name: "Fast & Flurrious",
+            name: "快速而混乱",
             size: 3,
             color: "#cddc39",
             stats: [{
@@ -22505,7 +22505,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14176,
             y: 15872,
             links: [15, 264, 262],
-            name: "Creation",
+            name: "创造",
             size: 2,
             color: "#8bc34a",
             stats: [{
@@ -22533,7 +22533,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14432,
             y: 15872,
             links: [264, 161, 262],
-            name: "Creation",
+            name: "创造",
             size: 2,
             color: "#8bc34a",
             stats: [{
@@ -22547,7 +22547,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14304,
             y: 16e3,
             links: [261, 263],
-            name: "Creation",
+            name: "创造",
             size: 2,
             color: "#8bc34a",
             stats: [{
@@ -22780,7 +22780,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16096,
             y: 15552,
             links: [278, 277],
-            name: "Attack Damage",
+            name: "攻击伤害",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -22794,7 +22794,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16032,
             y: 15360,
             links: [276],
-            name: "Attack Damage",
+            name: "攻击伤害",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -22808,7 +22808,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16288,
             y: 15552,
             links: [272, 276],
-            name: "Attack Damage",
+            name: "攻击伤害",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -22822,7 +22822,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16608,
             y: 15680,
             links: [272, 280],
-            name: "Critical Strikes",
+            name: "致命一击",
             size: 2,
             color: "#3f51b5",
             stats: [{
@@ -22836,7 +22836,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16608,
             y: 15424,
             links: [279, 281],
-            name: "Critical Strikes",
+            name: "致命一击",
             size: 2,
             color: "#3f51b5",
             stats: [{
@@ -22850,7 +22850,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16864,
             y: 15424,
             links: [280, 282],
-            name: "Critical Strikes",
+            name: "致命一击",
             size: 2,
             color: "#3f51b5",
             stats: [{
@@ -23488,7 +23488,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17184,
             y: 16896,
             links: [319, 37],
-            name: "Creation",
+            name: "创造",
             size: 2,
             color: "#8bc34a",
             stats: [{
@@ -23769,7 +23769,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17939,
             y: 14720,
             links: [104],
-            name: "Efficient Quiddity",
+            name: "高效的Quiddity",
             size: 2,
             color: "#ffffff",
             stats: [{
@@ -23812,8 +23812,8 @@ parcelRequire = function (e, r, t, n) {
             x: 15296,
             y: 16736,
             links: [209],
-            name: "The Butterfly",
-            descr: "Gain 30 Evasion score for 30 seconds when hit.",
+            name: "蝴蝶",
+            descr: "被击中时获得 30 点闪避分数，持续 30 秒。",
             size: 4,
             color: "#00bcd4",
             stats: []
@@ -23953,7 +23953,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15232,
             y: 15008,
             links: [114],
-            name: "Attack Damage",
+            name: "攻击伤害",
             descr: "",
             size: 2,
             color: "#e91e63",
@@ -23983,7 +23983,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16384,
             y: 15904,
             links: [272],
-            name: "Improved Health & Evasion",
+            name: "改善生命值 & 闪避",
             descr: "",
             size: 2,
             color: "#4caf50",
@@ -24003,8 +24003,8 @@ parcelRequire = function (e, r, t, n) {
             x: 18656,
             y: 15104,
             links: [],
-            name: "Equipped Abilities",
-            descr: "These are your equipped abilities. Your character will use them automatically. Each time your character attacks, it will check the abilities from top-to-bottom, and will use the first ability it has enough orbs for that is not on cooldown. You can rearrange the abilities by dragging-and-dropping them in the order you prefer.\n\nPress [A] to warp the screen here.",
+            name: "装备能力",
+            descr: "这些是你装备的能力。 你的角色会自动使用它们。 每次你的角色攻击时，它都会从上到下检查技能，并会使用第一个拥有足够球体且未处于冷却时间的技能。 您可以按照您喜欢的顺序拖放技能来重新排列它们。\n\n按 [A] 可以扭曲此处的屏幕。",
             size: 3,
             color: "#ffffff",
             stats: []
@@ -24013,8 +24013,8 @@ parcelRequire = function (e, r, t, n) {
             x: 19776,
             y: 15104,
             links: [],
-            name: "Learned Abilities",
-            descr: "This section contains every ability you have learned, bought, or acquired. You can click an ability to EQUIP or UNEQUIP it.\n\nPress [A] to warp the screen here.",
+            name: "学习的能力",
+            descr: "本部分包含您已学习、购买或获得的所有能力。 您可以单击一项能力来装备或取消装备它。\n\n按 [A] 可以跳到此处的屏幕.",
             size: 3,
             color: "#ffffff",
             stats: []
@@ -24023,8 +24023,8 @@ parcelRequire = function (e, r, t, n) {
             x: 10932,
             y: 15072,
             links: [],
-            name: "The General Shops",
-            descr: "The general shops sell abilities, available for purchase using Quiddity. The shop refreshes every 5 minutes, or you can watch an advertisement to refresh it immediately. Click an ability to purchase it. The shop's current offers are based on your total quiddity. Better offers will appear when you have more quiddity.\n\nPress [S] to warp the screen here.",
+            name: "杂货店",
+            descr: "一般商店出售能力，可以使用 Quiddity 购买。 商店每5分钟刷新一次，也可以看广告立即刷新。 点击一项能力即可购买。 商店当前的报价基于您的总金额。 当你有更多的钱时，会出现更好的优惠。\n\n按 [S] 扭曲此处的屏幕。",
             size: 3,
             color: "#ffffff",
             stats: []
@@ -24033,8 +24033,8 @@ parcelRequire = function (e, r, t, n) {
             x: 8520,
             y: 15072,
             links: [],
-            name: "Quiddity Shop",
-            descr: "The Quiddity Shop sells assorted bonuses for your character and your abilities, available for purchase using Quiddity. The shop will stock new bonuses after existing bonuses are purchased. Click on a bonus to purchase it.\n\nPress [S] to warp the screen here.",
+            name: "Quiddity 商店",
+            descr: "Quiddity 商店出售针对您的角色和能力的各种奖励，可以使用 Quiddity 购买。 购买现有奖金后，商店将储备新的奖金。 单击奖励即可购买。\n\n按 [S] 扭曲此处的屏幕。",
             size: 3,
             color: "#ffffff",
             stats: []
@@ -24088,7 +24088,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16224,
             y: 13152,
             links: [21, 366],
-            name: "Creation",
+            name: "创造",
             descr: "",
             size: 2,
             color: "#8bc34a",
@@ -24103,7 +24103,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16064,
             y: 13184,
             links: [365],
-            name: "Creation",
+            name: "创造",
             descr: "",
             size: 2,
             color: "#8bc34a",
@@ -24119,7 +24119,7 @@ parcelRequire = function (e, r, t, n) {
             y: 15296,
             links: [44],
             name: "The Alchemist",
-            descr: "+1 Maximum Health Potions",
+            descr: "+1 最大生命药水",
             size: 4,
             color: "#4caf50",
             stats: []
@@ -24128,7 +24128,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15904,
             y: 17216,
             links: [41],
-            name: "Critical Strikes & Accuracy",
+            name: "致命一击 & 精准",
             descr: "",
             size: 2,
             color: "#3f51b5",
@@ -29600,7 +29600,7 @@ parcelRequire = function (e, r, t, n) {
                 increasesDurationOnStack: !1,
                 clearOnDeath: !0
             }), c.set(a.name, a), a = new t.default({
-                name: "Ice Pillar",
+                name: "冰柱",
                 duration: 15e3,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29610,7 +29610,7 @@ parcelRequire = function (e, r, t, n) {
                 increasesDurationOnStack: !1,
                 clearOnDeath: !0
             }), c.set(a.name, a), a = new t.default({
-                name: "Mark of Justice",
+                name: "正义印记",
                 duration: 6e4,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29633,7 +29633,7 @@ parcelRequire = function (e, r, t, n) {
                     e.statListBuffMulti.attackSpeed -= 10 * n, e.statListBuffMulti.attackSpeed += 10 * s, e.recalculateStats()
                 }
             }), c.set(a.name, a), a = new t.default({
-                name: "Calm Focus",
+                name: "冷静专注",
                 duration: 45e3,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29644,7 +29644,7 @@ parcelRequire = function (e, r, t, n) {
                     e.statListBuffMulti.resist -= 20 * n, e.statListBuffMulti.resist += 20 * s, e.recalculateStats()
                 }
             }), c.set(a.name, a), a = new t.default({
-                name: "Armor",
+                name: "护甲",
                 duration: 3e4,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29655,7 +29655,7 @@ parcelRequire = function (e, r, t, n) {
                     e.statListBuffMulti.defense -= 10 * n, e.statListBuffMulti.defense += 10 * s, e.recalculateStats()
                 }
             }), c.set(a.name, a), a = new t.default({
-                name: "Resistance",
+                name: "抵抗",
                 duration: 3e4,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29666,7 +29666,7 @@ parcelRequire = function (e, r, t, n) {
                     e.statListBuffMulti.resist -= 10 * n, e.statListBuffMulti.resist += 10 * s, e.recalculateStats()
                 }
             }), c.set(a.name, a), a = new t.default({
-                name: "Shredded Glass",
+                name: "碎玻璃",
                 duration: 25e3,
                 tickLength: 5e3,
                 baseStacks: 1,
@@ -29677,7 +29677,7 @@ parcelRequire = function (e, r, t, n) {
                     e.statListBuffAdd.defense -= -1 * n, e.statListBuffAdd.defense += -1 * s, e.recalculateStats()
                 }
             }), c.set(a.name, a), a = new t.default({
-                name: "Fortify",
+                name: "强化",
                 duration: 6e4,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29688,7 +29688,7 @@ parcelRequire = function (e, r, t, n) {
                     e.statListBuffAdd.defense -= 1 * n, e.statListBuffAdd.defense += 1 * s, e.recalculateStats()
                 }
             }), c.set(a.name, a), a = new t.default({
-                name: "Essence Drain",
+                name: "精华流失",
                 duration: 2e4,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29729,7 +29729,7 @@ parcelRequire = function (e, r, t, n) {
                     e.statListBuffMulti.expendDamage -= 40 * n, e.statListBuffMulti.expendDamage += 40 * s, e.recalculateStats()
                 }
             }), c.set(a.name, a), a = new t.default({
-                name: "Invoker",
+                name: "祈求者",
                 duration: 2e4,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29740,7 +29740,7 @@ parcelRequire = function (e, r, t, n) {
                     e.statListBuffMulti.createDamage -= 10 * n, e.statListBuffMulti.createDamage += 10 * s, e.recalculateStats()
                 }
             }), c.set(a.name, a), a = new t.default({
-                name: "Float Like A Butterfly",
+                name: "像蝴蝶一样漂浮",
                 duration: 3e4,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29751,7 +29751,7 @@ parcelRequire = function (e, r, t, n) {
                     e.statListBuffAdd.evasion -= 30 * n, e.statListBuffAdd.evasion += 30 * s, e.recalculateStats()
                 }
             }), c.set(a.name, a), a = new t.default({
-                name: "Agility of the Creator",
+                name: "造物主的敏捷",
                 duration: 1e4,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29762,7 +29762,7 @@ parcelRequire = function (e, r, t, n) {
                     e.statListBuffMulti.expendDamage -= 8 * n, e.statListBuffMulti.expendDamage += 8 * s, e.recalculateStats()
                 }
             }), c.set(a.name, a), a = new t.default({
-                name: "Shackles of Annihilation",
+                name: "湮灭的枷锁",
                 duration: 1e4,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29773,7 +29773,7 @@ parcelRequire = function (e, r, t, n) {
                     e.statListBuffMulti.createDamage += 16 * n, e.statListBuffMulti.createDamage -= 16 * s, e.recalculateStats()
                 }
             }), c.set(a.name, a), a = new t.default({
-                name: "Headhunting",
+                name: "猎头",
                 duration: 2e4,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29785,7 +29785,7 @@ parcelRequire = function (e, r, t, n) {
                     e.statListBuffMore.critDamage -= -4 * n, e.statListBuffMore.critDamage += -4 * s, e.recalculateStats()
                 }
             }), c.set(a.name, a), a = new t.default({
-                name: "Create Form Orb",
+                name: "创建形态宝珠",
                 duration: 1e4,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29800,7 +29800,7 @@ parcelRequire = function (e, r, t, n) {
                     }), a.wearOffStacks(1)) : a.wearOff()
                 }
             }), c.set(a.name, a), a = new t.default({
-                name: "Create Fire Orb",
+                name: "创建火之宝珠",
                 duration: 1e4,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29817,7 +29817,7 @@ parcelRequire = function (e, r, t, n) {
                     } else a.wearOff()
                 }
             }), c.set(a.name, a), a = new t.default({
-                name: "Create Nature Orb",
+                name: "创建自然宝珠",
                 duration: 1e4,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29834,7 +29834,7 @@ parcelRequire = function (e, r, t, n) {
                     } else a.wearOff()
                 }
             }), c.set(a.name, a), a = new t.default({
-                name: "Create Cold Orb",
+                name: "创建冰之宝珠",
                 duration: 1e4,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29851,7 +29851,7 @@ parcelRequire = function (e, r, t, n) {
                     } else a.wearOff()
                 }
             }), c.set(a.name, a), a = new t.default({
-                name: "Create Light Orb",
+                name: "创建光之宝珠",
                 duration: 1e4,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29868,7 +29868,7 @@ parcelRequire = function (e, r, t, n) {
                     } else a.wearOff()
                 }
             }), c.set(a.name, a), a = new t.default({
-                name: "Create Supernatural Orb",
+                name: "创建超自然宝珠",
                 duration: 1e4,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -30317,8 +30317,8 @@ parcelRequire = function (e, r, t, n) {
                 value: function () {
                     var e = "";
                     if (this.damage) {
-                        if (this.damage.damageBase && !this.damage.damageMulti && (e = "Damage: +".concat(this.damage.damageBase, "    ")), this.damage.damageBase && this.damage.damageMulti && (e = "Damage: ".concat(this.damage.damageMulti, "% * ").concat(this.damage.damageBase, "    ")), this.damage.damageBase || !this.damage.damageMulti) throw new Error("Invalid damage on ".concat(this.name));
-                        e = "Damage: ".concat(this.damage.damageMulti, "%    ")
+                        if (this.damage.damageBase && !this.damage.damageMulti && (e = "伤害: +".concat(this.damage.damageBase, "    ")), this.damage.damageBase && this.damage.damageMulti && (e = "伤害: ".concat(this.damage.damageMulti, "% * ").concat(this.damage.damageBase, "    ")), this.damage.damageBase || !this.damage.damageMulti) throw new Error("Invalid damage on ".concat(this.name));
+                        e = "伤害: ".concat(this.damage.damageMulti, "%    ")
                     }
                     this.cooldown && (e = "".concat(e, "CD: ").concat(this.cooldown / 1e3, "s")), e = "".concat(e, "\n");
                     var r = !0;
@@ -34091,35 +34091,35 @@ parcelRequire = function (e, r, t, n) {
         }(h || (h = {})), exports.PurchaseType = h;
         var w = [{
                 purchaseType: h.SKILL_POINT,
-                title: "Skill Point",
-                description: "Purchase a skill point for use on the passive tree.",
+                title: "技能点",
+                description: "购买1个技能点用于被动树.",
                 price: 1e19,
                 oneTime: !1
             }, {
                 purchaseType: h.STRENGTH,
                 title: "+1 力量",
-                description: "Purchase +1 Strength to boost your power.",
+                description: "购买 +1 力量来增强你的威力.",
                 price: 1e19,
                 priceToShow: 15e4,
                 oneTime: !1
             }, {
                 purchaseType: h.AGILITY,
                 title: "+1 敏捷",
-                description: "Purchase +1 Agility to boost your power.",
+                description: "购买 +1 敏捷来增强你的威力.",
                 price: 1e19,
                 priceToShow: 15e4,
                 oneTime: !1
             }, {
                 purchaseType: h.INTELLIGENCE,
                 title: "+1 智力",
-                description: "Purchase +1 Intelligence to boost your power.",
+                description: "购买 +1 智力来增强你的威力.",
                 price: 1e19,
                 priceToShow: 15e4,
                 oneTime: !1
             }, {
                 purchaseType: h.ZOOMIES,
-                title: "Zoomies",
-                description: "If you see this description, it is a bug! It should be dynamic!",
+                title: "变焦",
+                description: "如果你看到这个描述，那就是一个错误！ 应该是动态的!",
                 price: 1e19,
                 oneTime: !1
             }, {
@@ -34159,7 +34159,7 @@ parcelRequire = function (e, r, t, n) {
                 oneTime: !0
             }, {
                 purchaseType: h.MID_MOVE_SPEED_30,
-                title: "+30 Move Speed",
+                title: "+30 移动速度",
                 description: "",
                 price: 25e5,
                 priceToShow: 5e6,
@@ -34633,7 +34633,7 @@ parcelRequire = function (e, r, t, n) {
                         var e = y.default.getUiModel();
                         if (e) {
                             var t = 1 * v.default.getPointsEarnedBonusExpMultiplier(this.pointsEarned) * v.default.getQuiddityBonusExpMultiplier(this.quiddity, this.quiddityEnergizeRate) * v.default.getPrestigeBonusExpMultiplier(this.prestigeCount),
-                                i = "Skill (x".concat(v.default.getPointsEarnedBonusExpMultiplier(this.pointsEarned).toFixed(2), ") Quid  (x").concat(v.default.getQuiddityBonusExpMultiplier(this.quiddity, this.quiddityEnergizeRate).toFixed(2), ")").padEnd(31).replace(/ /g, "&nbsp;") + "<br>" + "Prest (x".concat(v.default.getPrestigeBonusExpMultiplier(this.prestigeCount).toFixed(2), ") All   (x").concat(t.toFixed(2), ")").padEnd(31).replace(/ /g, "&nbsp;");
+                                i = "技能 (x".concat(v.default.getPointsEarnedBonusExpMultiplier(this.pointsEarned).toFixed(2), ") Quid  (x").concat(v.default.getQuiddityBonusExpMultiplier(this.quiddity, this.quiddityEnergizeRate).toFixed(2), ")").padEnd(31).replace(/ /g, "&nbsp;") + "<br>" + "Prest (x".concat(v.default.getPrestigeBonusExpMultiplier(this.prestigeCount).toFixed(2), ") All   (x").concat(t.toFixed(2), ")").padEnd(31).replace(/ /g, "&nbsp;");
                             e.proxy.expBonuses = i
                         }
                     }
@@ -35595,7 +35595,7 @@ parcelRequire = function (e, r, t, n) {
                 biome: [s.Biome.Sandstorm],
                 placement: [s.BiomePlacement.EARLY]
             }), e.push({
-                name: "Rat",
+                name: "老鼠",
                 spriteUrl: "oryx_16bit_fantasy_creatures_224.png",
                 classTags: [a.EnemyClassTag.HIGH_ATTACK, a.EnemyClassTag.FAST, a.EnemyClassTag.PITIFULLY_LOW_LIFE],
                 equippedAbilities: ["Dice", "Thrust"],
@@ -37198,7 +37198,7 @@ parcelRequire = function (e, r, t, n) {
             k = function () {
                 function e(i) {
                     o(this, e), this.equippedAbilityMap = new Map, this.ownedAbilityMap = new Map, this.skillBoardRenderer = i.skillBoardRenderer, this.player = i.player, d = i.player;
-                    var t = new f.Text("Your Abilities [A]", {
+                    var t = new f.Text("你的能力 [A]", {
                             align: "left",
                             fontSize: 128,
                             fontWeight: "bold",
@@ -37210,7 +37210,7 @@ parcelRequire = function (e, r, t, n) {
                         n = (y + v - 128) / 2,
                         r = b - 384;
                     t.position.set(n, r);
-                    var a = new f.Text("Equipped:", {
+                    var a = new f.Text("已装备:", {
                         align: "left",
                         fontSize: 64,
                         fontWeight: "bold",
@@ -37220,7 +37220,7 @@ parcelRequire = function (e, r, t, n) {
                         strokeThickness: 4
                     });
                     a.position.set(y, b - 96);
-                    var l = new f.Text("Learned:", {
+                    var l = new f.Text("已学习:", {
                         align: "left",
                         fontFamily: "Arial",
                         fontSize: 64,
@@ -38916,7 +38916,7 @@ parcelRequire = function (e, r, t, n) {
                         }), this.enemyAISystem = new p.default({
                             renderer: this.gameRenderer
                         }), this.player = new y.default(!0, {
-                            name: "The Tiny Theorycrafter",
+                            name: "小小理论创造者",
                             nengiClient: this.nengiClient
                         });
                         var H, F = A.default.getLastCharacter();
@@ -38945,7 +38945,7 @@ parcelRequire = function (e, r, t, n) {
                             skillBoardRenderer: this.skillBoardRenderer,
                             skillBoardAllocator: this.skillBoardAllocator,
                             player: this.player,
-                            name: "Quiddity Shop",
+                            name: "Quiddity 商店",
                             x: 8600,
                             y: 15e3,
                             refreshTime: 3e4,
@@ -38953,7 +38953,7 @@ parcelRequire = function (e, r, t, n) {
                         }), this.shops.push(H), H = new q.default({
                             skillBoardRenderer: this.skillBoardRenderer,
                             abilityLoadoutEditor: this.abilityLoadoutEditor,
-                            name: "Attack Shop [S]",
+                            name: "攻击商店 [S]",
                             x: 11e3,
                             y: 15e3,
                             shopSlots: 5,
@@ -38972,7 +38972,7 @@ parcelRequire = function (e, r, t, n) {
                         }), this.shops.push(H), H = new q.default({
                             skillBoardRenderer: this.skillBoardRenderer,
                             abilityLoadoutEditor: this.abilityLoadoutEditor,
-                            name: "Spell Shop",
+                            name: "法术商店",
                             x: 9900,
                             y: 15e3,
                             shopSlots: 5,
@@ -38991,7 +38991,7 @@ parcelRequire = function (e, r, t, n) {
                         }), this.shops.push(H), H = new q.default({
                             skillBoardRenderer: this.skillBoardRenderer,
                             abilityLoadoutEditor: this.abilityLoadoutEditor,
-                            name: "Secret Shop (25% off)",
+                            name: "秘密商店 (25% 折扣)",
                             x: 12440,
                             y: 25e3,
                             shopSlots: 1,
