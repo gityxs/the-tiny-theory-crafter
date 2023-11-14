@@ -19760,7 +19760,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16352,
             y: 14016,
             links: [80, 90],
-            name: "Spiritual Damage",
+            name: "精神伤害",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -19774,7 +19774,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16352,
             y: 14272,
             links: [89, 91],
-            name: "Spiritual Damage",
+            name: "精神伤害",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -19788,7 +19788,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16608,
             y: 14272,
             links: [90, 92],
-            name: "Spiritual Damage",
+            name: "精神伤害",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -19802,7 +19802,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16608,
             y: 14016,
             links: [91],
-            name: "Spiritual Damage Keystone",
+            name: "精神伤害 Keystone",
             size: 3,
             color: "#ffc107",
             stats: [{
@@ -19816,7 +19816,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16096,
             y: 13696,
             links: [81, 94],
-            name: "Careless Formation",
+            name: "粗心阵型",
             size: 2,
             color: "#8bc34a",
             stats: [{
@@ -19835,7 +19835,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15904,
             y: 13632,
             links: [93, 95],
-            name: "Careless Formation",
+            name: "粗心阵型",
             size: 2,
             color: "#8bc34a",
             stats: [{
@@ -19854,7 +19854,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15840,
             y: 13440,
             links: [94, 96],
-            name: "Prescience",
+            name: "预知",
             size: 3,
             color: "#9c27b0",
             stats: [{
@@ -19973,7 +19973,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17312,
             y: 14976,
             links: [45, 102],
-            name: "Defense & 抵抗",
+            name: "防御 & 抵抗",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -19992,7 +19992,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17120,
             y: 15040,
             links: [101, 103],
-            name: "Defense & 抵抗",
+            name: "防御 & 抵抗",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -20011,7 +20011,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17248,
             y: 14848,
             links: [102],
-            name: "Defense & 抵抗",
+            name: "防御 & 抵抗",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -20063,7 +20063,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16544,
             y: 13504,
             links: [109],
-            name: "Exact Force",
+            name: "精确力",
             size: 3,
             color: "#5a5a5a",
             stats: [{
@@ -20082,7 +20082,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16480,
             y: 13696,
             links: [81, 108],
-            name: "Critical Force",
+            name: "临界力",
             size: 2,
             color: "#5a5a5a",
             stats: [{
@@ -20101,7 +20101,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16672,
             y: 13760,
             links: [107, 109],
-            name: "Critical Force",
+            name: "临界力",
             size: 2,
             color: "#5a5a5a",
             stats: [{
@@ -20120,7 +20120,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16736,
             y: 13568,
             links: [108, 106],
-            name: "Critical Force",
+            name: "临界力",
             size: 2,
             color: "#5a5a5a",
             stats: [{
@@ -20139,7 +20139,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15264,
             y: 13760,
             links: [111, 24],
-            name: "Sleek & Weak",
+            name: "圆润而柔弱",
             size: 2,
             color: "#2196f3",
             stats: [{
@@ -20163,7 +20163,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15200,
             y: 13632,
             links: [112, 110],
-            name: "Sleek & Weak",
+            name: "圆润而柔弱",
             size: 2,
             color: "#2196f3",
             stats: [{
@@ -20187,7 +20187,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15040,
             y: 13536,
             links: [111],
-            name: "Sleek & Weak",
+            name: "圆润而柔弱",
             size: 2,
             color: "#2196f3",
             stats: [{
@@ -20455,7 +20455,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13408,
             y: 16960,
             links: [128, 130, 164],
-            name: "Arcane Imbuement",
+            name: "奥术灌输",
             size: 3,
             color: "#4caf50",
             stats: [{
@@ -20516,7 +20516,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15264,
             y: 13120,
             links: [26, 134],
-            name: "Resistance",
+            name: "抵抗",
             size: 2,
             color: "#009688",
             stats: [{
@@ -20530,7 +20530,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15072,
             y: 13248,
             links: [133, 135],
-            name: "Resistance",
+            name: "抵抗",
             size: 2,
             color: "#009688",
             stats: [{
@@ -20544,7 +20544,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15264,
             y: 13376,
             links: [134],
-            name: "Resistance",
+            name: "抵抗",
             size: 2,
             color: "#009688",
             stats: [{
@@ -20648,7 +20648,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14816,
             y: 14912,
             links: [140],
-            name: "Ancient Bulwark",
+            name: "古代壁垒",
             size: 3,
             color: "#ffc107",
             stats: [{
@@ -20734,7 +20734,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14240,
             y: 14976,
             links: [145],
-            name: "Attribute Paragon",
+            name: "属性典范",
             size: 4,
             color: "#ffc107",
             stats: [{
@@ -20758,7 +20758,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13728,
             y: 14400,
             links: [138, 148, 151, 154],
-            name: "All-rounder",
+            name: "全能选手",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -20796,7 +20796,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13792,
             y: 14848,
             links: [148, 150],
-            name: "Physical Damage & 次要力量",
+            name: "物理伤害 & 次要力量",
             size: 2,
             color: "#e91e63",
             stats: [{
@@ -20815,7 +20815,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13664,
             y: 14976,
             links: [149],
-            name: "Strength of Body",
+            name: "身体力量",
             size: 3,
             color: "#e91e63",
             stats: [{
@@ -20848,7 +20848,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13472,
             y: 14784,
             links: [151, 153],
-            name: "Magical Damage & 次要力量",
+            name: "魔法伤害 & 次要力量",
             size: 2,
             color: "#673ab7",
             stats: [{
@@ -20867,7 +20867,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13408,
             y: 14976,
             links: [152],
-            name: "Strength of Mind",
+            name: "心灵的力量",
             size: 3,
             color: "#673ab7",
             stats: [{
@@ -20886,7 +20886,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13472,
             y: 14400,
             links: [147, 155],
-            name: "Spiritual Damage",
+            name: "精神伤害",
             size: 2,
             color: "#ffeb3b",
             stats: [{
@@ -20900,7 +20900,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13280,
             y: 14528,
             links: [154, 156],
-            name: "Spiritual Damage & 次要力量",
+            name: "精神伤害 & 次要力量",
             size: 2,
             color: "#ffeb3b",
             stats: [{
@@ -20919,7 +20919,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13216,
             y: 14784,
             links: [155],
-            name: "Strength of Spirit",
+            name: "精神力量",
             size: 3,
             color: "#ffeb3b",
             stats: [{
@@ -21075,7 +21075,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14368,
             y: 13760,
             links: [166, 167, 175, 182, 363],
-            name: "Consume",
+            name: "消耗",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -21089,7 +21089,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14368,
             y: 14144,
             links: [137, 165, 191],
-            name: "Consume",
+            name: "消耗",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -21103,7 +21103,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14368,
             y: 13376,
             links: [165, 116, 178],
-            name: "Consume",
+            name: "消耗",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -21117,7 +21117,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13984,
             y: 13184,
             links: [117, 169],
-            name: "Defense & 抵抗",
+            name: "防御 & 抵抗",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -21136,7 +21136,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14176,
             y: 13184,
             links: [168, 170],
-            name: "Defense & 抵抗",
+            name: "防御 & 抵抗",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -21155,7 +21155,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14176,
             y: 13440,
             links: [169, 171],
-            name: "Defense & 抵抗",
+            name: "防御 & 抵抗",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -21174,7 +21174,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13920,
             y: 13440,
             links: [170],
-            name: "Impervious",
+            name: "防渗",
             size: 3,
             color: "#ffc107",
             stats: [{
@@ -21212,7 +21212,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13856,
             y: 14016,
             links: [172, 174, 139],
-            name: "Critical Strikes & Accuracy",
+            name: "致命一击和准确性",
             size: 2,
             color: "#3f51b5",
             stats: [{
@@ -21259,7 +21259,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13984,
             y: 13696,
             links: [172, 174],
-            name: "Precise Strikes",
+            name: "精准打击",
             size: 3,
             color: "#3f51b5",
             stats: [{
@@ -21311,7 +21311,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14880,
             y: 13376,
             links: [180],
-            name: "Blademaster's Resolve",
+            name: "剑圣的决心",
             size: 3,
             color: "#e91e63",
             stats: [{
@@ -21353,7 +21353,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14560,
             y: 13696,
             links: [165, 184, 185],
-            name: "Spell Damage",
+            name: "法术伤害",
             size: 2,
             color: "#673ab7",
             stats: [{
@@ -21367,7 +21367,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14880,
             y: 13696,
             links: [185, 184],
-            name: "Spellcaster's Fury",
+            name: "施法者之怒",
             size: 3,
             color: "#673ab7",
             stats: [{
@@ -21381,7 +21381,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14688,
             y: 13824,
             links: [182, 183],
-            name: "Spell Damage",
+            name: "法术伤害",
             size: 2,
             color: "#673ab7",
             stats: [{
@@ -21395,7 +21395,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14688,
             y: 13568,
             links: [182, 183],
-            name: "Spell Damage",
+            name: "法术伤害",
             size: 2,
             color: "#673ab7",
             stats: [{
@@ -21521,7 +21521,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15008,
             y: 14080,
             links: [192, 193],
-            name: "Improved Eluding",
+            name: "改进闪避",
             size: 3,
             color: "#00bcd4",
             stats: [{
@@ -21582,7 +21582,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15008,
             y: 14464,
             links: [196],
-            name: "Huge Thwomp",
+            name: "巨大的重击",
             size: 3,
             color: "#cddc39",
             stats: [{
@@ -21676,7 +21676,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14880,
             y: 16576,
             links: [205, 203],
-            name: "Evasive Maneuvers",
+            name: "规避机动",
             size: 3,
             color: "#00bcd4",
             stats: [{
@@ -21709,7 +21709,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14496,
             y: 16576,
             links: [202, 207],
-            name: "Resistance",
+            name: "抵抗",
             size: 2,
             color: "#009688",
             stats: [{
@@ -21723,7 +21723,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14688,
             y: 16768,
             links: [206, 208],
-            name: "Repelling Force",
+            name: "反弹力",
             size: 3,
             color: "#009688",
             stats: [{
@@ -21742,7 +21742,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14880,
             y: 16960,
             links: [207, 209],
-            name: "Resistance",
+            name: "抵抗",
             size: 2,
             color: "#009688",
             stats: [{
@@ -21789,7 +21789,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15008,
             y: 16416,
             links: [212],
-            name: "Boosted",
+            name: "提升",
             size: 3,
             color: "#673ab7",
             stats: [{
@@ -21822,7 +21822,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15008,
             y: 15872,
             links: [160, 216, 218, 221],
-            name: "All-rounder",
+            name: "全能选手",
             size: 2,
             color: "#ffc107",
             stats: [{
@@ -21846,7 +21846,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15072,
             y: 15680,
             links: [215, 217],
-            name: "Spiritual Damage",
+            name: "精神伤害",
             size: 2,
             color: "#ffeb3b",
             stats: [{
@@ -21860,7 +21860,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15264,
             y: 15680,
             links: [216],
-            name: "Ghost's Refuge",
+            name: "幽灵避难所",
             size: 3,
             color: "#ffeb3b",
             stats: [{
@@ -22132,7 +22132,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14368,
             y: 16832,
             links: [235],
-            name: "Savage Blows",
+            name: "野蛮打击",
             size: 3,
             color: "#e91e63",
             stats: [{
@@ -22179,7 +22179,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13664,
             y: 16384,
             links: [240, 238],
-            name: "Tireless",
+            name: "不知疲倦",
             size: 3,
             color: "#4caf50",
             stats: [{
@@ -22335,7 +22335,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13472,
             y: 16e3,
             links: [249],
-            name: "Infinite Fortitude",
+            name: "无限坚韧",
             size: 3,
             color: "#4caf50",
             stats: [{
@@ -22354,7 +22354,7 @@ parcelRequire = function (e, r, t, n) {
             x: 12960,
             y: 15360,
             links: [254, 255],
-            name: "Energize Experience",
+            name: "激发经验",
             size: 2,
             color: "#ffffff",
             stats: [{
@@ -22368,7 +22368,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13472,
             y: 15360,
             links: [249],
-            name: "Thick Skin",
+            name: "厚脸皮",
             size: 3,
             color: "#f44336",
             stats: [{
@@ -22519,7 +22519,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14304,
             y: 15680,
             links: [263, 261],
-            name: "The Creator",
+            name: "造物主",
             size: 3,
             color: "#8bc34a",
             stats: [{
@@ -23968,7 +23968,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15232,
             y: 15360,
             links: [113],
-            name: "Spell Damage",
+            name: "法术伤害",
             descr: "",
             size: 2,
             color: "#673ab7",
@@ -24043,7 +24043,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16896,
             y: 15872,
             links: [273],
-            name: "Resistance",
+            name: "抵抗",
             descr: "",
             size: 2,
             color: "#ffc107",
