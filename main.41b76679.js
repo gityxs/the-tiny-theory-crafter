@@ -25038,7 +25038,7 @@ parcelRequire = function (e, r, t, n) {
             }, {
                 key: "updateEnemyName",
                 value: function (e) {
-                    this.enemyName.text = e, this.enemyName.visible = !0
+                    this.enemyName.text = cnItem(e), this.enemyName.visible = !0
                 }
             }, {
                 key: "updateCurrentBiome",
@@ -30320,9 +30320,9 @@ parcelRequire = function (e, r, t, n) {
                         if (this.damage.damageBase && !this.damage.damageMulti && (e = "伤害: +".concat(this.damage.damageBase, "    ")), this.damage.damageBase && this.damage.damageMulti && (e = "伤害: ".concat(this.damage.damageMulti, "% * ").concat(this.damage.damageBase, "    ")), this.damage.damageBase || !this.damage.damageMulti) throw new Error("Invalid damage on ".concat(this.name));
                         e = "伤害: ".concat(this.damage.damageMulti, "%    ")
                     }
-                    this.cooldown && (e = "".concat(e, "CD: ").concat(this.cooldown / 1e3, "s")), e = "".concat(e, "\n");
+                    this.cooldown && (e = "".concat(e, "冷却: ").concat(this.cooldown / 1e3, "秒")), e = "".concat(e, "\n");
                     var r = !0;
-                    for (var t in this.tags) this.tags.hasOwnProperty(t) && (r ? (r = !1, e += "".concat(t.toProperCase())) : e += ", ".concat(t.toProperCase()));
+                    for (var t in this.tags) this.tags.hasOwnProperty(t) && (r ? (r = !1, e += "".concat(cnItem(t.toProperCase()))) : e += ", ".concat(cnItem(t.toProperCase())));
                     return this.textDescription && (e += "\n", e += this.textDescription), e
                 }
             }, {
@@ -30332,11 +30332,11 @@ parcelRequire = function (e, r, t, n) {
                     for (var r in this.orbsAdded)
                         if (this.orbsAdded.hasOwnProperty(r)) {
                             for (var t = this.orbsAdded[r], o = d[r], s = "", i = 0; i < t; i++) s += "".concat(o);
-                            e += "➕".concat(s, " ").concat(t, " ").concat(r.toProperCase(), " ")
+                            e += "➕".concat(s, " ").concat(t, " ").concat(cnItem(r.toProperCase()), " ")
                         } for (var n in e += "\n", this.orbsRemoved)
                         if (this.orbsRemoved.hasOwnProperty(n)) {
                             for (var a = this.orbsRemoved[n], c = d[n], u = "", h = 0; h < a; h++) u += "".concat(c);
-                            e += "➖".concat(u, " ").concat(a, " ").concat(n.toProperCase(), " ")
+                            e += "➖".concat(u, " ").concat(a, " ").concat(cnItem(n.toProperCase()), " ")
                         } return e += "\n"
                 }
             }, {
@@ -31805,7 +31805,7 @@ parcelRequire = function (e, r, t, n) {
                 name: "Channel",
                 price: 3600,
                 cooldown: 5e3,
-                textDescription: "消耗你所有的光宝珠，每个消耗的光宝珠都会提供一层奥术涌动（法术伤害提高 5%，持续 20 秒）和强化（+1 防御，持续 60 秒）.",
+                textDescription: "消耗你所有的光宝珠，每个消耗的光宝珠都会提供\n一层奥术涌动（法术伤害提高 5%，持续 20 秒）和强化（+1 防御，持续 60 秒）.",
                 tags: {
                     spell: !0,
                     magical: !0
@@ -31824,7 +31824,7 @@ parcelRequire = function (e, r, t, n) {
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Chain Lightning",
                 price: 254e3,
-                textDescription: "每层连锁能量造成的伤害提高 25*N%。 提供一层连锁能量（攻击速度提高 10%，持续 20 秒）.",
+                textDescription: "每层连锁能量造成的伤害提高 25*N%。 提供一层\n连锁能量（攻击速度提高 10%，持续 20 秒）.",
                 tags: {
                     spell: !0,
                     magical: !0
@@ -32035,7 +32035,7 @@ parcelRequire = function (e, r, t, n) {
                 orbsAdded: {
                     SUPERNATURAL: 1
                 },
-                textDescription: "提供一层攻击力（增加5%攻击力，持续20秒）和一层奥术涌动（增加5%法术伤害，持续20秒）。",
+                textDescription: "提供一层攻击力（增加5%攻击力，持续20秒）\n和一层奥术涌动（增加5%法术伤害，持续20秒）。",
                 postUseFn: function (e, a, t, i) {
                     s.default.apply(n.default.get("Attack Force"), e, e), s.default.apply(n.default.get("Arcane Surge"), e, e)
                 }
@@ -34249,7 +34249,7 @@ parcelRequire = function (e, r, t, n) {
                                 if (i.purchaseType === h.SKILL_POINT && (i.price = I[e.player.pointsPurchased]), i.purchaseType === h.STRENGTH && (i.price = m[e.player.strengthPointsPurchased]), i.purchaseType === h.AGILITY && (i.price = m[e.player.agilityPointsPurchased]), i.purchaseType === h.INTELLIGENCE && (i.price = m[e.player.intelligencePointsPurchased]), i.purchaseType === h.ZOOMIES) {
                                     if (e.player.zoomiesScreenX >= e.player.furthestScreen - 10) return;
                                     var r = T.default.getBaseExpReward(e.player.zoomiesScreenX);
-                                    i.price = 150 + 25 * r, i.title = "Zoomies W-".concat(e.player.zoomiesScreenX + 1), i.description = "获得 +150 移动速度和 +25 攻击速度在世界屏幕 ".concat(e.player.zoomiesScreenX + 1, " 及以下. 此奖励在所有其他修饰符之后应用.")
+                                    i.price = 150 + 25 * r, i.title = "变焦 W-".concat(e.player.zoomiesScreenX + 1), i.description = "获得 +150 移动速度和 +25 攻击速度在世界屏幕 ".concat(e.player.zoomiesScreenX + 1, " 及以下. 此奖励在所有其他修饰符之后应用.")
                                 }
                                 var o = new b(i);
                                 o.position.set(0, t), o.interactive = !0;
@@ -37041,7 +37041,7 @@ parcelRequire = function (e, r, t, n) {
                     var c;
                     e(this, o), (c = i.call(this))._dragging = !1, c.ability = t;
                     var l = c.ability.name;
-                    r && (n || (n = 100), l = "".concat(l, " (ɸ").concat(Math.floor(c.ability.price * n / 100).commafy(), ")")), c.title = new f.Text(l, {
+                    r && (n || (n = 100), l = "".concat(l, " (ɸ").concat(Math.floor(c.ability.price * n / 100).commafy(), ")")), c.title = new f.Text(cnItem(l), {
                         align: "left",
                         fontSize: r ? 52 : 64,
                         fontWeight: "bold",
@@ -38742,7 +38742,7 @@ parcelRequire = function (e, r, t, n) {
                             e = 0,
                             t = this;
                         if (0 === this.availableAbilityNames.length) {
-                            var a = new r.Text("Sold out!", {
+                            var a = new r.Text("已售罄!", {
                                 align: "left",
                                 fontSize: 96,
                                 fontWeight: "bold",
