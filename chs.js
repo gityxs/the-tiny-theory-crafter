@@ -268,7 +268,7 @@ var cnItems = {
     "Vampire King": "吸血鬼王",
     "Pharaoh": "法老",
     "Harold": "哈罗德",
-    "": "",
+    "for updates!": "获知更新！",
     "": "",
     "": "",
     "": "",
