@@ -18210,8 +18210,8 @@ parcelRequire = function (e, r, t, n) {
                 key: "getDescription",
                 value: function () {
                     var t = [];
-                    return this.descr && t.push(this.descr), this.stats.forEach(function (s) {
-                        t.push(s.shortDescr), s.longDescr && t.push(s.longDescr)
+                    return this.descr && t.push(cnItem(this.descr)), this.stats.forEach(function (s) {
+                        t.push(cnItem(s.shortDescr)), s.longDescr && t.push(cnItem(s.longDescr))
                     }), t
                 }
             }, {
@@ -24388,7 +24388,7 @@ parcelRequire = function (e, r, t, n) {
                     value: function (e) {
                         var i = e.tooltip;
                         i && (i.render([{
-                            t: e.node.getDescription().join("\n"),
+                            t: cnItem(e.node.getDescription()).join("\n"),
                             c: "#000",
                             b: !0
                         }]), i.update(e.x, e.y - 30))
@@ -24421,17 +24421,17 @@ parcelRequire = function (e, r, t, n) {
                             i.container.scale.set(n, n);
                             var t = [];
                             t.push({
-                                t: e.node.name,
+                                t: cnItem(e.node.name),
                                 c: "#000",
                                 b: !0,
                                 size: 18
                             }), t.push({
-                                t: e.node.getDescription().join("\n"),
+                                t: cnItem(e.node.getDescription()).join("\n"),
                                 c: "#000",
                                 b: !0,
                                 size: 14
                             }), t.push({
-                                t: "Skill #".concat(e.node.skillId),
+                                t: "技能 #".concat(e.node.skillId),
                                 c: "#444",
                                 b: !1,
                                 size: 14
@@ -25038,7 +25038,7 @@ parcelRequire = function (e, r, t, n) {
             }, {
                 key: "updateEnemyName",
                 value: function (e) {
-                    this.enemyName.text = e, this.enemyName.visible = !0
+                    this.enemyName.text = cnItem(e), this.enemyName.visible = !0
                 }
             }, {
                 key: "updateCurrentBiome",
@@ -30317,12 +30317,12 @@ parcelRequire = function (e, r, t, n) {
                 value: function () {
                     var e = "";
                     if (this.damage) {
-                        if (this.damage.damageBase && !this.damage.damageMulti && (e = "Damage: +".concat(this.damage.damageBase, "    ")), this.damage.damageBase && this.damage.damageMulti && (e = "Damage: ".concat(this.damage.damageMulti, "% * ").concat(this.damage.damageBase, "    ")), this.damage.damageBase || !this.damage.damageMulti) throw new Error("Invalid damage on ".concat(this.name));
-                        e = "Damage: ".concat(this.damage.damageMulti, "%    ")
+                        if (this.damage.damageBase && !this.damage.damageMulti && (e = "伤害: +".concat(this.damage.damageBase, "    ")), this.damage.damageBase && this.damage.damageMulti && (e = "伤害: ".concat(this.damage.damageMulti, "% * ").concat(this.damage.damageBase, "    ")), this.damage.damageBase || !this.damage.damageMulti) throw new Error("Invalid damage on ".concat(this.name));
+                        e = "伤害: ".concat(this.damage.damageMulti, "%    ")
                     }
-                    this.cooldown && (e = "".concat(e, "CD: ").concat(this.cooldown / 1e3, "s")), e = "".concat(e, "\n");
+                    this.cooldown && (e = "".concat(e, "冷却: ").concat(this.cooldown / 1e3, "秒")), e = "".concat(e, "\n");
                     var r = !0;
-                    for (var t in this.tags) this.tags.hasOwnProperty(t) && (r ? (r = !1, e += "".concat(t.toProperCase())) : e += ", ".concat(t.toProperCase()));
+                    for (var t in this.tags) this.tags.hasOwnProperty(t) && (r ? (r = !1, e += "".concat(cnItem(t.toProperCase()))) : e += ", ".concat(cnItem(t.toProperCase())));
                     return this.textDescription && (e += "\n", e += this.textDescription), e
                 }
             }, {
@@ -30332,11 +30332,11 @@ parcelRequire = function (e, r, t, n) {
                     for (var r in this.orbsAdded)
                         if (this.orbsAdded.hasOwnProperty(r)) {
                             for (var t = this.orbsAdded[r], o = d[r], s = "", i = 0; i < t; i++) s += "".concat(o);
-                            e += "➕".concat(s, " ").concat(t, " ").concat(r.toProperCase(), " ")
+                            e += "➕".concat(s, " ").concat(t, " ").concat(cnItem(r.toProperCase()), " ")
                         } for (var n in e += "\n", this.orbsRemoved)
                         if (this.orbsRemoved.hasOwnProperty(n)) {
                             for (var a = this.orbsRemoved[n], c = d[n], u = "", h = 0; h < a; h++) u += "".concat(c);
-                            e += "➖".concat(u, " ").concat(a, " ").concat(n.toProperCase(), " ")
+                            e += "➖".concat(u, " ").concat(a, " ").concat(cnItem(n.toProperCase()), " ")
                         } return e += "\n"
                 }
             }, {
@@ -34633,7 +34633,7 @@ parcelRequire = function (e, r, t, n) {
                         var e = y.default.getUiModel();
                         if (e) {
                             var t = 1 * v.default.getPointsEarnedBonusExpMultiplier(this.pointsEarned) * v.default.getQuiddityBonusExpMultiplier(this.quiddity, this.quiddityEnergizeRate) * v.default.getPrestigeBonusExpMultiplier(this.prestigeCount),
-                                i = "Skill (x".concat(v.default.getPointsEarnedBonusExpMultiplier(this.pointsEarned).toFixed(2), ") Quid  (x").concat(v.default.getQuiddityBonusExpMultiplier(this.quiddity, this.quiddityEnergizeRate).toFixed(2), ")").padEnd(31).replace(/ /g, "&nbsp;") + "<br>" + "Prest (x".concat(v.default.getPrestigeBonusExpMultiplier(this.prestigeCount).toFixed(2), ") All   (x").concat(t.toFixed(2), ")").padEnd(31).replace(/ /g, "&nbsp;");
+                                i = "技能 (x".concat(v.default.getPointsEarnedBonusExpMultiplier(this.pointsEarned).toFixed(2), ") Quid  (x").concat(v.default.getQuiddityBonusExpMultiplier(this.quiddity, this.quiddityEnergizeRate).toFixed(2), ")").padEnd(31).replace(/ /g, "&nbsp;") + "<br>" + "声望 (x".concat(v.default.getPrestigeBonusExpMultiplier(this.prestigeCount).toFixed(2), ") 全部   (x").concat(t.toFixed(2), ")").padEnd(31).replace(/ /g, "&nbsp;");
                             e.proxy.expBonuses = i
                         }
                     }
@@ -37041,7 +37041,7 @@ parcelRequire = function (e, r, t, n) {
                     var c;
                     e(this, o), (c = i.call(this))._dragging = !1, c.ability = t;
                     var l = c.ability.name;
-                    r && (n || (n = 100), l = "".concat(l, " (ɸ").concat(Math.floor(c.ability.price * n / 100).commafy(), ")")), c.title = new f.Text(l, {
+                    r && (n || (n = 100), l = "".concat(l, " (ɸ").concat(Math.floor(c.ability.price * n / 100).commafy(), ")")), c.title = new f.Text(cnItem(l), {
                         align: "left",
                         fontSize: r ? 52 : 64,
                         fontWeight: "bold",
@@ -38742,7 +38742,7 @@ parcelRequire = function (e, r, t, n) {
                             e = 0,
                             t = this;
                         if (0 === this.availableAbilityNames.length) {
-                            var a = new r.Text("Sold out!", {
+                            var a = new r.Text("已售罄!", {
                                 align: "left",
                                 fontSize: 96,
                                 fontWeight: "bold",
