@@ -30842,7 +30842,7 @@ parcelRequire = function (e, r, t, n) {
                 name: "Burn From Within",
                 price: 13e4,
                 cooldown: 3e3,
-                textDescription: "Grants 3 stacks of Create Fire Orb.",
+                textDescription: "授予 3 层创造火焰球。",
                 tags: {
                     spell: !0,
                     spiritual: !0,
@@ -30889,7 +30889,7 @@ parcelRequire = function (e, r, t, n) {
                 orbsAdded: {
                     FIRE: 2
                 },
-                textDescription: "Grants a stack of Attack Force (5% increased attack damage, lasts 20s).",
+                textDescription: "赋予一层攻击力（攻击力增加5%，持续20秒）.",
                 postUseFn: function (e, a, t, i) {
                     s.default.apply(n.default.get("攻击力"), e, e)
                 }
@@ -30907,14 +30907,14 @@ parcelRequire = function (e, r, t, n) {
                 orbsRemoved: {
                     FIRE: 1
                 },
-                textDescription: "Grants a stack of Arcane Surge (5% increased spell damage, lasts 20s).",
+                textDescription: "提供一层奥术涌动（法术伤害提高 5%，持续 20 秒）.",
                 postUseFn: function (e, a, t, i) {
                     s.default.apply(n.default.get("Arcane Surge"), e, e)
                 }
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Rising Flames",
                 price: 15e3,
-                textDescription: "Ignites the target for 50% hybrid damage over 4 seconds.",
+                textDescription: "点燃目标，在 4 秒内造成 50% 的混合伤害。",
                 tags: {
                     spell: !0,
                     magical: !0
@@ -30933,7 +30933,7 @@ parcelRequire = function (e, r, t, n) {
                 name: "Flame Horizon",
                 price: 2e5,
                 cooldown: 2e4,
-                textDescription: "Increases expend damage by 40%. Lasts 10s.",
+                textDescription: "消耗伤害增加 40%。 持续10秒。",
                 tags: {
                     spell: !0,
                     magical: !0
@@ -30952,7 +30952,7 @@ parcelRequire = function (e, r, t, n) {
                 name: "Forest Fire",
                 price: 125e3,
                 cooldown: 3e3,
-                textDescription: "Ignites the target for 50% hybrid damage over 4 seconds. Grants 2 stacks of Faster Attacks (10% increased attack speed per stack, lasts 12s).",
+                textDescription: "点燃目标，在 4 秒内造成 50% 的混合伤害。 提供 2 层更快的攻击（每层攻击速度提高 10%，持续 12 秒）.",
                 tags: {
                     spell: !0,
                     magical: !0
@@ -30974,7 +30974,7 @@ parcelRequire = function (e, r, t, n) {
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Flamethrower",
                 price: 195e3,
-                textDescription: "If an enemy is Ignited, increases the number of stacks of Ignite by 50%.",
+                textDescription: "如果敌人被点燃，则点燃层数增加 50%.",
                 tags: {
                     spell: !0,
                     physical: !0
@@ -31000,7 +31000,7 @@ parcelRequire = function (e, r, t, n) {
                 name: "Flame Mantle",
                 price: 87e3,
                 cooldown: 23e3,
-                textDescription: "Grants Flame Mantle, causing you to reflect 10% damage received as spell damage when struck. Lasts 30s.",
+                textDescription: "获得火焰斗篷，使你在受到攻击时将受到的 10% 伤害转化为法术伤害。 持续30秒。",
                 tags: {
                     spell: !0,
                     buff: !0
@@ -31016,7 +31016,7 @@ parcelRequire = function (e, r, t, n) {
                 name: "Inflame",
                 price: 91e4,
                 cooldown: 4e3,
-                textDescription: "Ignites the target for 250% hybrid damage over 4 seconds. Will consume 1 stack of each of: Attack Force, Arcane Surge, Armor, Resistance. Each stacks causes the ignite to deal 50% more damage. .",
+                textDescription: "在 4 秒内点燃目标，造成 250% 的混合伤害。 将消耗 1 层：攻击力、奥术涌动、护甲、抵抗力。 每叠加一层，点燃物造成的伤害就会增加 50%。 。",
                 tags: {
                     spell: !0,
                     spiritual: !0
@@ -31036,7 +31036,7 @@ parcelRequire = function (e, r, t, n) {
                 name: "Spiritfire",
                 price: 85e5,
                 cooldown: 3e3,
-                textDescription: "Ignites the target for 350% hybrid damage over 4 seconds. Deals 5% increased damage for every stack of Fortify, Calm Focus, and Arcane Surge.",
+                textDescription: "在 4 秒内点燃目标，造成 350% 的混合伤害。 每叠加一层强化、冷静专注和奥术涌动，造成的伤害提高 5%。",
                 tags: {
                     spell: !0,
                     spiritual: !0
@@ -31059,7 +31059,7 @@ parcelRequire = function (e, r, t, n) {
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Meteor",
                 price: 7e5,
-                textDescription: "Ignites the target for 200% hybrid damage over 4 seconds.",
+                textDescription: "在 4 秒内点燃目标，造成 200% 的混合伤害。",
                 tags: {
                     spell: !0,
                     physical: !0
@@ -31094,7 +31094,7 @@ parcelRequire = function (e, r, t, n) {
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Flaming Rush",
                 price: 13e5,
-                textDescription: "Grants a stack of Dashing (+8 movement speed, lasts 30s). This ability has 66% more attack speed.",
+                textDescription: "授予一堆冲刺（+8移动速度，持续30秒）。 该能力的攻击速度增加 66%。",
                 tags: {
                     attack: !0,
                     physical: !0
@@ -31117,7 +31117,7 @@ parcelRequire = function (e, r, t, n) {
                 name: "Berserker",
                 price: 21e5,
                 cooldown: 2e3,
-                textDescription: "Grants 2 stacks of Enrage (10% increased physical damage, lasts 30s) and 2 stacks of Faster Attacks (10% increased attack speed per stack, lasts 12s).",
+                textDescription: "获得 2 层激怒（物理伤害提高 10%，持续 30 秒）和 2 层快速攻击（每层提高 10% 攻击速度，持续 12 秒）。",
                 tags: {
                     attack: !0,
                     spiritual: !0
@@ -31132,7 +31132,7 @@ parcelRequire = function (e, r, t, n) {
                 name: "Pyroblast",
                 price: 1e7,
                 cooldown: 8e3,
-                textDescription: "Usable when a target has >80% health. Deals 20% more damage if you are affected by Flame Horizon.",
+                textDescription: "当目标生命值 >80% 时可用。 如果您受到火焰地平线的影响，造成的伤害提高 20%。",
                 tags: {
                     spell: !0,
                     magical: !0
@@ -31153,7 +31153,7 @@ parcelRequire = function (e, r, t, n) {
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Fire and Ice",
                 price: 33e3,
-                textDescription: "Consumes all stacks of Ignite, dealing 25% more damage for each stack.",
+                textDescription: "消耗所有层数的点燃，每层造成的伤害提高 25%。",
                 tags: {
                     spell: !0,
                     spiritual: !0
@@ -31178,7 +31178,7 @@ parcelRequire = function (e, r, t, n) {
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Burning Invocation",
                 price: 975e3,
-                textDescription: "Grants a stack of Invoker (10% increased create damage, lasts 20s).",
+                textDescription: "授予一堆祈求者（造成伤害提高 10%，持续 20 秒）。",
                 tags: {
                     spell: !0,
                     magical: !0
@@ -31199,7 +31199,7 @@ parcelRequire = function (e, r, t, n) {
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Chilling Gust",
                 price: 31e3,
-                textDescription: "Grants a stack of Create Cold Orb.",
+                textDescription: "授予一堆创建冷球。",
                 tags: {
                     spell: !0,
                     magical: !0
@@ -31246,7 +31246,7 @@ parcelRequire = function (e, r, t, n) {
                 name: "Frost Armor",
                 price: 99e3,
                 cooldown: 5e3,
-                textDescription: "Grants a stack of Armor (10% increased defense, lasts 30s).",
+                textDescription: "授予一层护甲（防御力提高 10%，持续 30 秒）.",
                 tags: {
                     spell: !0,
                     physical: !0
@@ -31268,7 +31268,7 @@ parcelRequire = function (e, r, t, n) {
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Winter Wisp",
                 price: 228e3,
-                textDescription: "Produces an extra orb of a random element that you have equipped. Cannot produce extra Cold orbs.",
+                textDescription: "产生一个你装备的随机元素的额外球体。 无法产生额外的冷球。",
                 tags: {
                     spell: !0,
                     magical: !0
@@ -31302,7 +31302,7 @@ parcelRequire = function (e, r, t, n) {
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Blue Fire",
                 price: 32e3,
-                textDescription: "Ignites the target for 100% hybrid damage over 4 seconds.",
+                textDescription: "在 4 秒内点燃目标，造成 100% 混合伤害。",
                 tags: {
                     spell: !0,
                     spiritual: !0
@@ -31323,7 +31323,7 @@ parcelRequire = function (e, r, t, n) {
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Frozen Execution",
                 price: 333e4,
-                textDescription: "Can consume 1 stack of Faster Attacks to deal 40% more damage.",
+                textDescription: "可以消耗 1 层快速攻击来造成 40% 的额外伤害。",
                 tags: {
                     attack: !0,
                     physical: !0
@@ -31346,7 +31346,7 @@ parcelRequire = function (e, r, t, n) {
                 name: "Debilitating Ice",
                 price: 495e3,
                 cooldown: 1e4,
-                textDescription: "Barrages the target with ice, lowering their attack speed by 25%. Lasts 15s.",
+                textDescription: "用冰块攻击目标，使其攻击速度降低 25%。 持续15秒.",
                 tags: {
                     spell: !0,
                     physical: !0
@@ -31385,7 +31385,7 @@ parcelRequire = function (e, r, t, n) {
                 name: "Ice Pillar",
                 cooldown: 4e3,
                 price: 3e6,
-                textDescription: "Encases the target in ice, preventing their next ability from dealing damage. Usable when the enemy is not affected by Ice Pillar.",
+                textDescription: "将目标包裹在冰中，防止他们的下一个技能造成伤害。 当敌人不受冰柱影响时可用.",
                 tags: {
                     spell: !0,
                     physical: !0
@@ -31406,7 +31406,7 @@ parcelRequire = function (e, r, t, n) {
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Terra Coola",
                 price: 63e4,
-                textDescription: "Decreases movement speed by 20 and increases magical damage by 40%, lasts 30s. Usable when you are not affected by Terra Coola.",
+                textDescription: "移动速度降低20，魔法伤害提高40%，持续30秒。 当你不受 Terra Coola 影响时可用.",
                 tags: {
                     spell: !0,
                     magical: !0,
@@ -31429,7 +31429,7 @@ parcelRequire = function (e, r, t, n) {
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Vine Whip",
                 price: 310,
-                textDescription: "Ensnares the enemy, inflicting a stack of Slow (-5% attack speed, lasts 15s).",
+                textDescription: "诱捕敌人，造成一层缓慢效果（-5%攻击速度，持续15秒）.",
                 tags: {
                     attack: !0,
                     magical: !0
@@ -31447,7 +31447,7 @@ parcelRequire = function (e, r, t, n) {
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Stranglethorns",
                 price: 2400,
-                textDescription: "Saps the enemy for 5% damage each second, lasts 60s.",
+                textDescription: "每秒对敌人造成5%伤害，持续60秒.",
                 tags: {
                     attack: !0,
                     magical: !0
@@ -31465,7 +31465,7 @@ parcelRequire = function (e, r, t, n) {
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Bark Skin",
                 price: 139e4,
-                textDescription: "Grants 2 stacks of Fortify (+1 defense, lasts 60s).",
+                textDescription: "提供 2 层强化（+1 防御，持续 60 秒）.",
                 tags: {
                     spell: !0,
                     physical: !0
@@ -31486,7 +31486,7 @@ parcelRequire = function (e, r, t, n) {
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Wind Dash",
                 price: 75e3,
-                textDescription: "Grants a stack of Dashing (+8 movement speed, lasts 30s).",
+                textDescription: "授予一堆冲刺（+8移动速度，持续30秒）.",
                 tags: {
                     attack: !0,
                     physical: !0
@@ -31507,7 +31507,7 @@ parcelRequire = function (e, r, t, n) {
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Venom Burst",
                 price: 8e6,
-                textDescription: "Detonates all stacks of Poison, dealing 300% of stack damage. Usable when the enemy has >60% Poison stacks.",
+                textDescription: "引爆所有层数的毒药，造成 300% 的层数伤害。 当敌人的毒药层数超过 60% 时可用.",
                 cooldown: 15e3,
                 tags: {
                     spell: !0,
@@ -31536,7 +31536,7 @@ parcelRequire = function (e, r, t, n) {
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Mental Fatigue",
                 price: 389389,
-                textDescription: "Ensnares the enemy, inflicting a stack of Slow (-5% attack speed, lasts 15s).",
+                textDescription: "诱捕敌人，造成一层缓慢效果（-5%攻击速度，持续15秒）.",
                 tags: {
                     spell: !0,
                     supernatural: !0
@@ -31558,7 +31558,7 @@ parcelRequire = function (e, r, t, n) {
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Poison Fang",
                 price: 1e5,
-                textDescription: "Poisons the enemy, applying ".concat(50, "% physical damage as poison hybrid damage over time."),
+                textDescription: "使敌人中毒，施加 ".concat(50, "% 物理伤害会变成毒药混合伤害，随着时间的推移."),
                 tags: {
                     spell: !0,
                     physical: !0,
@@ -31578,7 +31578,7 @@ parcelRequire = function (e, r, t, n) {
                 name: "Plague",
                 price: 4e5,
                 cooldown: 4e3,
-                textDescription: "Poisons the enemy, applying ".concat(90, "% physical damage as poison hybrid damage over time."),
+                textDescription: "使敌人中毒，施加 ".concat(90, "% 物理伤害会变成毒药混合伤害，随着时间的推移."),
                 tags: {
                     spell: !0,
                     physical: !0,
@@ -31597,7 +31597,7 @@ parcelRequire = function (e, r, t, n) {
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Vitriolic Burn",
                 price: 19e5,
-                textDescription: "Converts all Poison stacks on the enemy to Ignite stacks.",
+                textDescription: "将敌人身上的所有毒药层数转换为点燃层数.",
                 tags: {
                     spell: !0,
                     magical: !0,
@@ -31634,7 +31634,7 @@ parcelRequire = function (e, r, t, n) {
                 orbsRemoved: {
                     NATURE: 2
                 },
-                textDescription: "Freezes the enemy, inflicting 3 stacks of Slow (-5% attack speed, lasts 15s).",
+                textDescription: "冻结敌人，造成3层缓慢（-5%攻击速度，持续15秒）.",
                 postUseFn: function (e, a, t, i) {
                     s.default.apply(n.default.get("Slow"), e, a, 3)
                 }
@@ -31642,7 +31642,7 @@ parcelRequire = function (e, r, t, n) {
                 name: "Bile Outbreak",
                 price: 78e4,
                 cooldown: 3e3,
-                textDescription: "Multiplies all Poison stacks on the enemy by 400%. Usable when the enemy has Poison stacks.",
+                textDescription: "使敌人身上的所有毒药层数增加 400%。 当敌人有毒药层时可用.",
                 tags: {
                     spell: !0,
                     magical: !0,
@@ -31678,14 +31678,14 @@ parcelRequire = function (e, r, t, n) {
                 orbsRemoved: {
                     NATURE: 5
                 },
-                textDescription: "Grants 50% increased magical damage and Thwompy (10% increased base damage, lasts 15s).",
+                textDescription: "增加 50% 魔法伤害和 Thwompy（基础伤害增加 10%，持续 15 秒）.",
                 postUseFn: function (e, a, t, i) {
                     s.default.apply(n.default.get("Annihilating Furor"), e, e), s.default.apply(n.default.get("Thwompy"), e, e)
                 }
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Regrowth",
                 price: 26500,
-                textDescription: "Grants a stack of Resistance (10% increased resist, lasts 30s).",
+                textDescription: "提供一层抗性（抗性增加 10%，持续 30 秒）.",
                 tags: {
                     spell: !0,
                     magical: !0
@@ -31708,7 +31708,7 @@ parcelRequire = function (e, r, t, n) {
                 name: "Burgeoning Stature",
                 price: 176e3,
                 cooldown: 13e3,
-                textDescription: "Grants 50% increased physical damage and Thwompy (10% increased base damage, lasts 15s).",
+                textDescription: "增加 50% 物理伤害和 Thwompy（基础伤害增加 10%，持续 15 秒）。",
                 tags: {
                     attack: !0,
                     hybrid: !0
@@ -31785,7 +31785,7 @@ parcelRequire = function (e, r, t, n) {
                 name: "Stagger",
                 price: 5e5,
                 cooldown: 5e3,
-                textDescription: "Consumes all of your Non-Light Orbs, granting a stack of Create Light Orb for each orb consumed.",
+                textDescription: "消耗所有非光球，每消耗一个球就会获得一堆“创造光球”.",
                 tags: {
                     spell: !0,
                     hybrid: !0
@@ -31805,7 +31805,7 @@ parcelRequire = function (e, r, t, n) {
                 name: "Channel",
                 price: 3600,
                 cooldown: 5e3,
-                textDescription: "Consumes all of your Light Orbs, granting a stack of Arcane Surge (5% increased spell damage, lasts 20s) and Fortify (+1 defense, lasts 60s) for each orb consumed.",
+                textDescription: "消耗你所有的光球，每个消耗的光球都会提供一层奥术涌动（法术伤害提高 5%，持续 20 秒）和强化（+1 防御，持续 60 秒）.",
                 tags: {
                     spell: !0,
                     magical: !0
@@ -31824,7 +31824,7 @@ parcelRequire = function (e, r, t, n) {
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Chain Lightning",
                 price: 254e3,
-                textDescription: "Deals 25*N% more damage per stack of Chaining Energy. Grants a stack of Chaining Energy (10% increased attack speed, lasts 20s).",
+                textDescription: "每层连锁能量造成的伤害提高 25*N%。 提供一堆连锁能量（攻击速度提高 10%，持续 20 秒）.",
                 tags: {
                     spell: !0,
                     magical: !0
@@ -31868,7 +31868,7 @@ parcelRequire = function (e, r, t, n) {
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Solarburn",
                 price: 143e3,
-                textDescription: "Ignites the target for 50% hybrid damage over 4 seconds.",
+                textDescription: "在 4 秒内点燃目标造成 50% 的混合伤害.",
                 tags: {
                     spell: !0,
                     magical: !0
@@ -31890,7 +31890,7 @@ parcelRequire = function (e, r, t, n) {
             }), e = new t.Ability({
                 name: "Energy Cage",
                 price: 54e3,
-                textDescription: "Reduces enemy attack speed by 20%. Consumes a Mark of Justice on the target to deal 50% more damage.",
+                textDescription: "降低敌人20%的攻击速度。 在目标身上消耗正义印记，造成的伤害提高 50%.",
                 tags: {
                     spell: !0,
                     physical: !0,
@@ -31928,7 +31928,7 @@ parcelRequire = function (e, r, t, n) {
                 orbsAdded: {
                     SUPERNATURAL: 4
                 },
-                textDescription: "Drain 15% of target's magical damage and spiritual damage for 20s",
+                textDescription: "吸取目标15%的魔法伤害和精神伤害，持续20秒",
                 postUseFn: function (e, a, t, i) {
                     s.default.apply(n.default.get("Essence Drain"), e, e), s.default.apply(n.default.get("Essence Drained"), e, a)
                 }
@@ -31936,7 +31936,7 @@ parcelRequire = function (e, r, t, n) {
                 name: "Inner Resonance",
                 price: 5e5,
                 cooldown: 2e3,
-                textDescription: "Channels your resonance, producing an extra orb of a random element that you have equipped. Grants 2 stacks of Create Supernatural Orb.",
+                textDescription: "引导你的共振，产生一个你装备的随机元素的额外球体。 授予 2 层创造超自然宝珠.",
                 tags: {
                     spell: !0,
                     spiritual: !0
@@ -31965,7 +31965,7 @@ parcelRequire = function (e, r, t, n) {
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Spirit Blade",
                 price: 7800,
-                textDescription: "Deals 50% more damage to targets with a Mark of Justice. Does NOT consume the mark.",
+                textDescription: "对带有正义印记的目标造成的伤害提高 50%。 不消耗标记",
                 tags: {
                     attack: !0,
                     hybrid: !0
