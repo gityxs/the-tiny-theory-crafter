@@ -640,197 +640,197 @@
     <div class="metric-panel slide-out" style="display:block;"> <button
             class="toggle-metric-panel toggle-panel">🡄</button>
         <ul>
-            <li class="stat-line"> <span class="label" aria-label="Total time your character has played."
+            <li class="stat-line"> <span class="label" aria-label="您的角色玩游戏的总时间。"
                     data-balloon-pos="right" data-balloon-length="xlarge">Total time</span><span
                     class="p-value timeInGame">{{ timeInGame }}</span> </li>
-            <li class="stat-line"> <span class="label" aria-label="The furthest place in the world you have been ever."
+            <li class="stat-line"> <span class="label" aria-label="你去过的世界上最远的地方."
                     data-balloon-pos="right" data-balloon-length="xlarge">Furthest screen</span><span
                     class="p-value furthestScreen">{{ furthestScreen }}</span> </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="The furthest place in the world you have been this session." data-balloon-pos="right"
+                    aria-label="本次游戏您去过世界上最远的地方." data-balloon-pos="right"
                     data-balloon-length="xlarge">Furthest screen/now</span><span
                     class="p-value furthestScreenThisSession">{{ furthestScreenThisSession }}</span> </li>
-            <li class="stat-line"> <span class="label" aria-label="Time spent walking this run, in seconds."
+            <li class="stat-line"> <span class="label" aria-label="本轮游戏走路所花费的时间（以秒为单位）。"
                     data-balloon-pos="right" data-balloon-length="xlarge">Time spent walking</span><span
                     class="p-value timeSpentWalking">{{ timeSpentWalking }}</span> </li>
-            <li class="stat-line"> <span class="label" aria-label="Time spent fighting this run, in seconds."
+            <li class="stat-line"> <span class="label" aria-label="本轮游戏战斗所花费的时间（以秒为单位）。"
                     data-balloon-pos="right" data-balloon-length="xlarge">Time spent fighting</span><span
                     class="p-value timeSpentFighting">{{ timeSpentFighting }}</span> </li>
-            <li class="stat-line"> <span class="label" aria-label="Number of abilities used this run."
+            <li class="stat-line"> <span class="label" aria-label="本轮游戏使用的技能数量."
                     data-balloon-pos="right" data-balloon-length="xlarge">Abilities used</span><span
                     class="p-value abilitiesUsed">{{ abilitiesUsed }}</span> </li>
             <hr>
-            <li class="stat-line"> <span class="label" aria-label="Total damage dealt this run."
+            <li class="stat-line"> <span class="label" aria-label="本轮游戏造成的总伤害."
                     data-balloon-pos="right" data-balloon-length="xlarge">Damage dealt</span><span
                     class="p-value damageDealt">{{ damageDealt }}</span> </li>
-            <li class="stat-line"> <span class="label" aria-label="Attack damage dealt this run."
+            <li class="stat-line"> <span class="label" aria-label="本轮游戏造成的攻击伤害."
                     data-balloon-pos="right" data-balloon-length="xlarge">Attack dmg dealt</span><span
                     class="p-value attackDamageDealt">{{ attackDamageDealt }}</span> </li>
-            <li class="stat-line"> <span class="label" aria-label="Spell damage dealt this run."
+            <li class="stat-line"> <span class="label" aria-label="本轮游戏造成的法术伤害."
                     data-balloon-pos="right" data-balloon-length="xlarge">Spell dmg dealt</span><span
                     class="p-value spellDamageDealt">{{ spellDamageDealt }}</span> </li>
-            <li class="stat-line"> <span class="label" aria-label="Total damage received this run."
+            <li class="stat-line"> <span class="label" aria-label="本轮游戏受到的总伤害."
                     data-balloon-pos="right" data-balloon-length="xlarge">Damage received</span><span
                     class="p-value damageReceived">{{ damageReceived }}</span> </li>
-            <li class="stat-line"> <span class="label" aria-label="Attack damage received this run."
+            <li class="stat-line"> <span class="label" aria-label="本轮游戏受到的总攻击伤害."
                     data-balloon-pos="right" data-balloon-length="xlarge">Attack dmg received</span><span
                     class="p-value attackDamageReceived">{{ attackDamageReceived }}</span> </li>
-            <li class="stat-line"> <span class="label" aria-label="Spell damage received this run."
+            <li class="stat-line"> <span class="label" aria-label="本轮游戏受到的总法术伤害."
                     data-balloon-pos="right" data-balloon-length="xlarge">Spell dmg received</span><span
                     class="p-value spellDamageReceived">{{ spellDamageReceived }}</span> </li>
             <hr>
             <li class="stat-line"> <span class="label"
-                    aria-label="Quiddity earned per minute, averaged over all the runs you've had this session."
+                    aria-label="每分钟获得的 Quiddity，是您本次会话中所有走路的平均值."
                     data-balloon-pos="right" data-balloon-length="xlarge">Quiddity/min</span><span
                     class="p-value quiddityPerMinute">{{ quiddityPerMinute }}</span> </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="Quiddity earned per second, averaged over all the runs you've had this session."
+                    aria-label="每秒获得的 Quiddity，是您本次会话中所有运行的平均值."
                     data-balloon-pos="right" data-balloon-length="xlarge">Quiddity/sec</span><span
                     class="p-value quiddityPerSecond">{{ quiddityPerSecond }}</span> </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="Experience earned per second, averaged over the last minute." data-balloon-pos="right"
+                    aria-label="每秒获得的经验值，最后一分钟的平均经验值." data-balloon-pos="right"
                     data-balloon-length="xlarge">EXP/sec</span><span
                     class="p-value expPerMinute">{{ expPerMinute }}</span> </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="Damage dealt per second, averaged over the last minute." data-balloon-pos="right"
+                    aria-label="每秒造成的伤害，最后一分钟的平均值." data-balloon-pos="right"
                     data-balloon-length="xlarge">Damage/sec</span><span
                     class="p-value dpsPerMinute">{{ dpsPerMinute }}</span> </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="Damage taken per second, averaged over the last minute." data-balloon-pos="right"
+                    aria-label="每秒受到的伤害，最后一分钟的平均值." data-balloon-pos="right"
                     data-balloon-length="xlarge">Damage taken/sec</span><span
                     class="p-value damageTakenPerMinute">{{ damageTakenPerMinute }}</span> </li>
         </ul>
     </div>
     <div class="stat-panel slide-out" style="display:block;"> <button class="toggle-stat-panel toggle-panel">🡆</button>
         <ul>
-            <li class="stat-line"> <span class="label" aria-label="That's you!" data-balloon-pos="left"
+            <li class="stat-line"> <span class="label" aria-label="那是你!" data-balloon-pos="left"
                     data-balloon-length="xlarge">Name</span><span class="p-value name">{{ name }}</span> </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="Your character's level. You start with 3 health potions each run (by default), and gain another health potion after each boss or mini-boss kill."
+                    aria-label="你的角色等级。 每次运行时你都会获得 3 种生命药水（默认情况下），并在杀死每个 Boss 或小 Boss 后获得另一种生命药水."
                     data-balloon-pos="left" data-balloon-length="xlarge">Level</span><span
                     class="p-value level">{{ level }}</span> </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="Your level cap. Prestige your character to increase the level cap!"
+                    aria-label="你的等级上限。 提升角色声望以提高等级上限!"
                     data-balloon-pos="left" data-balloon-length="xlarge">Level Cap</span><span
                     class="p-value levelCap">{{ levelCap }}</span> </li>
             <li class="stat-line" style="text-align:left;"> <span class="label"
-                    aria-label="The number of times you have prestiged. Prestiging will reset your level,\n\n\n<br> but increase your level cap and give you bonus skill points."
+                    aria-label="您获得声望的次数。 声望会重置你的等级，\n\n\n<br>但会增加你的等级上限并给你额外的技能点."
                     data-balloon-pos="left" data-balloon-length="xlarge">Prestige Rank</span><span
                     class="p-value prestigeCount">{{ prestigeCount }}</span><span
                     id="prestige-wrapper"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<button
                         id="prestige-button" class="button ambient-glow">Prestige</button></span> </li>
             <li class="stat-line"> </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="Amount of experience earned and needed for the next level up." data-balloon-pos="left"
+                    aria-label="获得的经验值以及下一级别所需的经验值." data-balloon-pos="left"
                     data-balloon-length="xlarge">Experience</span><span class="p-value exp">{{ exp }}</span> </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="Experience bonuses you've earned. You receive bonus exp for skill points unlocked and quiddity (based on your quiddity energize rate)."
+                    aria-label="您获得的经验奖励。 您将获得解锁技能点和基数的奖励经验（基于您的基数激励率）."
                     data-balloon-pos="left" data-balloon-length="xlarge">Exp Bonuses</span><span
                     class="p-value expBonuses">{{ expBonuses }}</span> </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="The number of skill points you have earned from all sources. You primarily earn skill points by reaching further distances in the world, or by purchasing them with quiddity."
+                    aria-label="您从所有来源获得的技能点数。 您主要通过到达世界上更远的距离或用金钱购买技能点来获得技能点."
                     data-balloon-pos="left" data-balloon-length="xlarge">Skill Points</span><span
                     class="p-value skillPoints">{{ skillPoints }}</span> </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="The primary resource/currency of the game. Quiddity can be used in the shops to purchase new upgrades. Quiddity Transfer: At the end of each run, a portion of your experience is converted to quiddity. Quiddity Energize: While killing enemies on a run, a small amount of quiddity is granted as bonus experience."
+                    aria-label="游戏的主要资源/货币。 Quiddity 可以在商店中用来购买新的升级。 Quiddity 转换：在每轮游戏结束时，您的一部分经验将转换为 Quiddity。 Quiddity 激励：在走路中杀死敌人时，会获得少量的 Quiddity 作为奖励经验."
                     data-balloon-pos="left" data-balloon-length="xlarge">Quiddity</span><span
                     class="p-value quiddity">{{ quiddity }}</span> </li>
             <hr>
             <li class="stat-line"> <span class="label"
-                    aria-label="This shows each stat, and the added/increased/more bonuses for that stat. Added/subtracted bonuses are additive. Increased/decreased bonuses are summed (across all relevant categories), then multiplied (e.g. multipliers stacking additively). More/less bonuses are multiplied (e.g. multipliers stacking multiplicatively). Buffed/debuffed stats are highlighted in green."
+                    aria-label="这显示了每个统计数据，以及该统计数据的添加/增加/更多奖金。 增加/减少的奖金是累加的。 将增加/减少的奖金相加（在所有相关类别中），然后相乘（例如乘数累加）。 更多/更少的奖金会相乘（例如，乘数以乘法方式叠加）。 增益/减益统计数据以绿色突出显示."
                     data-balloon-pos="left" data-balloon-length="xlarge">Name - Stat - Added - Increased - More</span>
             </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="Your health, when this reaches 0, you die and your run ends. Health potions are used automatically at 25% health, and heal you for 50% of your base health, and 25% of your bonus health from all sources."
+                    aria-label="你的生命值，当它达到 0 时，你就会死亡，你的跑步也会结束。 生命值达到 25% 时会自动使用生命药水，治疗你的基础生命值的 50%，以及所有来源的额外生命值的 25%."
                     data-balloon-pos="left" data-balloon-length="xlarge">Health</span><span
                     class="p-value maxhp">{{ maxhp }}</span> </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="Damage mitigation against attack damage. damage received % = 100 / (100 + defense), with 10 defense, a 50 damage hit will deal 45 damage, or 90% damage received."
+                    aria-label="针对攻击伤害的伤害减轻。 受到的伤害 % = 100 / (100 + 防御)，防御力为 10 时，50 伤害的命中将造成 45 点伤害，即受到的 90% 伤害。"
                     data-balloon-pos="left" data-balloon-length="xlarge">Defense</span><span
                     class="p-value defense">{{ defense }}</span> </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="Damage mitigation against spell damage. damage received % = 100 / (100 + resist), with 25 defense, a 50 damage hit will deal 40 damage, or 80% damage received."
+                    aria-label="减轻法术伤害的伤害。 受到的伤害% = 100 / (100 + 抗性)，防御力为25，50点伤害的命中将造成40点伤害，即受到的伤害的80%。"
                     data-balloon-pos="left" data-balloon-length="xlarge">Resist</span><span
                     class="p-value resist">{{ resist }}</span> </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="Chance to dodge enemy's abilities. 50 = 1% chance to dodge." data-balloon-pos="left"
+                    aria-label="有机会躲避敌人的技能。 50 = 1% 几率闪避." data-balloon-pos="left"
                     data-balloon-length="xlarge">Evasion</span><span class="p-value evasion">{{ evasion }}</span> </li>
             <hr>
             <li class="stat-line"> <span class="label"
-                    aria-label="Base damage dealt with abilities. Most other damage multipliers affect this."
+                    aria-label="基础伤害与技能有关。 大多数其他伤害倍数都会影响此."
                     data-balloon-pos="left" data-balloon-length="xlarge">Base Damage</span><span
                     class="p-value baseDamage">{{ baseDamage }}</span> </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="Rate of attacks. Attack speed = attacks per second. 100 = 1, 250 = 2, 500 = 3, 1000 = 4."
+                    aria-label="攻击率。 攻击速度=每秒攻击次数. 100 = 1, 250 = 2, 500 = 3, 1000 = 4."
                     data-balloon-pos="left" data-balloon-length="xlarge">Attack Speed</span><span
                     class="p-value attackSpeed">{{ attackSpeed }}</span> </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="A 'more' multiplier to all attack damage. Every point provides 2% more damage, stacking *additively* with itself."
+                    aria-label="所有攻击伤害的“更多”乘数。 每个点提供 2% 的额外伤害，与自身“相加”叠加."
                     data-balloon-pos="left" data-balloon-length="xlarge">Strength</span><span
                     class="p-value strength">{{ strength }}</span> </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="A 'more' multiplier to movement speed and evasion. Every point provides 2% more of each stat, stacking *additively* with itself."
+                    aria-label="移动速度和闪避的“更多”乘数。 每个点提供的每个统计数据多 2%，与自身“附加”叠加."
                     data-balloon-pos="left" data-balloon-length="xlarge">Agility</span><span
                     class="p-value agility">{{ agility }}</span> </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="A 'more' multiplier to all spell damage. Every point provides 2% more damage, stacking *additively* with itself."
+                    aria-label="所有法术伤害的“更多”乘数。 每个点提供 2% 的额外伤害，与自身“相加”叠加."
                     data-balloon-pos="left" data-balloon-length="xlarge">Intelligence</span><span
                     class="p-value intelligence">{{ intelligence }}</span> </li>
             <hr>
             <li class="stat-line"> <span class="label"
-                    aria-label="Chance to land a critical hit when using abilities. 100 = 1% chance to critically strike."
+                    aria-label="使用技能时有机会造成致命一击。 100 = 1% 几率造成暴击."
                     data-balloon-pos="left" data-balloon-length="xlarge">Crit Chance</span><span
                     class="p-value critChance">{{ critChance }}</span> </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="Amount of bonus damage dealt with critical hits. 150 = 150% total damage (50% bonus damage)"
+                    aria-label="暴击造成的额外伤害量。 150 = 150% 总伤害（50% 额外伤害）"
                     data-balloon-pos="left" data-balloon-length="xlarge">Crit Damage</span><span
                     class="p-value critDamage">{{ critDamage }}</span> </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="Amount of defensive mitigation that is penetrated with your abilities. Attacks penetrate defense, spells penetrate resist."
+                    aria-label="你的能力所渗透的防御缓解量。 攻击穿透防御，法术穿透抵抗."
                     data-balloon-pos="left" data-balloon-length="xlarge">Defense Pen</span><span
                     class="p-value defensePenetration">{{ defensePenetration }}</span> </li>
             <hr>
             <li class="stat-line"> <span class="label"
-                    aria-label="Bonus damage dealt by abilities with the 'physical' tag." data-balloon-pos="left"
+                    aria-label="带有“物理”标签的技能造成的额外伤害." data-balloon-pos="left"
                     data-balloon-length="xlarge">Physical Dmg</span><span
                     class="p-value physicalDamage">{{ physicalDamage }}</span> </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="Bonus damage dealt by abilities with the 'magical' tag." data-balloon-pos="left"
+                    aria-label="带有“魔法”标签的技能会造成额外伤害。" data-balloon-pos="left"
                     data-balloon-length="xlarge">Magical Dmg</span><span
                     class="p-value magicalDamage">{{ magicalDamage }}</span> </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="Bonus damage dealt by abilities with the 'spiritual' tag." data-balloon-pos="left"
+                    aria-label="带有“精神”标签的技能造成的额外伤害。" data-balloon-pos="left"
                     data-balloon-length="xlarge">Spiritual Dmg</span><span
                     class="p-value spiritualDamage">{{ spiritualDamage }}</span> </li>
             <hr>
             <li class="stat-line"> <span class="label"
-                    aria-label="Bonus damage dealt by abilities with the 'create' tag, which includes all abilities that create an orb."
+                    aria-label="带有“创建”标签的技能造成的额外伤害，其中包括所有创建宝珠的技能。"
                     data-balloon-pos="left" data-balloon-length="xlarge">Create Dmg</span><span
                     class="p-value createDamage">{{ createDamage }}</span> </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="Bonus damage dealt by abilities with the 'expend' tag, which includes all abilities that expend an orb."
+                    aria-label="带有“消耗”标签的技能造成的额外伤害，其中包括所有消耗宝珠的技能."
                     data-balloon-pos="left" data-balloon-length="xlarge">Expend Dmg</span><span
                     class="p-value expendDamage">{{ expendDamage }}</span> </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="Bonus damage dealt by abilities with the 'attack' tag." data-balloon-pos="left"
+                    aria-label="带有“攻击”标签的技能造成的额外伤害." data-balloon-pos="left"
                     data-balloon-length="xlarge">Attack Dmg</span><span
                     class="p-value attackDamage">{{ attackDamage }}</span> </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="Bonus damage dealt by abilities with the 'spell' tag." data-balloon-pos="left"
+                    aria-label="带有“法术”标签的技能造成的额外伤害." data-balloon-pos="left"
                     data-balloon-length="xlarge">Spell Dmg</span><span
                     class="p-value spellDamage">{{ spellDamage }}</span> </li>
             <hr>
             <li class="stat-line"> <span class="label"
-                    aria-label="Movement speed when walking through the world. 100 = default." data-balloon-pos="left"
+                    aria-label="走过世界时的移动速度。 100 = 默认." data-balloon-pos="left"
                     data-balloon-length="xlarge">Move Speed</span><span class="p-value moveSpeed">{{ moveSpeed }}</span>
             </li>
             <hr>
             <li class="stat-line"> <span class="label"
-                    aria-label="When your run ends, the rate at which your experience is converted to quiddity."
+                    aria-label="当你游戏局结束时，你的经验转化为收益的比率."
                     data-balloon-pos="left" data-balloon-length="xlarge">Quid Transfer</span><span
                     class="p-value quiddityTransferRate">{{ quiddityTransferRate }}</span> </li>
             <li class="stat-line"> <span class="label"
-                    aria-label="When you kill an enemy, the rate at which your quiddity provides bonus experience for the kill."
+                    aria-label="当你杀死敌人时，你的 quiddity 为击杀提供额外经验的比率."
                     data-balloon-pos="left" data-balloon-length="xlarge">Quid Energize</span><span
                     class="p-value quiddityEnergizeRate">{{ quiddityEnergizeRate }}</span> </li>
         </ul>
@@ -1255,22 +1255,21 @@
     </div>
     <script src="./main.41b76679.js" type="text/javascript"></script>
 <!--客服 开始-->
-<script src="//g8hh.com.cn/static/js/jquery.min.js"></script>
-<link rel="stylesheet" href="//g8hh.com.cn/static/css/kf.css" type="text/css" media="screen" charset="utf-8">
-<script src="//g8hh.com.cn/static/js/kf.js"></script>
+<script src="//g8hh.github.io/static/js/jquery.min.js"></script>
+<link rel="stylesheet" href="//g8hh.github.io/static/css/kf.css" type="text/css" media="screen" charset="utf-8">
+<script src="//g8hh.github.io/static/js/kf.js"></script>
 <!-- 客服 结束 -->
 <!--站长统计-->
-<div style="display: none">
-    <script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?dbb7ff142f4d4b68546c93b9cd6e9328";
-      var s = document.getElementsByTagName("script")[0]; 
-      s.parentNode.insertBefore(hm, s);
-    })();
-    </script>
-        </div>
+    <div style="display: none">
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?828597e93cee632465679b7ef35edfd5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>    </div>
 </body>
 
 </html>
