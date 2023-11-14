@@ -30465,7 +30465,7 @@ parcelRequire = function (e, r, t, n) {
                     damageMulti: 100
                 }
             }), o.set(e.name, e), e = new t.Ability({
-                name: "万花筒光束",
+                name: "Kaleidoscope Beam",
                 price: 1e7,
                 textDescription: "您拥有的每个独特颜色的宝珠造成的伤害提高 15%。 授予 2 层创建随机元素宝珠。 当你的宝珠少于 7 个时可用。",
                 abilityColorOverride: "LIGHT",
@@ -30489,7 +30489,7 @@ parcelRequire = function (e, r, t, n) {
                     for (var o = a.uniq(e.orbs).length, d = 0; d < o; d++) i.push(15)
                 }
             }), o.set(e.name, e), e = new t.Ability({
-                name: "尊重",
+                name: "Deference",
                 price: 35e5,
                 cooldown: 5e3,
                 textDescription: "消耗你所有的宝珠，获得一层已移除的每种类型的创建 ___ 宝珠.",
@@ -30507,7 +30507,7 @@ parcelRequire = function (e, r, t, n) {
                     e.orbs.splice(0, 99)
                 }
             }), o.set(e.name, e), e = new t.Ability({
-                name: "混乱",
+                name: "Jumble",
                 price: 5e5,
                 cooldown: 5e3,
                 textDescription: "随机化你所有的宝珠。 授予一层创建随机元素宝珠。",
@@ -30674,7 +30674,7 @@ parcelRequire = function (e, r, t, n) {
                     SUPERNATURAL: 2
                 }
             }), o.set(e.name, e), e = new t.Ability({
-                name: "乱舞",
+                name: "Flurry",
                 price: 25e4,
                 tags: {
                     attack: !0,
@@ -34249,7 +34249,7 @@ parcelRequire = function (e, r, t, n) {
                                 if (i.purchaseType === h.SKILL_POINT && (i.price = I[e.player.pointsPurchased]), i.purchaseType === h.STRENGTH && (i.price = m[e.player.strengthPointsPurchased]), i.purchaseType === h.AGILITY && (i.price = m[e.player.agilityPointsPurchased]), i.purchaseType === h.INTELLIGENCE && (i.price = m[e.player.intelligencePointsPurchased]), i.purchaseType === h.ZOOMIES) {
                                     if (e.player.zoomiesScreenX >= e.player.furthestScreen - 10) return;
                                     var r = T.default.getBaseExpReward(e.player.zoomiesScreenX);
-                                    i.price = 150 + 25 * r, i.title = "Zoomies W-".concat(e.player.zoomiesScreenX + 1), i.description = "Gain +150 movement speed and +25 attack speed on world screen ".concat(e.player.zoomiesScreenX + 1, " and below. This bonus is applied after all other modifiers.")
+                                    i.price = 150 + 25 * r, i.title = "Zoomies W-".concat(e.player.zoomiesScreenX + 1), i.description = "获得 +150 移动速度和 +25 攻击速度在世界屏幕 ".concat(e.player.zoomiesScreenX + 1, " 及以下. 此奖励在所有其他修饰符之后应用.")
                                 }
                                 var o = new b(i);
                                 o.position.set(0, t), o.interactive = !0;
@@ -34276,14 +34276,14 @@ parcelRequire = function (e, r, t, n) {
 
         function P(e, t, i, r, o) {
             if (t.quiddity >= i.price) {
-                i.interactive = !1, t.quiddity -= i.price, i.title.text = "Bought ".concat(i.title.text, "!"), i.purchaseType === h.SKILL_POINT && (t.pointsPurchased += 1, t.pointsEarned += 1, r.redrawAllocationText(t)), i.purchaseType === h.STRENGTH && (t.strengthPointsPurchased += 1, t.recalculateStats(), r.redrawAllocationText(t)), i.purchaseType === h.AGILITY && (t.agilityPointsPurchased += 1, t.recalculateStats(), r.redrawAllocationText(t)), i.purchaseType === h.INTELLIGENCE && (t.intelligencePointsPurchased += 1, t.recalculateStats(), r.redrawAllocationText(t)), i.purchaseType === h.ZOOMIES && (t.zoomiesScreenX += 1), [h.EARLY_BASE_DAMAGE_3, h.EARLY_BASE_DAMAGE_5, h.EARLY_DEFENSE_5, h.EARLY_RESIST_5, h.MID_ATTACK_SPEED_20, h.MID_MOVE_SPEED_30].contains(i.purchaseType) && (t.awards.contains(i.purchaseType) || (t.awards.push(i.purchaseType), t.recalculateStats())), t.updateStatUI(), o(i)
+                i.interactive = !1, t.quiddity -= i.price, i.title.text = "购买 ".concat(i.title.text, "!"), i.purchaseType === h.SKILL_POINT && (t.pointsPurchased += 1, t.pointsEarned += 1, r.redrawAllocationText(t)), i.purchaseType === h.STRENGTH && (t.strengthPointsPurchased += 1, t.recalculateStats(), r.redrawAllocationText(t)), i.purchaseType === h.AGILITY && (t.agilityPointsPurchased += 1, t.recalculateStats(), r.redrawAllocationText(t)), i.purchaseType === h.INTELLIGENCE && (t.intelligencePointsPurchased += 1, t.recalculateStats(), r.redrawAllocationText(t)), i.purchaseType === h.ZOOMIES && (t.zoomiesScreenX += 1), [h.EARLY_BASE_DAMAGE_3, h.EARLY_BASE_DAMAGE_5, h.EARLY_DEFENSE_5, h.EARLY_RESIST_5, h.MID_ATTACK_SPEED_20, h.MID_MOVE_SPEED_30].contains(i.purchaseType) && (t.awards.contains(i.purchaseType) || (t.awards.push(i.purchaseType), t.recalculateStats())), t.updateStatUI(), o(i)
             } else {
                 var n = new y.default({
                     width: window.innerWidth,
                     height: window.innerHeight
                 });
                 n.container.scale.set(4, 4), n.render([{
-                    t: "Not enough quiddity to buy ".concat(i.title.text, ", it costs ").concat(i.price, ", you have ").concat(t.quiddity, ". You need ").concat(i.price - t.quiddity, "."),
+                    t: "没有足够的 quiddity 去购买 ".concat(i.title.text, ", 它需要 ").concat(i.price, ", 你有 ").concat(t.quiddity, ". 你还需要 ").concat(i.price - t.quiddity, "."),
                     c: "#000",
                     b: !0,
                     size: 12
@@ -38451,7 +38451,7 @@ parcelRequire = function (e, r, t, n) {
                             },
                             buttons: {
                                 YES: {
-                                    text: "OK",
+                                    text: "确定",
                                     type: "submit",
                                     className: "vex-dialog-button-primary",
                                     click: function () {
@@ -38459,7 +38459,7 @@ parcelRequire = function (e, r, t, n) {
                                     }
                                 },
                                 NO: {
-                                    text: "Cancel",
+                                    text: "取消",
                                     type: "button",
                                     className: "vex-dialog-button-secondary",
                                     click: function () {
@@ -38787,14 +38787,14 @@ parcelRequire = function (e, r, t, n) {
             var s = a.ability;
             if (!t.ownedAbilities.contains(s.name)) {
                 var l = s.price * e.priceMarkupMultiplier / 100;
-                if (t.quiddity >= l) a.interactive = !1, t.quiddity -= l, a.title.text = "Bought ".concat(s.name, "!"), t.ownedAbilities.push(s.name), t.updateStatUI(), r.createAbilityGraphics(), n(a);
+                if (t.quiddity >= l) a.interactive = !1, t.quiddity -= l, a.title.text = "购买 ".concat(s.name, "!"), t.ownedAbilities.push(s.name), t.updateStatUI(), r.createAbilityGraphics(), n(a);
                 else {
                     var o = new h.default({
                         width: window.innerWidth,
                         height: window.innerHeight
                     });
                     o.container.scale.set(4, 4), o.render([{
-                        t: "Not enough quiddity to buy ".concat(s.name, ", it costs ").concat(l.commafy(), ", you have ").concat(t.quiddity.commafy(), ". You need ").concat((l - t.quiddity).commafy(), "."),
+                        t: "没有足够的 quiddity 去购买 ".concat(s.name, ", 它需要 ").concat(l.commafy(), ", 你有 ").concat(t.quiddity.commafy(), ". 你还需要 ").concat((l - t.quiddity).commafy(), "."),
                         c: "#000",
                         b: !0,
                         size: 12
