@@ -22406,7 +22406,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13280,
             y: 15360,
             links: [251, 125],
-            name: "Energize Experience",
+            name: "充能经验",
             size: 2,
             color: "#ffffff",
             stats: [{
@@ -22434,7 +22434,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13216,
             y: 15616,
             links: [255],
-            name: "Learned Prodigy",
+            name: "博学的神童",
             size: 3,
             color: "#ffffff",
             stats: [{
@@ -22633,7 +22633,7 @@ parcelRequire = function (e, r, t, n) {
             x: 14816,
             y: 15488,
             links: [265],
-            name: "Chaotic Sacrifice",
+            name: "混乱的牺牲",
             size: 3,
             color: "#9c27b0",
             stats: [{
@@ -22864,7 +22864,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16864,
             y: 15680,
             links: [281],
-            name: "Grave Technique",
+            name: "严肃的技术",
             size: 3,
             color: "#3f51b5",
             stats: [{
@@ -23167,7 +23167,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15648,
             y: 15872,
             links: [300, 302],
-            name: "Feverish Strikes",
+            name: "狂热袭击",
             size: 2,
             color: "#cddc39",
             stats: [{
@@ -23181,7 +23181,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15776,
             y: 16128,
             links: [301, 305],
-            name: "Strike Mastery",
+            name: "打击精通",
             size: 3,
             color: "#cddc39",
             stats: [{
@@ -23233,7 +23233,7 @@ parcelRequire = function (e, r, t, n) {
             x: 15904,
             y: 16384,
             links: [304, 302, 313],
-            name: "Feverish Strikes",
+            name: "狂热袭击",
             size: 2,
             color: "#cddc39",
             stats: [{
@@ -23304,7 +23304,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16352,
             y: 16256,
             links: [306, 310],
-            name: "Evasion & 敏捷",
+            name: "闪避 & 敏捷",
             size: 2,
             color: "#00bcd4",
             stats: [{
@@ -23323,7 +23323,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16416,
             y: 16064,
             links: [309, 311],
-            name: "Evasion & 敏捷",
+            name: "闪避 & 敏捷",
             size: 2,
             color: "#00bcd4",
             stats: [{
@@ -23366,7 +23366,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16032,
             y: 16064,
             links: [313, 311],
-            name: "Evasion & 敏捷",
+            name: "闪避 & 敏捷",
             size: 2,
             color: "#00bcd4",
             stats: [{
@@ -23385,7 +23385,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16096,
             y: 16256,
             links: [305, 312],
-            name: "Evasion & 敏捷",
+            name: "闪避 & 敏捷",
             size: 2,
             color: "#00bcd4",
             stats: [{
@@ -23516,7 +23516,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16800,
             y: 16512,
             links: [321],
-            name: "Pearl Blows",
+            name: "珍珠吹奏",
             size: 3,
             color: "#8bc34a",
             stats: [{
@@ -23530,7 +23530,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17184,
             y: 16640,
             links: [321],
-            name: "Opal Strikes",
+            name: "蛋白石打击",
             size: 3,
             color: "#9c27b0",
             stats: [{
@@ -23750,7 +23750,7 @@ parcelRequire = function (e, r, t, n) {
             x: 16160,
             y: 16512,
             links: [343],
-            name: "Extremespeed",
+            name: "极速",
             size: 3,
             color: "#2196f3",
             stats: [{
@@ -23783,7 +23783,7 @@ parcelRequire = function (e, r, t, n) {
             x: 13696,
             y: 12704,
             links: [117],
-            name: "Slow and Steady",
+            name: "缓慢而稳定",
             size: 4,
             color: "#737373",
             stats: [{
@@ -24118,7 +24118,7 @@ parcelRequire = function (e, r, t, n) {
             x: 17056,
             y: 15296,
             links: [44],
-            name: "The Alchemist",
+            name: "炼金术士",
             descr: "+1 最大生命药水",
             size: 4,
             color: "#4caf50",
@@ -29397,7 +29397,7 @@ parcelRequire = function (e, r, t, n) {
                     e.statListBuffMulti.baseDamage -= 10 * n, e.statListBuffMulti.baseDamage += 10 * s, e.recalculateStats()
                 }
             }), c.set(a.name, a), a = new t.default({
-                name: "Attack Force",
+                name: "攻击力",
                 duration: 2e4,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29444,7 +29444,7 @@ parcelRequire = function (e, r, t, n) {
                     e.statListBuffMulti.attackSpeed -= 10 * n, e.statListBuffMulti.attackSpeed += 10 * s, e.recalculateStats()
                 }
             }), c.set(a.name, a), a = new t.default({
-                name: "Doubletime",
+                name: "双倍时间",
                 duration: 100,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29454,7 +29454,7 @@ parcelRequire = function (e, r, t, n) {
                     n && (e.statListBuffMore.attackSpeed = 3 * e.statListBuffMore.attackSpeed / 5), s && (e.statListBuffMore.attackSpeed = 5 * e.statListBuffMore.attackSpeed / 3), e.recalculateStats()
                 }
             }), c.set(a.name, a), a = new t.default({
-                name: "Precision",
+                name: "精确",
                 duration: 15e3,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29462,7 +29462,7 @@ parcelRequire = function (e, r, t, n) {
                 rollingStacks: !0,
                 clearOnDeath: !0
             }), a = new t.default({
-                name: "Faster Attacks",
+                name: "更快的攻击",
                 duration: 12e3,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29475,7 +29475,7 @@ parcelRequire = function (e, r, t, n) {
                 tickFn: null,
                 wearOffFn: null
             }), c.set(a.name, a), a = new t.default({
-                name: "Caged",
+                name: "牢笼",
                 duration: 2e4,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29490,7 +29490,7 @@ parcelRequire = function (e, r, t, n) {
                 tickFn: null,
                 wearOffFn: null
             }), c.set(a.name, a), a = new t.default({
-                name: "Slow",
+                name: "减缓",
                 duration: 15e3,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29505,7 +29505,7 @@ parcelRequire = function (e, r, t, n) {
                 tickFn: null,
                 wearOffFn: null
             }), c.set(a.name, a), a = new t.default({
-                name: "Maimed",
+                name: "致残",
                 duration: 2e4,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29520,7 +29520,7 @@ parcelRequire = function (e, r, t, n) {
                 tickFn: null,
                 wearOffFn: null
             }), c.set(a.name, a), a = new t.default({
-                name: "Debilitated",
+                name: "虚弱",
                 duration: 15e3,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29535,7 +29535,7 @@ parcelRequire = function (e, r, t, n) {
                 tickFn: null,
                 wearOffFn: null
             }), c.set(a.name, a), a = new t.default({
-                name: "Ignite",
+                name: "点燃",
                 duration: 4e3,
                 tickLength: 400,
                 baseStacks: 1,
@@ -29554,7 +29554,7 @@ parcelRequire = function (e, r, t, n) {
                 },
                 wearOffFn: null
             }), c.set(a.name, a), a = new t.default({
-                name: "Sap",
+                name: "树液",
                 duration: 6e4,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29573,7 +29573,7 @@ parcelRequire = function (e, r, t, n) {
                 },
                 wearOffFn: null
             }), c.set(a.name, a), a = new t.default({
-                name: "Poison",
+                name: "毒药",
                 duration: 5e3,
                 tickLength: 1200,
                 baseStacks: 1,
@@ -29590,7 +29590,7 @@ parcelRequire = function (e, r, t, n) {
                 },
                 wearOffFn: null
             }), c.set(a.name, a), a = new t.default({
-                name: "Flame Mantle",
+                name: "火焰斗篷",
                 duration: 3e4,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -29620,7 +29620,7 @@ parcelRequire = function (e, r, t, n) {
                 increasesDurationOnStack: !1,
                 clearOnDeath: !0
             }), c.set(a.name, a), a = new t.default({
-                name: "Chaining Energy",
+                name: "连锁能量",
                 duration: 2e4,
                 tickLength: 1e3,
                 baseStacks: 1,
@@ -30465,9 +30465,9 @@ parcelRequire = function (e, r, t, n) {
                     damageMulti: 100
                 }
             }), o.set(e.name, e), e = new t.Ability({
-                name: "Kaleidoscope Beam",
+                name: "万花筒光束",
                 price: 1e7,
-                textDescription: "Deals 15% more damage for each unique colored orb you have. Grants 2 stacks of Create Random Elemental Orb. Usable when you have less than 7 orbs.",
+                textDescription: "您拥有的每个独特颜色的宝珠造成的伤害提高 15%。 授予 2 层创建随机元素球。 当你的宝珠少于 7 个时可用。",
                 abilityColorOverride: "LIGHT",
                 tags: {
                     attack: !0,
@@ -30489,10 +30489,10 @@ parcelRequire = function (e, r, t, n) {
                     for (var o = a.uniq(e.orbs).length, d = 0; d < o; d++) i.push(15)
                 }
             }), o.set(e.name, e), e = new t.Ability({
-                name: "Deference",
+                name: "尊重",
                 price: 35e5,
                 cooldown: 5e3,
-                textDescription: "Consumes all of your Orbs, granting a stack of Create ___ Orb of each type removed.",
+                textDescription: "消耗你所有的宝珠，获得一堆已移除的每种类型的创建 ___ 球体.",
                 tags: {
                     attack: !0,
                     spell: !0,
@@ -30507,10 +30507,10 @@ parcelRequire = function (e, r, t, n) {
                     e.orbs.splice(0, 99)
                 }
             }), o.set(e.name, e), e = new t.Ability({
-                name: "Jumble",
+                name: "混乱",
                 price: 5e5,
                 cooldown: 5e3,
-                textDescription: "Randomizes all of your orbs. Grants a stack of Create Random Elemental Orb.",
+                textDescription: "随机化你所有的宝珠。 授予一堆创建随机元素宝珠。",
                 tags: {
                     attack: !0,
                     spell: !0,
@@ -30598,14 +30598,14 @@ parcelRequire = function (e, r, t, n) {
                 orbsAdded: {
                     FORM: 1
                 },
-                textDescription: "Grants a stack of Attack Force (5% increased attack damage, lasts 20s).",
+                textDescription: "赋予一层攻击力（攻击力增加 5%，持续 20 秒）。",
                 postUseFn: function (e, a, t, i) {
                     s.default.apply(n.default.get("Attack Force"), e, e)
                 }
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Flourish",
                 price: 1e3,
-                textDescription: "Flourishes your weapon, producing an extra orb of a random element that you have equipped. Cannot produce extra Form orbs.",
+                textDescription: "丰富你的武器，产生一个你装备的随机元素的额外球体。 无法产生额外的形态球。",
                 tags: {
                     attack: !0,
                     physical: !0
@@ -30639,7 +30639,7 @@ parcelRequire = function (e, r, t, n) {
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Blade Thrust",
                 price: 1500,
-                textDescription: "Maims the enemy, decreasing attack damage by 30% for 20s.",
+                textDescription: "使敌人致残，使攻击力降低30%，持续20秒。",
                 cooldown: 12e3,
                 tags: {
                     attack: !0,
@@ -30684,7 +30684,7 @@ parcelRequire = function (e, r, t, n) {
                     damageBase: 0,
                     damageMulti: 180
                 },
-                textDescription: "Each use of Flurry increases the attack speed of the next Flurry by 10%. This effect stacks and lasts 10s.",
+                textDescription: "每次使用乱舞都会使下一次乱舞的攻击速度提高 10%。 该效果可叠加并持续 10 秒。",
                 orbsRemoved: {
                     FORM: 2
                 },
@@ -30699,7 +30699,7 @@ parcelRequire = function (e, r, t, n) {
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Timed Strike",
                 price: 5e5,
-                textDescription: "Consumes a stack of Precision to deal 200% more damage.",
+                textDescription: "消耗一层精准来造成 200% 的额外伤害。",
                 tags: {
                     attack: !0,
                     physical: !0
@@ -30714,7 +30714,7 @@ parcelRequire = function (e, r, t, n) {
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Vital Destruction",
                 price: 119e4,
-                textDescription: "Can consume 1 stack of Armor to deal 15% more damage. Can consume 1 stack of Fortify to deal 15% more damage.",
+                textDescription: "可以消耗 1 层护甲来造成 15% 的额外伤害。 可以消耗 1 层强化来造成 15% 的额外伤害。",
                 tags: {
                     attack: !0,
                     physical: !0
@@ -30734,7 +30734,7 @@ parcelRequire = function (e, r, t, n) {
                 name: "Rancor Charge",
                 price: 9900,
                 cooldown: 8e3,
-                textDescription: "Grants 3 stacks of Faster Attacks (10% increased attack speed per stack, lasts 12s).",
+                textDescription: "提供 3 层更快的攻击（每层攻击速度提高 10%，持续 12 秒）。",
                 tags: {
                     spell: !0,
                     physical: !0
@@ -30768,7 +30768,7 @@ parcelRequire = function (e, r, t, n) {
                     FORM: 2,
                     NATURE: 3
                 },
-                textDescription: "Usable when a target has >80% health.",
+                textDescription: "当目标生命值 >80% 时可用。",
                 shouldUseFn: function (e, a) {
                     return a.hp >= .8 * a.maxhp
                 }
@@ -30776,7 +30776,7 @@ parcelRequire = function (e, r, t, n) {
                 name: "Sword Dance",
                 price: 81e3,
                 cooldown: 8e3,
-                textDescription: "Grants 3 stacks of Create Form Orb.",
+                textDescription: "授予 3 层创建形态球。",
                 tags: {
                     spell: !0,
                     physical: !0
@@ -30798,7 +30798,7 @@ parcelRequire = function (e, r, t, n) {
                 name: "Rime Dagger",
                 price: 58e4,
                 cooldown: 5e3,
-                textDescription: "Grants a stack of Faster Attacks (10% increased attack speed per stack, lasts 12s). Grants a stack of Create Cold Orb.",
+                textDescription: "提供一层更快的攻击（每层攻击速度提高 10%，持续 12 秒）。 授予一层创建冷球。",
                 tags: {
                     attack: !0,
                     physical: !0
@@ -30820,7 +30820,7 @@ parcelRequire = function (e, r, t, n) {
                 name: "Cougar Strike",
                 price: 27e4,
                 cooldown: 3500,
-                textDescription: "Grants 2 stacks of Faster Attacks (10% increased attack speed per stack, lasts 12s).",
+                textDescription: "提供 2 层更快的攻击（每层攻击速度提高 10%，持续 12 秒）。",
                 tags: {
                     attack: !0,
                     hybrid: !0
@@ -30891,7 +30891,7 @@ parcelRequire = function (e, r, t, n) {
                 },
                 textDescription: "Grants a stack of Attack Force (5% increased attack damage, lasts 20s).",
                 postUseFn: function (e, a, t, i) {
-                    s.default.apply(n.default.get("Attack Force"), e, e)
+                    s.default.apply(n.default.get("攻击力"), e, e)
                 }
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Flame Burst",
@@ -31365,7 +31365,7 @@ parcelRequire = function (e, r, t, n) {
                 name: "Unstoppable Assault",
                 price: 35e6,
                 cooldown: 5e3,
-                textDescription: "Grants 5 stacks of Armor (10% increased defense per stack, lasts 30s) and 4 stacks of Attack Force (5% increased attack damage per stack, lasts 20s).",
+                textDescription: "提供 5 层护甲（每层增加 10% 防御，持续 30 秒）和 4 层攻击力（每层增加 5% 攻击力，持续 20 秒）。",
                 tags: {
                     spell: !0,
                     magical: !0
@@ -31379,7 +31379,7 @@ parcelRequire = function (e, r, t, n) {
                     FORM: 2
                 },
                 postUseFn: function (e, a, t, i) {
-                    s.default.apply(n.default.get("Armor"), e, e, 5), s.default.apply(n.default.get("Attack Force"), e, e, 4)
+                    s.default.apply(n.default.get("Armor"), e, e, 5), s.default.apply(n.default.get("攻击力"), e, e, 4)
                 }
             }), o.set(e.name, e), e = new t.Ability({
                 name: "Ice Pillar",
@@ -39007,7 +39007,7 @@ parcelRequire = function (e, r, t, n) {
                         }), this.shops.push(H), H = new q.default({
                             skillBoardRenderer: this.skillBoardRenderer,
                             abilityLoadoutEditor: this.abilityLoadoutEditor,
-                            name: "Tiny Market (10% off)",
+                            name: "小市场 (10% 折扣)",
                             x: 15440,
                             y: 11500,
                             shopSlots: 2,
@@ -39026,7 +39026,7 @@ parcelRequire = function (e, r, t, n) {
                         }), this.shops.push(H), H = new q.default({
                             skillBoardRenderer: this.skillBoardRenderer,
                             abilityLoadoutEditor: this.abilityLoadoutEditor,
-                            name: "Rich Market (+10% more)",
+                            name: "丰富的市场 (+10% 涨价)",
                             x: 11e3,
                             y: 13300,
                             shopSlots: 2,
