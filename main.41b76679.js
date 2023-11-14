@@ -30323,7 +30323,7 @@ parcelRequire = function (e, r, t, n) {
                     this.cooldown && (e = "".concat(e, "冷却: ").concat(this.cooldown / 1e3, "秒")), e = "".concat(e, "\n");
                     var r = !0;
                     for (var t in this.tags) this.tags.hasOwnProperty(t) && (r ? (r = !1, e += "".concat(cnItem(t.toProperCase()))) : e += ", ".concat(cnItem(t.toProperCase())));
-                    return this.textDescription && (e += "\n", e += this.textDescription), e
+                    return this.textDescription && (e += "\n", e += cnItem(this.textDescription)), e
                 }
             }, {
                 key: "buildOrbDescription",
@@ -34171,7 +34171,7 @@ parcelRequire = function (e, r, t, n) {
 
                 function n(e) {
                     var r;
-                    return t(this, n), (r = i.call(this)).purchaseType = e.purchaseType, r.price = e.price, r.graphics = new d.Graphics, r.title = new d.Text("".concat(e.title, " (ɸ").concat(e.price.commafy(), ")"), {
+                    return t(this, n), (r = i.call(this)).purchaseType = e.purchaseType, r.price = e.price, r.graphics = new d.Graphics, r.title = new d.Text("".concat(cnItem(e.title), " (ɸ").concat(e.price.commafy(), ")"), {
                         align: "left",
                         fontSize: 52,
                         fontWeight: "bold",
@@ -34179,7 +34179,7 @@ parcelRequire = function (e, r, t, n) {
                         fill: 16777215,
                         stroke: 3355443,
                         strokeThickness: 4
-                    }), r.title.resolution = 4, r.title.x = 20, r.title.y = 20, r.description = new d.Text(e.description, {
+                    }), r.title.resolution = 4, r.title.x = 20, r.title.y = 20, r.description = new d.Text(cnItem(e.description), {
                         align: "left",
                         fontSize: 44,
                         fontWeight: "bold",
@@ -36718,12 +36718,12 @@ parcelRequire = function (e, r, t, n) {
                         letterSpacing: 5,
                         stroke: "white",
                         strokeThickness: 3
-                    }), this.allocationText.anchor.set(0, 0), this.respecButton = new c.default("./button.png", "Reset Tree", 16, 120, 32, function (e) {
+                    }), this.allocationText.anchor.set(0, 0), this.respecButton = new c.default("./button.png", "重置树", 16, 120, 32, function (e) {
                         d.allocatedNodeIds.forEach(function (e) {
                             var o = n.skillBoardSystem.skillNodes.get(e);
                             e > 5 && r.unallocateStats(d, o.stats)
                         }), d.allocatedNodeIds.clear(), d.allocatedNodeIds.push(1, 2, 3, 4, 5), n.redrawAllNodesBasedOnUserAllocations(d)
-                    }), this.removeLastPointButton = new c.default("./button.png", "Remove Last Point", 12, 160, 28, function (e) {
+                    }), this.removeLastPointButton = new c.default("./button.png", "移除最近点数", 12, 160, 28, function (e) {
                         var o = d.allocatedNodeIds.slice(-1).pop();
                         if (!(o <= 5)) {
                             d.allocatedNodeIds.pop();
@@ -37198,7 +37198,7 @@ parcelRequire = function (e, r, t, n) {
             k = function () {
                 function e(i) {
                     o(this, e), this.equippedAbilityMap = new Map, this.ownedAbilityMap = new Map, this.skillBoardRenderer = i.skillBoardRenderer, this.player = i.player, d = i.player;
-                    var t = new f.Text("Your Abilities [A]", {
+                    var t = new f.Text("你的能力 [A]", {
                             align: "left",
                             fontSize: 128,
                             fontWeight: "bold",
@@ -37210,7 +37210,7 @@ parcelRequire = function (e, r, t, n) {
                         n = (y + v - 128) / 2,
                         r = b - 384;
                     t.position.set(n, r);
-                    var a = new f.Text("Equipped:", {
+                    var a = new f.Text("已装备:", {
                         align: "left",
                         fontSize: 64,
                         fontWeight: "bold",
@@ -37220,7 +37220,7 @@ parcelRequire = function (e, r, t, n) {
                         strokeThickness: 4
                     });
                     a.position.set(y, b - 96);
-                    var l = new f.Text("Learned:", {
+                    var l = new f.Text("已学习:", {
                         align: "left",
                         fontFamily: "Arial",
                         fontSize: 64,
@@ -38700,7 +38700,7 @@ parcelRequire = function (e, r, t, n) {
                             return !i.ownedAbilities.contains(e)
                         })
                     });
-                    var a = new r.Text(this.name, {
+                    var a = new r.Text(cnItem(this.name), {
                         align: "left",
                         fontSize: 128,
                         fontWeight: "bold",
