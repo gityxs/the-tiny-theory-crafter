@@ -34276,14 +34276,14 @@ parcelRequire = function (e, r, t, n) {
 
         function P(e, t, i, r, o) {
             if (t.quiddity >= i.price) {
-                i.interactive = !1, t.quiddity -= i.price, i.title.text = "Bought ".concat(i.title.text, "!"), i.purchaseType === h.SKILL_POINT && (t.pointsPurchased += 1, t.pointsEarned += 1, r.redrawAllocationText(t)), i.purchaseType === h.STRENGTH && (t.strengthPointsPurchased += 1, t.recalculateStats(), r.redrawAllocationText(t)), i.purchaseType === h.AGILITY && (t.agilityPointsPurchased += 1, t.recalculateStats(), r.redrawAllocationText(t)), i.purchaseType === h.INTELLIGENCE && (t.intelligencePointsPurchased += 1, t.recalculateStats(), r.redrawAllocationText(t)), i.purchaseType === h.ZOOMIES && (t.zoomiesScreenX += 1), [h.EARLY_BASE_DAMAGE_3, h.EARLY_BASE_DAMAGE_5, h.EARLY_DEFENSE_5, h.EARLY_RESIST_5, h.MID_ATTACK_SPEED_20, h.MID_MOVE_SPEED_30].contains(i.purchaseType) && (t.awards.contains(i.purchaseType) || (t.awards.push(i.purchaseType), t.recalculateStats())), t.updateStatUI(), o(i)
+                i.interactive = !1, t.quiddity -= i.price, i.title.text = "购买了 ".concat(cnItem(i.title.text), "!"), i.purchaseType === h.SKILL_POINT && (t.pointsPurchased += 1, t.pointsEarned += 1, r.redrawAllocationText(t)), i.purchaseType === h.STRENGTH && (t.strengthPointsPurchased += 1, t.recalculateStats(), r.redrawAllocationText(t)), i.purchaseType === h.AGILITY && (t.agilityPointsPurchased += 1, t.recalculateStats(), r.redrawAllocationText(t)), i.purchaseType === h.INTELLIGENCE && (t.intelligencePointsPurchased += 1, t.recalculateStats(), r.redrawAllocationText(t)), i.purchaseType === h.ZOOMIES && (t.zoomiesScreenX += 1), [h.EARLY_BASE_DAMAGE_3, h.EARLY_BASE_DAMAGE_5, h.EARLY_DEFENSE_5, h.EARLY_RESIST_5, h.MID_ATTACK_SPEED_20, h.MID_MOVE_SPEED_30].contains(i.purchaseType) && (t.awards.contains(i.purchaseType) || (t.awards.push(i.purchaseType), t.recalculateStats())), t.updateStatUI(), o(i)
             } else {
                 var n = new y.default({
                     width: window.innerWidth,
                     height: window.innerHeight
                 });
                 n.container.scale.set(4, 4), n.render([{
-                    t: "Not enough quiddity to buy ".concat(i.title.text, ", it costs ").concat(i.price, ", you have ").concat(t.quiddity, ". You need ").concat(i.price - t.quiddity, "."),
+                    t: "没有足够的 quiddity 去购买 ".concat(cnItem(i.title.text), ", 需花费 ").concat(i.price, ", 你有 ").concat(t.quiddity, ". 还需要 ").concat(i.price - t.quiddity, "."),
                     c: "#000",
                     b: !0,
                     size: 12
@@ -38787,14 +38787,14 @@ parcelRequire = function (e, r, t, n) {
             var s = a.ability;
             if (!t.ownedAbilities.contains(s.name)) {
                 var l = s.price * e.priceMarkupMultiplier / 100;
-                if (t.quiddity >= l) a.interactive = !1, t.quiddity -= l, a.title.text = "Bought ".concat(s.name, "!"), t.ownedAbilities.push(s.name), t.updateStatUI(), r.createAbilityGraphics(), n(a);
+                if (t.quiddity >= l) a.interactive = !1, t.quiddity -= l, a.title.text = "购买了 ".concat(cnItem(s.name), "!"), t.ownedAbilities.push(s.name), t.updateStatUI(), r.createAbilityGraphics(), n(a);
                 else {
                     var o = new h.default({
                         width: window.innerWidth,
                         height: window.innerHeight
                     });
                     o.container.scale.set(4, 4), o.render([{
-                        t: "Not enough quiddity to buy ".concat(s.name, ", it costs ").concat(l.commafy(), ", you have ").concat(t.quiddity.commafy(), ". You need ").concat((l - t.quiddity).commafy(), "."),
+                        t: "没有足够的 quiddity 去购买 ".concat(cnItem(s.name), ", 需花费 ").concat(l.commafy(), ", 你有 ").concat(t.quiddity.commafy(), ". 你还需要 ").concat((l - t.quiddity).commafy(), "."),
                         c: "#000",
                         b: !0,
                         size: 12
