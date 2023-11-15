@@ -288,7 +288,7 @@ var cnItems = {
     "Grants 50% increased physical damage and Thwompy (10% increased base damage, lasts 15s).": "增加 50% 物理伤害和 Thwompy（基础伤害增加 10%，持续 15 秒）。",
     "Grants a stack of Arcane Surge (5% increased spell damage, lasts 20s).": "提供一层奥术涌动（法术伤害提高 5%，持续 20 秒）。",
     "Grants a stack of Armor (10% increased defense, lasts 30s).": "提供一层护甲（防御力提高 10%，持续 30 秒）。",
-    "Grants a stack of Attack Force (5% increased attack damage, lasts 20s) and a stack of Arcane Surge (5% increased spell damage, lasts 20s).": "提供一层攻击力（增加5%攻击力，持续20秒）和一层奥术涌动（增加5%法术伤害，持续20秒）。",
+    "Grants a stack of Attack Force (5% increased attack damage, lasts 20s) and a stack of Arcane Surge (5% increased spell damage, lasts 20s).": "提供一层攻击力（增加5%攻击力，持续20秒）\n和一层奥术涌动（增加5%法术伤害，持续20秒）。",
     "Grants a stack of Attack Force (5% increased attack damage, lasts 20s).": "赋予一层攻击力（攻击力增加 5%，持续 20 秒）。",
     "Grants a stack of Create Cold Orb.": "授予一层创建冷宝珠。",
     "Grants a stack of Dashing (+8 movement speed, lasts 30s).": "授予一层冲刺（+8移动速度，持续30秒）。",
